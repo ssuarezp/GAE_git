@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="FFfFBhssRU2gadHJPK68DQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="552882aa-b193-453a-b8bf-8fa0bd37133d" CvElementArea="662, 320, 118, 26" CvType="InputBox" DesignTimeRectangle="755, 322, 22, 22" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Justificación' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Justificación' role='push button' check:text='Justificación' /&gt;" Guid="44e2171d-8120-469a-9a0a-f16503deea60" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="6eca705e736c1fbca689692220279cea.png" xmlns="">0WdDIDGz66UW38dPfynTSqQ</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

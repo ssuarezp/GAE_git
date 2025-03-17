@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="--puRobqWEu4yo3c4rnlag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e81a4bef-53b5-4283-92c0-63131cd5826f" CvElementArea="98, 138, 118, 25" CvType="InputBox" DesignTimeRectangle="99, 139, 117, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='D.N.I. del alumno Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='D.N.I. del alumno Required' role='text' /&gt;" Guid="6f7285f4-35b1-4aff-b76f-69d2e59d6c48" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e81a4bef-53b5-4283-92c0-63131cd5826f" CvTextArea="37, 144, 61, 13" CvTextArgument="Estudiante" CvType="Text" DesignTimeRectangle="39, 142, 59, 18" ElementType="Text" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' idx='79' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' role='text' check:text='Estudiante' /&gt;" Guid="928cbc73-f080-43ba-8128-cc95a9c1db28" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="538dd3824cccfb595715b1ec33da24c6.png" xmlns="">0CSPPRFVg8UafviP3Jp9adg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

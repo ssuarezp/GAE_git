@@ -1,7 +1,7 @@
 {
-  "name": "ACTOS",
+  "name": "DOCUMENTO983",
   "projectId": "3a12d7ab-2161-4cb9-8ab0-f00129420f96",
-  "description": "Proceso en blanco",
+  "description": "Registro entrega documento 983 para pregrado y posgrado",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.25.1-preview]",
