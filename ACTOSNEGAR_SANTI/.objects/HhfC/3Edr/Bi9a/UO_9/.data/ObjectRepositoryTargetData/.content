@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yMwKRrWijU6YDybwTk4TOA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="58b07179-2dce-418b-9864-158cc5883688" CvTextArea="27, 299, 46, 16" CvTextArgument="Negada" CvType="Text" DesignTimeRectangle="23, 292, 195, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name='Negada' role='label' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name='Negada' role='label' check:text='Negada' /&gt;" Guid="80ba00d0-606c-4302-b371-a155de783ce9" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="58b07179-2dce-418b-9864-158cc5883688" CvTextArea="26, 319, 57, 15" CvTextArgument="Aprobada" CvType="Text" DesignTimeRectangle="23, 312, 195, 20" ElementType="Text" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name='Aprobada' role='label' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name='Aprobada' role='label' check:text='Aprobada' /&gt;" Guid="11ee2c7c-ecd1-45ad-843e-bd04bb568976" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4b00bbcc8a93f1ed0e736719d9bc2a38.png" xmlns="">0yTFbX6Qpw0-8bDSLoyWSCg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
