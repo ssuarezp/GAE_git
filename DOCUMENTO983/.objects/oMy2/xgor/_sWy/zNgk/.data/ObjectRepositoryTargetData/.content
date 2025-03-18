@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QTbDk-mvA0mwIvqG6OFc8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f126c103-1d8d-4c59-9e8f-842c3eb87cf8" CvElementArea="18, 57, 20, 22" CvType="Icon" DesignTimeRectangle="15, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Cerrar' role='push button' check:text='Cerrar' /&gt;" Guid="c6738950-0ce7-4b25-a3dd-c5f6e9256d4f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAESSURBVEhLzZbBEYMgEEXpxkOOtpE66IkKckshGXoi+9lBGFgExUh25kUjsm9+VKLSWrsZpfBhrb0dJR28g38Um4u2Mo3EcjNljFvppgR758VtSWfiCGSbeF2LcSadL9OROAKZoeNtMQjz855Md2JIINUkTcWBcF58POtS0J24JoYqFSvFC1Kcn/dkhhNzxlgQK78s7S9Mw4lRQZaDkvtekBhVE4OyL3M4Mf2rkIqkhTiFpSi574nEEAPs+2Pcf6sgRpU9I8PXeOpdnYp7pKCR2DpDErws1MT47rf4+WkfSH1ymuIUyPx1TsTSeT0cEgMIp4iBl84QAzxSkEtjPZwWjzJP/Hm/xIFf41/on4/lZhb3BY0Bht7qrsyQAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f126c103-1d8d-4c59-9e8f-842c3eb87cf8" CvTextArea="12, 38, 42, 12" CvTextArgument="Acceso" CvType="Text" DesignTimeRectangle="8, 31, 50, 24" FullSelectorArgument="&lt;java name='Acceso ALT A' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Acceso ALT A' role='menu' check:text='Acceso ALT A' /&gt;" Guid="6a955897-c300-4647-aed9-2446942be94d" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7a240d6d72a3a3823da093959b19d08f.png" xmlns="">0nOyHHoXeG0WTCh_0PXmaDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="xKHmq8KyKUeQNSSgqw4FkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f2f7d202-8fdb-4513-b3c1-eb132c97944f" CvTextArea="26, 179, 57, 15" CvTextArgument="Aprobada" CvType="Text" DesignTimeRectangle="23, 172, 195, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name='Aprobada' role='label' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name='Aprobada' role='label' check:text='Aprobada' /&gt;" Guid="f7fe0330-8566-4275-94a0-413012004382" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="3c4d62ec9f6d3f52e44446291fe20960.png" xmlns="">0HUcoVDNwF0WSg8kCdwEwUw</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

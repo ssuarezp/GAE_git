@@ -1,7 +1,7 @@
 {
   "name": "DOCUMENTO983",
-  "projectId": "3a12d7ab-2161-4cb9-8ab0-f00129420f96",
-  "description": "Registro entrega documento 983 para pregrado y posgrado",
+  "projectId": "55164810-bdf7-4872-ba53-87295ab8f1ba",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.25.1-preview]",
@@ -48,7 +48,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "e4f6068d-d9b1-448d-831e-c55451dc7565",
+      "uniqueId": "c4b4902c-65d8-4125-aa30-67d2595912f6",
       "input": [],
       "output": []
     }

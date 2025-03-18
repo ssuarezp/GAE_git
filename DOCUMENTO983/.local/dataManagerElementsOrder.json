@@ -3,16 +3,16 @@
     {
       "Path": null,
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": null,
       "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     },
     {
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "vDtbDatos&Sequence_2"
+        "vDtbDatos&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],

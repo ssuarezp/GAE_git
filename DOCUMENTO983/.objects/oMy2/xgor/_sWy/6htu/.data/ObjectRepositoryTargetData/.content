@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="I2Nc35lNy0CkCL5GH4wHOQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f126c103-1d8d-4c59-9e8f-842c3eb87cf8" CvElementArea="42, 57, 22, 23" CvType="Icon" DesignTimeRectangle="41, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Grabar' role='push button' check:text='Grabar' /&gt;" Guid="dc99e1f8-ac28-434f-96a0-cedc8de40c7b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEcSURBVEhL7ZPBDcMgDEXZJoces0bnYCd2YifKRxg5xBhDpfbQRnoiCdTPn1CXvnS5GGP6Bn+xSvCuIc2vsCR2Lp/F6HE0ihzP0joLZjFEJE0Bf4YsDyF577caMItLWkiZGFJcmF9twCSW0nJpWZPTY7Q2YBJf0lY5F0N6nmcZy9rc5OwMTMWXtB0oTMUpMW8Sv+W1OFMxL1S2uW41hxro1+JZqglUsfRt273QQKNutVSTUMW3tLw4vRu819KCoXiYVoLPG9ICXYyCkFNhaqQfuTjfz9ICVVy2muScXs4as6QF6jcGtwYkKcZ6b0kLpmJiuAPs2ZoWmMXEpYHNtGBZTLQGqnQlLdgWExBSE9L8iLfFu/yg+Pk40uc50gupPIbCFpapXQAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f126c103-1d8d-4c59-9e8f-842c3eb87cf8" CvTextArea="31, 85, 148, 15" CvTextArgument="Entrega de Documentación" CvType="Text" DesignTimeRectangle="29, 84, 150, 16" ElementType="Text" FullSelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Entrega de Documentación' role='label' /&gt;" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Entrega de Documentación' role='label' check:text='Entrega de Documentación' /&gt;" Guid="6344620c-fcb3-45ed-8526-4ba2068ea905" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="843c5930018a4318c23cef3e08700b78.png" xmlns="">0EoRj3luZNE2jvXqZtjiW1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
