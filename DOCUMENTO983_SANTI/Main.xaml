@@ -1,0 +1,536 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="722,4988" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="614,4965" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="580,723" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+        <ueab:ExcelProcessScopeX.Body>
+          <ActivityAction x:TypeArguments="ui:IExcelProcess">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,604" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,544" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\santi\OneDrive - Universidad Nacional de Colombia\ACTOS &amp; MÓDULOS.xlsm">
+                <ueab:ExcelApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478,252" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="444,192" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;MóduloPre&quot;)]" SaveTo="[vDtbDatos]" />
+                    </Sequence>
+                  </ActivityAction>
+                </ueab:ExcelApplicationCard.Body>
+              </ueab:ExcelApplicationCard>
+            </Sequence>
+          </ActivityAction>
+        </ueab:ExcelProcessScopeX.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ueab:ExcelProcessScopeX>
+      <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580,4159" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="aaf8ec02-8420-4f1a-8136-0fc2582506f5">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,3869" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NSelectItem DisplayName="Select Item 'combo box(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="418,189" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Documentación a Entregar" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                <uix:NSelectItem.Items>
+                  <scg:List x:TypeArguments="x:String" Capacity="17">
+                    <x:String>Documentación a Entregar</x:String>
+                    <x:String>Registro de Tesis</x:String>
+                    <x:String>Prórrogas de doctorado</x:String>
+                    <x:String>Promedios Académicos</x:String>
+                    <x:String>Nivel de idiomas</x:String>
+                    <x:String>Gestión de Tutores</x:String>
+                    <x:String>Documento de Actividades</x:String>
+                    <x:String>Plan de Investigación</x:String>
+                    <x:String>Líneas de Investigación</x:String>
+                    <x:String>Histórico ubicación semestre</x:String>
+                    <x:String>Estados</x:String>
+                    <x:String>Líneas de Evaluación</x:String>
+                    <x:String>Actos académicos y adtvos</x:String>
+                    <x:String>Valores del Proyecto</x:String>
+                    <x:String>Actos Académicos (obsoleto)</x:String>
+                    <x:String>Datos personales (obsoleto)</x:String>
+                    <x:String xml:space="preserve"> </x:String>
+                  </scg:List>
+                </uix:NSelectItem.Items>
+                <uix:NSelectItem.Target>
+                  <uix:TargetAnchorable CVScreenId="75a24bb5-6152-47ab-8011-2ec9a2fa6f86" ContentHash="N02aceZyREm-8PCstvL6bA" CvElementArea="593, 568, 173, 26" CvType="InputBox" DesignTimeRectangle="594, 569, 172, 24" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name=' ' role='combo box' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name=' ' role='combo box' /&gt;" Guid="52646c4d-0692-4484-9c07-559eeed5dbfb" InformativeScreenshot="92c7d6d4db8f21805efa01abbd800ec4.png" Reference="6uRynW9T90a55SY8Kw234w/J6gHE33YtkuraOFS5lhSHQ" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="75a24bb5-6152-47ab-8011-2ec9a2fa6f86" CvElementArea="450, 570, 134, 24" CvTextArea="456, 577, 120, 11" CvTextArgument="Obs. Historia Académica" CvType="Button" DesignTimeRectangle="450, 571, 134, 23" ElementType="Button" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Obs. Historia Académica' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Obs. Historia Académica' role='push button' check:text='Obs. Historia Académica' /&gt;" Guid="8b85ad59-6e6c-4ff4-b795-5187832d73bf" SearchSteps="Selector, FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSelectItem.Target>
+              </uix:NSelectItem>
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="418,3618" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                <ui:ForEachRow.Body>
+                  <ActivityAction x:TypeArguments="sd:DataRow">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,3445" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Estudiante'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable CVScreenId="fa58bc4a-5577-44e5-bac7-5eb16dbed29f" ContentHash="jMoi6cvzFU6W3NPIrTOb8Q" CvElementArea="98, 138, 118, 25" CvType="InputBox" DesignTimeRectangle="99, 139, 117, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='D.N.I. del alumno Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='D.N.I. del alumno Required' role='text' /&gt;" Guid="9312523c-35d8-46ca-8540-b4d545cb510f" InformativeScreenshot="593ba926ab0f5a0a92dfdc4eed9ce495.png" IsResponsive="True" Reference="6uRynW9T90a55SY8Kw234w/MBgGb6i7oE6D4bSr-4KlBw" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="fa58bc4a-5577-44e5-bac7-5eb16dbed29f" CvTextArea="37, 144, 60, 13" CvTextArgument="Estudiante" CvType="Text" DesignTimeRectangle="39, 142, 59, 18" ElementType="Text" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' idx='79' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' role='text' check:text='Estudiante' /&gt;" Guid="ca50f496-dd57-4106-bb4d-fadccfddf52f" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Estudiante'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Text="[CurrentRow(&quot;DOCUMENTO2&quot;).ToString()]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable CVScreenId="fa58bc4a-5577-44e5-bac7-5eb16dbed29f" ContentHash="npIhSHZZiU23los97s8gzA" CvElementArea="98, 138, 118, 25" CvType="InputBox" DesignTimeRectangle="99, 139, 117, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='D.N.I. del alumno Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='D.N.I. del alumno Required' role='text' /&gt;" Guid="b26d0b69-f345-49da-8ad4-3778a2a9bb2c" InformativeScreenshot="473c89ebf5eacccf01dc303391992878.png" IsResponsive="True" Reference="6uRynW9T90a55SY8Kw234w/qS-0Bv7wckOObTMxc7z8YA" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="fa58bc4a-5577-44e5-bac7-5eb16dbed29f" CvTextArea="37, 144, 60, 13" CvTextArgument="Estudiante" CvType="Text" DesignTimeRectangle="39, 142, 59, 18" ElementType="Text" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' idx='79' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' role='text' check:text='Estudiante' /&gt;" Guid="a280466f-a96b-442e-a601-8286fe1b2e0f" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Plan'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable CVScreenId="a59e89f3-b8de-4a5a-9299-77278dfa891d" ContentHash="Ha_TXcPBJ0uBvx93Vih77g" CvElementArea="98, 162, 64, 24" CvType="InputBox" DesignTimeRectangle="99, 163, 63, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Código del plan de estudios. - lista de valores disponibles Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Código del plan de estudios. - lista de valores disponibles Required' role='text' /&gt;" Guid="755b05d2-0e40-4cac-9afb-116bdd9a879f" InformativeScreenshot="a8dd577803018a8e7e985bcc4651bc38.png" IsResponsive="True" Reference="6uRynW9T90a55SY8Kw234w/Pj_jtWG780KiQNp0Fo5fQg" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="a59e89f3-b8de-4a5a-9299-77278dfa891d" CvTextArea="70, 168, 27, 13" CvTextArgument="Plan" CvType="Text" DesignTimeRectangle="28, 166, 70, 18" ElementType="Text" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' idx='80' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' role='text' check:text='Plan' /&gt;" Guid="e3afbf6f-6506-4289-9db5-89f1a1dd7b24" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Plan'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Text="[CurrentRow(&quot;PLAN&quot;).ToString()]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable CVScreenId="05e36abd-cf4f-4d40-91e9-4a39603a7890" ContentHash="tZmAVX196Uqw4SFTeNZhaw" CvElementArea="98, 162, 64, 24" CvType="InputBox" DesignTimeRectangle="99, 163, 63, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Código del plan de estudios. - lista de valores disponibles Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Código del plan de estudios. - lista de valores disponibles Required' role='text' /&gt;" Guid="c34969ed-f081-4462-8fea-17b1dddf5f27" InformativeScreenshot="c9f81c87bcfc59d344c1dc6d1c26f3ea.png" IsResponsive="True" Reference="6uRynW9T90a55SY8Kw234w/MKxIiuz-HE6yHNnay84GRw" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="05e36abd-cf4f-4d40-91e9-4a39603a7890" CvTextArea="70, 168, 27, 13" CvTextArgument="Plan" CvType="Text" DesignTimeRectangle="28, 166, 70, 18" ElementType="Text" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' idx='80' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' role='text' check:text='Plan' /&gt;" Guid="ae3b1890-7b64-49bf-a04c-23e251a7cdb4" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ejecutar consulta'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable CVScreenId="1fa43ada-d88f-4a23-b3cd-6f4fa36f8f49" ContentHash="Ln586dVJlUmqZEb1cSKh7w" CvElementArea="132, 56, 24, 23" CvTextArea="142, 66, 9, 10" CvType="Icon" DesignTimeRectangle="131, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Ejecutar consulta' role='push button' check:text='Ejecutar consulta' /&gt;" Guid="ee438be2-59cb-45bb-9a78-e0459804bf0d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD5SURBVEhL7ZNLEoMgEAW5jYssvUbOwZ24k3cittRLphAo8ZdF8qq6jIA0MxoXvxQ3TVP8Bn/xijDjQ1gYvX/DOPPL+wpjwrnV8zWaYgmRCEUHYR0Zg1vYKq+Ka0I7xhqJSI+8KrYtJblQ0kvEaqdEOowdt8Kc1gGaYlWnqnUAWzmbkx4pdLe6FSslpX1Fd6uJc1S6Js0laRo7sdXE+XRtJcxrd4ut1LbailnLfarw87/eLQYrh1LFEua/D4kBIQdgEyC1ViPVuz4sziG5mHErJbeIcym5RVzKTRUjSR+Vcpm4NGc5XQzadAul52GX+Ax+UPx8DPF+hvgC7zl7NKFdkz4AAAAASUVORK5CYII=" InformativeScreenshot="abed168c87728d57b94607418e455149.png" Reference="6uRynW9T90a55SY8Kw234w/CqrRlYv9R0GcQqzpavFF4Q" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="1fa43ada-d88f-4a23-b3cd-6f4fa36f8f49" CvTextArea="147, 37, 96, 14" CvTextArgument="Homologaciones" CvType="Text" DesignTimeRectangle="143, 31, 105, 24" FullSelectorArgument="&lt;java name='Homologaciones ALT H' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Homologaciones ALT H' role='menu' check:text='Homologaciones ALT H' /&gt;" Guid="e1845248-b0f3-4e5a-b0ac-82087f431d14" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Navegar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable CVScreenId="a627ae48-10f6-4ffc-b535-1738ffb3e9e2" ContentHash="Qq0r301G0UO6tVkRZFzNHA" CvElementArea="768, 571, 24, 22" CvType="Button" DesignTimeRectangle="768, 572, 24, 21" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Navegar' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Navegar' role='push button' check:text='Navegar' /&gt;" Guid="1c961587-1165-485b-920a-c8339c3c874f" InformativeScreenshot="e11b92a6efee67c37d9a3576965c0784.png" Reference="6uRynW9T90a55SY8Kw234w/jFB4WBJehkmosupcCFLbag" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="a627ae48-10f6-4ffc-b535-1738ffb3e9e2" CvElementArea="450, 570, 134, 24" CvTextArea="456, 577, 120, 11" CvTextArgument="Obs. Historia Académica" CvType="Button" DesignTimeRectangle="450, 571, 134, 23" ElementType="Button" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Obs. Historia Académica' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Obs. Historia Académica' role='push button' check:text='Obs. Historia Académica' /&gt;" Guid="652dfce4-04fa-497d-98d1-1458dce605d3" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Insertar nuevo registro'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable CVScreenId="89b62d64-80b4-44f2-9b6b-477a7c5b505b" ContentHash="2bP9ITItxk-Oasj0oNDEPQ" CvElementArea="196, 58, 23, 21" CvType="Icon" DesignTimeRectangle="195, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Insertar nuevo registro' role='push button' check:text='Insertar nuevo registro' /&gt;" Guid="5761d2a8-6f80-4742-9ec4-7f2643e693a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD6SURBVEhL7ZHLDYMwEETdDYcc3UbqoCf3RE8OgxhrWK0dcAgckkFPwevPY52Qb0qYpinfwV98GV8Tp5TcOjldDCEYx9GdJ6eIKSOodYt5QA1PRiCNMW5qlkMdt2QYQwjw3i3mVakI6BqMVabpFvfINB93DPbIAp8Ul7Hu96iK8cXvZFjHOUrDvA9B3Z6pNMVeMMcb0FgxYs9Udokxpgz1TZf6rOIynt/tuaQptjKdL2LIavSI+d9qjR/Ca166U1aZovuVphi/KtMPsSndzzKGaz2qYgpt1x6Iir01lqr4CIt4x/UqzY69uofGm/c4peMeflD8fAz5eob8AjLossnbOmmoAAAAAElFTkSuQmCC" InformativeScreenshot="ba74c037589e8d0e26cb114f622e4990.png" Reference="6uRynW9T90a55SY8Kw234w/vaZUZBuMbEqvKqTvUPH4QA" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="89b62d64-80b4-44f2-9b6b-477a7c5b505b" CvTextArea="147, 37, 96, 14" CvTextArgument="Homologaciones" CvType="Text" DesignTimeRectangle="143, 31, 105, 24" FullSelectorArgument="&lt;java name='Homologaciones ALT H' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Homologaciones ALT H' role='menu' check:text='Homologaciones ALT H' /&gt;" Guid="7288cdf0-f8e0-4ba0-8386-8117d3d5b505" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Label'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable ContentHash="Ap9ItZ3TBEig5afz0rXx8g" DesignTimeRectangle="93, 300, 44, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Tipo de documento. Required' role='text' /&gt;" Guid="8158dbe6-4d83-4c55-b337-f521f3d20647" InformativeScreenshot="3f84b37382b9362c1181b5291e45de20.png" IsResponsive="True" Reference="6uRynW9T90a55SY8Kw234w/_I53rPKOU0WgyeK3oYhAlQ" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="ce169a93-3e1f-4122-a6d0-546d4e07fcc3" CvElementArea="92, 275, 44, 24" CvType="InputBox" DesignTimeRectangle="93, 276, 44, 24" ElementType="Text" FullSelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Tipo de documento. Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Tipo de documento. Required' role='text' check:text='1' /&gt;" Guid="1a96af37-ad83-4ef5-afc2-4c663a6cad28" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Label'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Text="[CurrentRow(&quot;983&quot;).ToString()]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable ContentHash="3Ie6WAth1kqWMOF-T1CHkQ" DesignTimeRectangle="93, 300, 44, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Tipo de documento. Required' role='text' /&gt;" Guid="ce865779-8a5d-4028-b303-93ff7c978ba5" InformativeScreenshot="5462244aa42a07a72a1e8ebaaa4befb8.png" IsResponsive="True" Reference="6uRynW9T90a55SY8Kw234w/mYnZ7HkqvkGY_QELm2yaLQ" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="2952078f-37c0-4ecf-a027-9005886adfaf" CvElementArea="92, 276, 45, 24" CvType="InputBox" DesignTimeRectangle="93, 276, 44, 24" ElementType="Text" FullSelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Tipo de documento. Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Tipo de documento. Required' role='text' check:text='1' /&gt;" Guid="74b036f0-c41f-4d0a-b885-8dd49b470533" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'text Fecha de entrega'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable ContentHash="ipFS6LdEsUWpzJnkdKaEQA" DesignTimeRectangle="345, 300, 72, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Fecha de entrega' role='text' /&gt;" Guid="dee90c95-fc02-4634-8cbf-942f26343d47" InformativeScreenshot="1807be7229f8d665985cab32638470d1.png" Reference="6uRynW9T90a55SY8Kw234w/DWThw8XToUKES6Bn-KVFwQ" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="fa098ba5-5028-4e3d-a203-f16773381c11" CvElementArea="345, 254, 71, 20" CvTextArea="361, 258, 38, 13" CvTextArgument="Entrega" CvType="Button" DesignTimeRectangle="345, 254, 72, 20" ElementType="Button" FullSelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Entrega' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Entrega' role='push button' check:text='Entrega' /&gt;" Guid="47969111-e513-48e2-b246-e459ec29ef46" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'text Fecha de entrega(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Text="[CurrentRow(&quot;FECHA CA&quot;).ToString()]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable ContentHash="Omcwq4fupEu0__0izeuRwA" DesignTimeRectangle="345, 300, 72, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Fecha de entrega' role='text' /&gt;" Guid="09c3856b-d799-4ed2-8180-da43cea19628" InformativeScreenshot="1807be7229f8d665985cab32638470d1.png" Reference="6uRynW9T90a55SY8Kw234w/NOFyBP2YwEm12HlZejABmA" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="0e217f40-a50a-4e21-b515-42bd3d15c581" CvElementArea="345, 254, 71, 20" CvTextArea="361, 258, 38, 13" CvTextArgument="Entrega" CvType="Button" DesignTimeRectangle="345, 254, 72, 20" ElementType="Button" FullSelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Entrega' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Entrega' role='push button' check:text='Entrega' /&gt;" Guid="d1cb7e60-806f-4286-b867-3ca7ea02ce77" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Grabar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable CVScreenId="f126c103-1d8d-4c59-9e8f-842c3eb87cf8" ContentHash="I2Nc35lNy0CkCL5GH4wHOQ" CvElementArea="42, 57, 22, 23" CvType="Icon" DesignTimeRectangle="41, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Grabar' role='push button' check:text='Grabar' /&gt;" Guid="dc99e1f8-ac28-434f-96a0-cedc8de40c7b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEcSURBVEhL7ZPBDcMgDEXZJoces0bnYCd2YifKRxg5xBhDpfbQRnoiCdTPn1CXvnS5GGP6Bn+xSvCuIc2vsCR2Lp/F6HE0ihzP0joLZjFEJE0Bf4YsDyF577caMItLWkiZGFJcmF9twCSW0nJpWZPTY7Q2YBJf0lY5F0N6nmcZy9rc5OwMTMWXtB0oTMUpMW8Sv+W1OFMxL1S2uW41hxro1+JZqglUsfRt273QQKNutVSTUMW3tLw4vRu819KCoXiYVoLPG9ICXYyCkFNhaqQfuTjfz9ICVVy2muScXs4as6QF6jcGtwYkKcZ6b0kLpmJiuAPs2ZoWmMXEpYHNtGBZTLQGqnQlLdgWExBSE9L8iLfFu/yg+Pk40uc50gupPIbCFpapXQAAAABJRU5ErkJggg==" InformativeScreenshot="843c5930018a4318c23cef3e08700b78.png" Reference="6uRynW9T90a55SY8Kw234w/6htuxRSCsUa2OQx90tkAgQ" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="f126c103-1d8d-4c59-9e8f-842c3eb87cf8" CvTextArea="31, 85, 148, 15" CvTextArgument="Entrega de Documentación" CvType="Text" DesignTimeRectangle="29, 84, 150, 16" ElementType="Text" FullSelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Entrega de Documentación' role='label' /&gt;" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Entrega de Documentación' role='label' check:text='Entrega de Documentación' /&gt;" Guid="6344620c-fcb3-45ed-8526-4ba2068ea905" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cerrar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable CVScreenId="f126c103-1d8d-4c59-9e8f-842c3eb87cf8" ContentHash="QTbDk-mvA0mwIvqG6OFc8g" CvElementArea="18, 57, 20, 22" CvType="Icon" DesignTimeRectangle="15, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Cerrar' role='push button' check:text='Cerrar' /&gt;" Guid="c6738950-0ce7-4b25-a3dd-c5f6e9256d4f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAESSURBVEhLzZbBEYMgEEXpxkOOtpE66IkKckshGXoi+9lBGFgExUh25kUjsm9+VKLSWrsZpfBhrb0dJR28g38Um4u2Mo3EcjNljFvppgR758VtSWfiCGSbeF2LcSadL9OROAKZoeNtMQjz855Md2JIINUkTcWBcF58POtS0J24JoYqFSvFC1Kcn/dkhhNzxlgQK78s7S9Mw4lRQZaDkvtekBhVE4OyL3M4Mf2rkIqkhTiFpSi574nEEAPs+2Pcf6sgRpU9I8PXeOpdnYp7pKCR2DpDErws1MT47rf4+WkfSH1ymuIUyPx1TsTSeT0cEgMIp4iBl84QAzxSkEtjPZwWjzJP/Hm/xIFf41/on4/lZhb3BY0Bht7qrsyQAAAAAElFTkSuQmCC" InformativeScreenshot="7a240d6d72a3a3823da093959b19d08f.png" Reference="6uRynW9T90a55SY8Kw234w/zNgkKNBRcEySodiMF5CYbg" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="f126c103-1d8d-4c59-9e8f-842c3eb87cf8" CvTextArea="12, 38, 42, 12" CvTextArgument="Acceso" CvType="Text" DesignTimeRectangle="8, 31, 50, 24" FullSelectorArgument="&lt;java name='Acceso ALT A' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Acceso ALT A' role='menu' check:text='Acceso ALT A' /&gt;" Guid="6a955897-c300-4647-aed9-2446942be94d" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Modo introducción crite…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aaf8ec02-8420-4f1a-8136-0fc2582506f5" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable CVScreenId="5a2868d6-a8a9-4c10-aff9-b63dfc15804f" ContentHash="Gu7Ai2qghEG8UuKbTS0iYQ" CvElementArea="106, 56, 23, 24" CvTextArea="116, 66, 9, 10" CvType="Icon" DesignTimeRectangle="105, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Modo introducción criterios de consulta' role='push button' check:text='Modo introducción criterios de consulta' /&gt;" Guid="ad5f9a60-8b5d-4a13-a7a7-7973bb9d6fc2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADiSURBVEhL7ZPNDcMgDEa9TQ49do3OwU7slJ1oXpEri5qU/EAO7Sc9JSHAw1Yi6aLIPM/pCv7iD+JCiPHFPYQ3jHvzW1kVqxCJotGDeOtaqIprQjvGHBFx13+jKrYt9YQq7SLWdqpID2PHu4i1Oq1aD2ArH9bqLfH2VTa3mohQaQv1bmxuNZGQr2uJy9zdYiu1rbZi5vKcK8z/NdktBisHr2IVlveHxICQA7AJkFqrkSInh8UlpBQzbqVkiLiUkiFiL4MqRpI/Kk03sffOcroYdNMWvPWwS3wGPyh+3KY0nik9AfDso3Jo9JABAAAAAElFTkSuQmCC" InformativeScreenshot="223c54ae99fdacb74f950e5a73e48c2b.png" Reference="6uRynW9T90a55SY8Kw234w/nQNNZe4lGkuy4eDHqyZR0A" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="5a2868d6-a8a9-4c10-aff9-b63dfc15804f" CvTextArea="62, 37, 76, 14" CvTextArgument="Hojas de vida" CvType="Text" DesignTimeRectangle="58, 31, 85, 24" FullSelectorArgument="&lt;java name='Hojas de vida ALT H' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Hojas de vida ALT H' role='menu' check:text='Hojas de vida ALT H' /&gt;" Guid="76476e58-d968-4664-a0b1-390ee2605ef7" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEachRow.Body>
+              </ui:ForEachRow>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 1016, 707" Arguments="-secure -javaws -jre &quot;&quot;C:\Program Files (x86)\Java\jre1.8.0_361&quot;&quot; -vma LWNsYXNzcGF0aABDOlxQcm9ncmFtIEZpbGVzICh4ODYpXEphdmFcanJlMS44LjBfMzYxXGxpYlxkZXBsb3kuamFyAC1EamF2YS5zZWN1cml0eS5wb2xpY3k9ZmlsZTpDOlxQcm9ncmFtIEZpbGVzICh4ODYpXEphdmFcanJlMS44LjBfMzYxXGxpYlxzZWN1cml0eVxqYXZhd3MucG9saWN5AC1EdHJ1c3RQcm94eT10cnVlAC1YdmVyaWZ5OnJlbW90ZQAtRGpubHB4LmhvbWU9QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxKYXZhXGpyZTEuOC4wXzM2MVxiaW4ALURqYXZhLnNlY3VyaXR5Lm1hbmFnZXIALURqbmxweC5vcmlnRmlsZW5hbWVBcmc9QzpcVXNlcnNcRXN0dWRpYW50ZUF1eGlsaWFyXE9uZURyaXZlIC0gVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ29sb21iaWFcZnJtc2VydmxldC5qbmxwAC1Eam5scHgucmVtb3ZlPWZhbHNlAC1YYm9vdGNsYXNzcGF0aC9hOkM6XFByb2dyYW0gRmlsZXMgKHg4NilcSmF2YVxqcmUxLjguMF8zNjFcbGliXGphdmF3cy5qYXI7QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxKYXZhXGpyZTEuOC4wXzM2MVxsaWJcZGVwbG95LmphcjtDOlxQcm9ncmFtIEZpbGVzICh4ODYpXEphdmFcanJlMS44LjBfMzYxXGxpYlxwbHVnaW4uamFyAC1Eam5scHguc3BsYXNocG9ydD01MDQ3NgAtRGpubHB4Lmp2bT1DOlxQcm9ncmFtIEZpbGVzICh4ODYpXEphdmFcanJlMS44LjBfMzYxXGJpblxqYXZhdy5leGU= -ma QzpcVXNlcnNcRXN0dWRpYW50ZUF1eGlsaWFyXE9uZURyaXZlIC0gVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ29sb21iaWFcZnJtc2VydmxldC5qbmxw" ContentHash="Mi2ykayjFkGyfzACVuNIkw" FilePath="C:\Program Files (x86)\Java\jre1.8.0_361\bin\jp2launcher.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAZwSURBVFhHtZfZU5NXGIe/f6CXdaa96fSmHa975XTGybSdLnbaTsd2xlatjnVhWuqCKGC1LAoosgQVWWQREFBBFtk3Q8K+CLKFAElIQlZCCGELm/563qNxMHxQtfrNPBO+s7zPyVneEwTPk1nRLmEEM2QMvCUoNjkkz7RPn4zyNknhgy40dA5CpTVgZmYG8/PzcLvdbwSKRTEpNjnIRU4uTyttkRTUd6JnSIO5uTmsrKzg8ePHeNMPxaTY5CAXOcktpBQ3Bde39WF2dharq6t48uTJa7EyocHjZbdo3VrIQS5ykltIKpTLBoa1WFxc5KN8HVYX2JJ13MLqnEO03htykZPcQkK+DJOTk1haWuKje2WW3JhRJGGm+hJW2EBE23hBLnKSW7hyu46/LC8v8zV6JRbn4KqLge2iBAsj8ufly+5ZrGwSj1zkJLcQm1MNu93OR0UVL8uSywZnyT8wB23FdHUUL3OPdWC2Iw9ufTeWF93r+nggFznJLVzOqoDNZuPHhdbmZViwDMOe9hvMgR/DWR2NhfEBTBX/DUf2EbhkCbxerJ8HcpGT3EJkRimsVisWFhZeOLsbMWfox0T8tzD7fwhX803MmYf4+4T0G8z0lor28YZc5CS3cCG1GBaLhScLqtiM+Skz7Bn7YDz2Hpy1Uiy4JmGL+wrWi9sxq+8T7SMGuchJbiEkqQBms5knCKrYDFd/NUz+H8Aa8wXmZ1xwshkY/2sLnIo00fYbQS5ykls4m3AHRqORp0pKEJsxrWyAKeAj2LMP8/fJ8ggYfd+FPdcXs07HuvYbQS5yklsIjM/F+Pg4XC4Xr9iUKTblmYdgCfsE07p+OHsrYTrxPoxHt8DRcku8jwjkIie5Bf/YLOj1ejidTkxPT/8nLr2Sr7ntXhCmpxywZflg3OcdmKM+w7RFL9rHG3KRk9zC8agM6HQ6TE1N8YqNmGJMPmuje6TAXNwOODoK4DSpYT6zFZYL2+C0GJ63d7C2nvbekIuc5BZ8I29Aq9XyzORwOF5gkmG1TUBrMELe0QtZ2yOM6ExP63pqYZVnYlLTA3vs17Ao8ni5ncUxWqyob+1BWmEtapq6XojJ+7I25CS34HM+ERqNhmcmbzT6cVzPq4BfVDoupxehStGJPpWal6sNZowxLM2FUNXnoW/EwOo0aHukREfvEOrYAMJT8rE7UCoemznJLRwMvga1Wo2JiYl19A+N4nRsJvaeuYJjkam4mlMG6a37iMksQnhWFeKyipGekozQa9k4Fn8PEan3cLeyEeox/fMYR1m/tTE9kJPcwv6zUoyMjPDM5I2JJYsx9m17lSO4UylHVkk96loeora5C7VNnahq7EJF8yM0dg6gj7UZ1epgYMfL07+1ewC7A+Kev6+FnOQW9gTGYHh4mGemjRgYHoV/dAaCE3JRx+RNnX3oHlBxmjp7Ud3YgdsVchTXNUMzpuN9FGzP+Ian4ARbPu94BDnJLew6FYWhoSGYTKYNGVSNQppVguOX0nAkNBGHghPY9CXgcMh1+IQl4sC5a5zQ63l42D8EeXsP4jJLkJBbBuWwWjQmOckt/HQiAkqlkmemzTCwxFEma8X9+hZUyduRX6VAQbWCLUUXF/YOqqAzGDgtD/vQ3tMvGscDOckt/Hj0/EsN4AFb+/1nr+LslVu4w6a7lA2mtL4V+ZUKJOaVI/ZmMeRtPaJ9xSAnuYXv/gyBSqXil4M3tLGK2LpWyDsga+3GheR8/B58HbuDpNjpF42fT0bjF7bJ9gTFwzciFdklD9bFUGv168oIcpJb2OFzTnQA6UW18Lt8E5HsaHX2KqHTGzBuNKGf5QHaYGWydpQ3tLNT0c2me5CttYadGMMLMXLLGhDL9sLaMg/kJLfw5aEzfEPQzqRfKR58LtzAzpMxOBiajIvpxSyr1fGZqGVCDzVrPmuau3mbq7nlCEvKZ7v/Jsv12bjPBro2LkEucpJb+PxAgKyoso4Xrs1UlNUq2TlPuluDkMR8BMTn4I+INBwKS8bh8zc4R9ggPX8TvpHp7Iq9DWlOOYrr2zEwooWVJZ21cQlykZPcgmTfqeDIxCy+MShH00XxNiEHuchJbmH7Xj/JD4dPI6fo6Y9Tuq3oyqQ7+03iuYbJQS5ykpv/f/jpr8cl37OC0+FSFJRV8ykSS5//B4pJsclBLnJyuefZtuuohBHMkDHwlqDY5HgmF4R/ARUBpif6Ux1LAAAAAElFTkSuQmCC" InformativeScreenshot="71ddb2e5374de98138b5b85fc5c41fa2.png" Reference="6uRynW9T90a55SY8Kw234w/_sWyX_Tox0upwrMzW8VLeA" Selector="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

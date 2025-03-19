@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Documentación a Entregar",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "bpDARdlDFUCu8iJqeITvbw",
+  "Reference": "6uRynW9T90a55SY8Kw234w/bpDARdlDFUCu8iJqeITvbw",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/_sWyX_Tox0upwrMzW8VLeA",
+  "Created": "2025-03-18T15:24:14.4238322Z",
+  "Updated": "2025-03-18T15:24:14.4238322Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
