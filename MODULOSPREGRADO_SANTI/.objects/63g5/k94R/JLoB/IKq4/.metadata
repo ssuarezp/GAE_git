@@ -1,0 +1,14 @@
+﻿{
+  "Name": "F.Aprobación",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "IKq4LljouUS-HoluO7mk9w",
+  "Reference": "6uRynW9T90a55SY8Kw234w/IKq4LljouUS-HoluO7mk9w",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-03-19T15:59:23.4038215Z",
+  "Updated": "2025-03-19T15:59:23.4038215Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
