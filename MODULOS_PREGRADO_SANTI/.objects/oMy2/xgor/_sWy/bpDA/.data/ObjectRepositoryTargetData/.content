@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="crQa9j7OOUeZwM0BotnG4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c7f46e96-74cb-4dbf-9696-0f17ebbab9dc" CvElementArea="732, 452, 18, 18" CvTextArea="567, 457, 146, 13" CvTextArgument="Documentación a Entregar" CvType="ArrowButton" DesignTimeRectangle="563, 450, 188, 17" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name=' ' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name='Documentación a Entregar' role='label' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name=' ' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name='Documentación a Entregar' role='label' check:text='Documentación a Entregar' /&gt;" Guid="262762c6-4b8b-4437-9cdd-95cb7113f6e1" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c7f46e96-74cb-4dbf-9696-0f17ebbab9dc" CvTextArea="567, 474, 99, 13" CvTextArgument="Registro de Tesis" CvType="Text" DesignTimeRectangle="563, 467, 188, 17" ElementType="Text" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name=' ' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name='Registro de Tesis' role='label' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name=' ' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name='Registro de Tesis' role='label' check:text='Registro de Tesis' /&gt;" Guid="43172e4f-714f-4ace-9dcc-046a4a563f0b" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e446c0ab51038b8949d70067bc1842be.png" xmlns="">00SX0GqYHF0Cga_RUPJcwxQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
