@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Contestación",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "Dm3haD-F6kW_Eluf_EEJTw",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/Dm3haD-F6kW_Eluf_EEJTw",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/Bi9aA4vTh0aTQvXPlEI9IQ",
+  "Created": "2025-03-27T19:34:42.903783Z",
+  "Updated": "2025-03-27T19:34:42.903783Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
