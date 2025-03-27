@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Estudiante",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "9H9ZEeFEDUyczRcJM8O29g",
+  "Reference": "6uRynW9T90a55SY8Kw234w/9H9ZEeFEDUyczRcJM8O29g",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-03-19T15:54:41.4265761Z",
+  "Updated": "2025-03-19T15:54:41.4265761Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
