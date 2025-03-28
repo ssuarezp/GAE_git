@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0YCYIya_-UmCoos5eonL5g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="612e03a2-fec7-438c-a50c-f64f9499880f" CvElementArea="132, 291, 100, 24" CvType="InputBox" DesignTimeRectangle="134, 292, 99, 24" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;" Guid="1b7a41ff-e0d5-452d-a527-4177f9438838" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="612e03a2-fec7-438c-a50c-f64f9499880f" CvTextArea="87, 295, 42, 13" CvTextArgument="Estado" CvType="Text" DesignTimeRectangle="87, 295, 42, 13" ElementType="Text" Guid="5ee7f8cc-c6db-4892-ab40-8bc18ad2f89f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="291bf0f0347317998c511f833d267a72.png" xmlns="">0jhDOteCh5kySQc62p5X2Cg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
