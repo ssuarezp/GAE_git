@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FtmKpGLkGk6QtxpniTLJuw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1ebdae21-3352-4db4-a81b-e0a20079bd47" CvElementArea="324, 299, 150, 25" CvTextArea="369, 307, 63, 15" CvTextArgument="Conceptos" CvType="Button" DesignTimeRectangle="323, 301, 154, 23" DesignTimeScaleFactor="1" ElementType="TabPage" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Conceptos' role='page tab' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Conceptos' role='page tab' check:text='Conceptos' /&gt;" Guid="70cefda4-1143-4eb3-87c0-ef757812cac3" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1ebdae21-3352-4db4-a81b-e0a20079bd47" CvElementArea="176, 301, 145, 23" CvTextArea="204, 307, 91, 15" CvTextArgument="Datos Proyecto" CvType="Button" DesignTimeRectangle="172, 301, 154, 23" ElementType="TabPage" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Datos Proyecto' role='page tab' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Datos Proyecto' role='page tab' check:text='Datos Proyecto' /&gt;" Guid="944d7aaa-0ad2-46c1-8453-545d301e9d4d" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0dd9221a4ef2455e7820b242ee46cd18.png" xmlns="">0S-_GaHNZp02wzxZVtR1Hag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

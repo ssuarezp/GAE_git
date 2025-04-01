@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Plan",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "FXAoVrnp5EePuGf9PKd0dg",
+  "Reference": "6uRynW9T90a55SY8Kw234w/FXAoVrnp5EePuGf9PKd0dg",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-03-19T15:55:16.2379616Z",
+  "Updated": "2025-03-19T15:55:16.2379616Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

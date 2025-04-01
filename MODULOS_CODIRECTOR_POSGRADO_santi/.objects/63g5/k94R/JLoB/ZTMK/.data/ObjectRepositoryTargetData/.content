@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pqLJCxPLoEOZiFRARU5p2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="729, 383, 17, 25" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;&lt;java name=' Required' role='text' /&gt;" Guid="99acd5d2-dac8-4e8a-a8f4-1d42422c13f0" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b93c6b40-9924-4bb2-90b6-32eaa56dda4a" CvElementArea="726, 338, 21, 18" CvTextArea="728, 342, 15, 9" CvTextArgument="Rol" CvType="Button" DesignTimeRectangle="725, 337, 23, 20" ElementType="Button" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;&lt;java name='Rol' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;&lt;java name='Rol' role='push button' check:text='Rol' /&gt;" Guid="a69e5409-0ea0-4265-97de-d0514ed63bf1" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d4950f6caf72b5a93cbbdd30bf2705ca.png" xmlns="">0mXrLghYah0qZUumb5DzBaQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

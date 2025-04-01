@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OTVL0sCkDUiNaDxB7kbMqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="da4f5e44-626a-4355-82d5-49786e1ff4c6" CvElementArea="21, 299, 153, 25" CvTextArea="27, 307, 139, 13" CvTextArgument="Directores/Codirectores" CvType="Button" DesignTimeRectangle="21, 301, 154, 23" DesignTimeScaleFactor="1" ElementType="TabPage" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' check:text='Directores/Codirectores' /&gt;" Guid="e5d3d402-c6de-41d9-8c91-382a8a0ed10a" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bc2c0db85728c28ea95593299570afe3.png" xmlns="">0mTemSzFc7UiRuHH6RgqBSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
