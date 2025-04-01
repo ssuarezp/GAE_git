@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Js5rqGyuXkuo7PEttfUtZA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="aa1946c4-5ae1-414a-8b8c-bb7ad609811f" CvElementArea="231, 433, 499, 24" CvType="InputBox" DesignTimeRectangle="231, 433, 499, 24" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Conceptos' role='page tab' /&gt;&lt;java name='Valor del concepto' role='text' /&gt;" Guid="608bab4f-a6ba-402b-9c60-116aa7999e05" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="aa1946c4-5ae1-414a-8b8c-bb7ad609811f" CvTextArea="43, 489, 72, 13" CvTextArgument="Observación" CvType="Text" DesignTimeRectangle="43, 489, 72, 13" ElementType="Text" Guid="b419b798-aabe-4a0f-a7e3-7cc94934a938" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="592d9e76b68fc5cd547f37dc0a05106b.png" xmlns="">0m0wZFq8fj0OxAdlRhEOT7g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

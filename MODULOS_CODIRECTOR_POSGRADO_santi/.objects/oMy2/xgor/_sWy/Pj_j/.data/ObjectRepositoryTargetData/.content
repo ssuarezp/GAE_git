@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ha_TXcPBJ0uBvx93Vih77g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a59e89f3-b8de-4a5a-9299-77278dfa891d" CvElementArea="98, 162, 64, 24" CvType="InputBox" DesignTimeRectangle="99, 163, 63, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Código del plan de estudios. - lista de valores disponibles Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Código del plan de estudios. - lista de valores disponibles Required' role='text' /&gt;" Guid="755b05d2-0e40-4cac-9afb-116bdd9a879f" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a59e89f3-b8de-4a5a-9299-77278dfa891d" CvTextArea="70, 168, 27, 13" CvTextArgument="Plan" CvType="Text" DesignTimeRectangle="28, 166, 70, 18" ElementType="Text" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' idx='80' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VTextField' role='text' check:text='Plan' /&gt;" Guid="e3afbf6f-6506-4289-9db5-89f1a1dd7b24" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a8dd577803018a8e7e985bcc4651bc38.png" xmlns="">0BTQ3Tr3UgkGwq-KiF5c4gw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

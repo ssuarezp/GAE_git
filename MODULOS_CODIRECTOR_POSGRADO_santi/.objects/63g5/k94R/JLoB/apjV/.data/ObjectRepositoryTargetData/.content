@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tBM4fAzJykO5NwJVkEYooQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="24, 383, 81, 25" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;&lt;java name='Documento de identidad' role='text' /&gt;" Guid="4d02fe18-6fb7-4825-934c-e297d917671b" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8ace8a3f-0bc8-4a06-89ca-918342a868e5" CvElementArea="24, 337, 81, 20" CvTextArea="55, 341, 18, 11" CvTextArgument="DNI" CvType="Button" DesignTimeRectangle="24, 337, 81, 20" ElementType="Button" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;&lt;java name='DNI' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;&lt;java name='DNI' role='push button' check:text='DNI' /&gt;" Guid="ddc67ddd-6957-49a7-a401-3d40a45820c1" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0c67d5a6cc600bcbca6c22f94445a02b.png" xmlns="">0StboBnJrOkOjNUH6XNgESg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

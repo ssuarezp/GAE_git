@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PrkB-8APSU6PeuqP6HunVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e48849ba-529e-4a90-b748-acbe6145bac5" CvElementArea="592, 568, 174, 26" CvType="InputBox" DesignTimeRectangle="594, 569, 172, 24" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name=' ' role='combo box' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name=' ' role='combo box' /&gt;" Guid="c5762842-b787-49ce-a971-4a66ca029554" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e48849ba-529e-4a90-b748-acbe6145bac5" CvElementArea="449, 570, 134, 24" CvTextArea="456, 577, 120, 11" CvTextArgument="Obs. Historia Académica" CvType="Button" DesignTimeRectangle="450, 571, 134, 23" ElementType="Button" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Obs. Historia Académica' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Obs. Historia Académica' role='push button' check:text='Obs. Historia Académica' /&gt;" Guid="439e21c6-fa4c-4ce4-bd8f-5441c2f3ec82" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3cea98a3dc7266a2e86a7ee3da5c6ebe.png" xmlns="">0LbyIOBWtd0Gy8Wcwgy7oNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

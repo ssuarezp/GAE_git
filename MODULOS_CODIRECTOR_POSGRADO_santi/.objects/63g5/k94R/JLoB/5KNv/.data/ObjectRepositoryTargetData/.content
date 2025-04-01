@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hZ8Pkn7L7ket3cFnRGP5UA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="35c4103e-ceb7-4d66-aec2-78cd20de103c" CvElementArea="173, 299, 152, 26" CvTextArea="204, 307, 91, 15" CvTextArgument="Datos Proyecto" CvType="Button" DesignTimeRectangle="172, 301, 154, 23" DesignTimeScaleFactor="1" ElementType="TabPage" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Datos Proyecto' role='page tab' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Datos Proyecto' role='page tab' check:text='Datos Proyecto' /&gt;" Guid="a5ea0acd-8dc6-493b-88ca-dd080458f416" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="35c4103e-ceb7-4d66-aec2-78cd20de103c" CvTextArea="369, 307, 63, 15" CvTextArgument="Conceptos" CvType="Text" DesignTimeRectangle="323, 301, 154, 23" ElementType="TabPage" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Conceptos' role='page tab' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Conceptos' role='page tab' check:text='Conceptos' /&gt;" Guid="ea1ad2fb-7291-4c56-8126-1a8a1336ca90" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cc76f8625187e338cee27de5f68e7c68.png" xmlns="">0DjTyBWBm4Eqk51lt7OtPOQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

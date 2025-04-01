@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Insertar nuevo registro(1)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "OT-t2baGdUW0FDFR17W1KQ",
+  "Reference": "6uRynW9T90a55SY8Kw234w/OT-t2baGdUW0FDFR17W1KQ",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-03-19T16:22:12.5414031Z",
+  "Updated": "2025-03-19T16:22:12.5414031Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Grabar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "9c0B0B9l7EqWMD2bAP7lzg",
+  "Reference": "6uRynW9T90a55SY8Kw234w/9c0B0B9l7EqWMD2bAP7lzg",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-03-19T15:57:06.5015429Z",
+  "Updated": "2025-03-19T15:57:06.5015429Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
