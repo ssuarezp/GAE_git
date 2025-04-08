@@ -110,7 +110,7 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="706,6652" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="924,6652" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
     </Sequence.Variables>
@@ -138,7 +138,7 @@
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,544" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\santi\OneDrive - Universidad Nacional de Colombia\ACTOS &amp; MÓDULOS.xlsm">
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,544" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\EstudianteAuxiliar\OneDrive - Universidad Nacional de Colombia\ACTOS &amp; MÓDULOS.xlsm">
                 <ueab:ExcelApplicationCard.Body>
                   <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                     <ActivityAction.Argument>
@@ -211,7 +211,7 @@
                         <uix:NSelectItem.Target>
                           <uix:TargetAnchorable CVScreenId="3b70abf2-8520-490c-9605-f79b70ee10f4" ContentHash="VBnWxpjmikW41YxH5BVbjg" CvElementArea="348, 184, 224, 25" CvType="InputBox" DesignTimeRectangle="350, 185, 221, 24" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Tipo de Contestación' role='combo box' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Tipo de Contestación' role='combo box' /&gt;" Guid="1c7ef114-17e8-403b-bdb2-5e759218ed53" InformativeScreenshot="de6655e4b7c667c69c6c14277441e6eb.png" Reference="E_WsyKu0Yke1l9rBDikF6w/Dm3haD-F6kW_Eluf_EEJTw" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="3b70abf2-8520-490c-9605-f79b70ee10f4" CvTextArea="268, 188, 76, 13" CvTextArgument="Contestación" CvType="Text" DesignTimeRectangle="268, 188, 76, 13" ElementType="Text" Guid="ad09ee3e-72e5-4650-a977-545d7d7b34c9" SearchSteps="CV" TargetType="ComputerVisionBased" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -284,7 +284,7 @@
                         <uix:NSelectItem.Target>
                           <uix:TargetAnchorable CVScreenId="edb8d3df-263f-4a69-8567-3f2a09922352" ContentHash="sL1VIo1iYUiacX7u0YvI9w" CvElementArea="132, 291, 100, 24" CvType="InputBox" DesignTimeRectangle="134, 292, 99, 24" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;" Guid="f9b57546-41af-4ecd-b45c-b7a36025dc03" InformativeScreenshot="c36f1a00e9aac2383fded233a5087c74.png" Reference="E_WsyKu0Yke1l9rBDikF6w/qGHjZH4TrE2RFLiDToiMZg" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="edb8d3df-263f-4a69-8567-3f2a09922352" CvTextArea="87, 295, 42, 13" CvTextArgument="Estado" CvType="Text" DesignTimeRectangle="87, 295, 42, 13" ElementType="Text" Guid="9fd383a0-48b7-4dc5-aba0-c442e0f14a9d" SearchSteps="CV" TargetType="ComputerVisionBased" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -472,7 +472,7 @@
                         <uix:NSelectItem.Target>
                           <uix:TargetAnchorable CVScreenId="b4e95db1-7166-4ac3-aeee-c9230db69a31" ContentHash="luNh75s07EGKCH6ODaxwuw" CvElementArea="132, 291, 100, 24" CvType="InputBox" DesignTimeRectangle="134, 292, 99, 24" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;" Guid="f0801a26-2230-4cb1-9765-c97d9e69fc62" InformativeScreenshot="c36f1a00e9aac2383fded233a5087c74.png" Reference="E_WsyKu0Yke1l9rBDikF6w/8sX45ebMp0yRtlmlXf1XYg" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="b4e95db1-7166-4ac3-aeee-c9230db69a31" CvTextArea="87, 295, 42, 13" CvTextArgument="Estado" CvType="Text" DesignTimeRectangle="87, 295, 42, 13" ElementType="Text" Guid="ade86650-3e4a-44a0-8d3f-f66d81c30014" SearchSteps="CV" TargetType="ComputerVisionBased" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
