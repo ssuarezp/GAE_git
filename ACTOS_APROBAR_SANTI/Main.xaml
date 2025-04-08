@@ -110,7 +110,7 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="706,6652" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="670,6366" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
     </Sequence.Variables>
@@ -119,7 +119,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="614,6629" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence sap:VirtualizedContainerService.HintSize="614,6343" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -172,25 +172,25 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ueab:ExcelProcessScopeX>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="UXXI - Académico(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580,5792" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="95b64af7-15d3-4aa7-9118-41c768a17368" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="UXXI - Académico(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580,5506" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="95b64af7-15d3-4aa7-9118-41c768a17368" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,5502" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,5216" sap2010:WorkflowViewState.IdRef="Sequence_7">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="418,5440" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="418,5154" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,5267" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,4981" sap2010:WorkflowViewState.IdRef="Sequence_8">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -291,21 +291,6 @@
                           </uix:TargetAnchorable>
                         </uix:NSelectItem.Target>
                       </uix:NSelectItem>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'text Fecha de Solicitud(2)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="95b64af7-15d3-4aa7-9118-41c768a17368" Text="[currentRow(&quot;Q&quot;).ToString()]" Version="V4">
-                        <uix:NTypeInto.Target>
-                          <uix:TargetAnchorable CVScreenId="ca74b44a-e767-4337-a47a-fa95b83dd13b" ContentHash="gv9P0FJJ4kqntqvFDDLqpw" CvElementArea="487, 291, 88, 25" CvType="InputBox" DesignTimeRectangle="488, 292, 87, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Fecha de Solicitud' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Fecha de Solicitud' role='text' /&gt;" Guid="db4e83ec-ecfa-4fd0-8467-16e4d3372125" InformativeScreenshot="48f1015edcda38d19f0445808bdf9f00.png" Reference="E_WsyKu0Yke1l9rBDikF6w/5530nF8Y-Em_zLLR1yx03Q" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
-                        </uix:NTypeInto.Target>
-                        <uix:NTypeInto.VerifyOptions>
-                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                            <uix:VerifyExecutionTypeIntoOptions.Retry>
-                              <InArgument x:TypeArguments="x:Boolean" />
-                            </uix:VerifyExecutionTypeIntoOptions.Retry>
-                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                              <InArgument x:TypeArguments="x:Double" />
-                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                          </uix:VerifyExecutionTypeIntoOptions>
-                        </uix:NTypeInto.VerifyOptions>
-                      </uix:NTypeInto>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'text Periodo Académico …'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="95b64af7-15d3-4aa7-9118-41c768a17368" Text="[currentRow(&quot;PERIODO&quot;).ToString() + &quot;[k(Enter)]&quot;]" Version="V4">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable CVScreenId="552882aa-b193-453a-b8bf-8fa0bd37133d" ContentHash="ooHUYq_CJUynpq9smhzZiw" CvElementArea="690, 292, 64, 24" CvType="InputBox" DesignTimeRectangle="691, 292, 63, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Periodo Académico Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Periodo Académico Required' role='text' /&gt;" Guid="44d90cdd-b2f1-47a1-b2de-013c8edcdc36" InformativeScreenshot="6502c49397229d2aae765d053aaa7b6c.png" Reference="E_WsyKu0Yke1l9rBDikF6w/uA4x3aXUmECnD_qTCyauxQ" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
