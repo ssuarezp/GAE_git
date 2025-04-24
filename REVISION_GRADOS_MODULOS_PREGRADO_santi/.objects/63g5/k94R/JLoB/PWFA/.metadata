@@ -1,0 +1,14 @@
+﻿{
+  "Name": "text Documento de ident…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "PWFAllAJf0qVvwrrBtNuaA",
+  "Reference": "6uRynW9T90a55SY8Kw234w/PWFAllAJf0qVvwrrBtNuaA",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-03-19T15:57:25.670281Z",
+  "Updated": "2025-03-19T15:57:25.670281Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

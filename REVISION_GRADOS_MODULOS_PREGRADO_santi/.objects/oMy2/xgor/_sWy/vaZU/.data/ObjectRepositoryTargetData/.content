@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2bP9ITItxk-Oasj0oNDEPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="89b62d64-80b4-44f2-9b6b-477a7c5b505b" CvElementArea="196, 58, 23, 21" CvType="Icon" DesignTimeRectangle="195, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Insertar nuevo registro' role='push button' check:text='Insertar nuevo registro' /&gt;" Guid="5761d2a8-6f80-4742-9ec4-7f2643e693a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD6SURBVEhL7ZHLDYMwEETdDYcc3UbqoCf3RE8OgxhrWK0dcAgckkFPwevPY52Qb0qYpinfwV98GV8Tp5TcOjldDCEYx9GdJ6eIKSOodYt5QA1PRiCNMW5qlkMdt2QYQwjw3i3mVakI6BqMVabpFvfINB93DPbIAp8Ul7Hu96iK8cXvZFjHOUrDvA9B3Z6pNMVeMMcb0FgxYs9Udokxpgz1TZf6rOIynt/tuaQptjKdL2LIavSI+d9qjR/Ca166U1aZovuVphi/KtMPsSndzzKGaz2qYgpt1x6Iir01lqr4CIt4x/UqzY69uofGm/c4peMeflD8fAz5eob8AjLossnbOmmoAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="89b62d64-80b4-44f2-9b6b-477a7c5b505b" CvTextArea="147, 37, 96, 14" CvTextArgument="Homologaciones" CvType="Text" DesignTimeRectangle="143, 31, 105, 24" FullSelectorArgument="&lt;java name='Homologaciones ALT H' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Homologaciones ALT H' role='menu' check:text='Homologaciones ALT H' /&gt;" Guid="7288cdf0-f8e0-4ba0-8386-8117d3d5b505" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ba74c037589e8d0e26cb114f622e4990.png" xmlns="">00mA4UoPq0EKGUgG4K86lPw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

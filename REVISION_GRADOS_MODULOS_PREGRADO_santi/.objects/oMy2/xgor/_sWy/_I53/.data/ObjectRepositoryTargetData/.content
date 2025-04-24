@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ap9ItZ3TBEig5afz0rXx8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="93, 300, 44, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Tipo de documento. Required' role='text' /&gt;" Guid="8158dbe6-4d83-4c55-b337-f521f3d20647" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ce169a93-3e1f-4122-a6d0-546d4e07fcc3" CvElementArea="92, 275, 44, 24" CvType="InputBox" DesignTimeRectangle="93, 276, 44, 24" ElementType="Text" FullSelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Tipo de documento. Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Tipo de documento. Required' role='text' check:text='1' /&gt;" Guid="1a96af37-ad83-4ef5-afc2-4c663a6cad28" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f84b37382b9362c1181b5291e45de20.png" xmlns="">0uhfyFMTFp0uY2FM7Ec4-Dw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

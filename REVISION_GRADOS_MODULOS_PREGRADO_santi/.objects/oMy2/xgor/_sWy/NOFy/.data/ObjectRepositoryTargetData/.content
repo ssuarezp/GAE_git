@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Omcwq4fupEu0__0izeuRwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="345, 300, 72, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Fecha de entrega' role='text' /&gt;" Guid="09c3856b-d799-4ed2-8180-da43cea19628" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0e217f40-a50a-4e21-b515-42bd3d15c581" CvElementArea="345, 254, 71, 20" CvTextArea="361, 258, 38, 13" CvTextArgument="Entrega" CvType="Button" DesignTimeRectangle="345, 254, 72, 20" ElementType="Button" FullSelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Entrega' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Entrega de Documentación' role='internal frame' /&gt;&lt;java name='Entrega' role='push button' check:text='Entrega' /&gt;" Guid="d1cb7e60-806f-4286-b867-3ca7ea02ce77" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1807be7229f8d665985cab32638470d1.png" xmlns="">02d3pwRvU7UqI47jtKDvrQg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

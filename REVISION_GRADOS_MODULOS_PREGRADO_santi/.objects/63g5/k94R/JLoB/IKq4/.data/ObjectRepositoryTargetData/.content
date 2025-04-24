@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2IOVwN_gnkaZWw2pxr80aQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e62fc033-474f-4c0f-9f8f-6f54a8b9051e" CvElementArea="191, 401, 89, 25" CvType="InputBox" DesignTimeRectangle="192, 401, 88, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Datos Proyecto' role='page tab' /&gt;&lt;java name='Ingrese la fecha de aprobación del trabajo de grado, trabajo final o tesis.' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Datos Proyecto' role='page tab' /&gt;&lt;java name='Ingrese la fecha de aprobación del trabajo de grado, trabajo final o tesis.' role='text' /&gt;" Guid="e54ff6a4-6fec-4b72-8d64-5935c4cc68d9" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e62fc033-474f-4c0f-9f8f-6f54a8b9051e" CvTextArea="113, 407, 76, 16" CvTextArgument="F.Aprobación" CvType="Text" DesignTimeRectangle="111, 407, 78, 16" ElementType="Text" Guid="adfb2ffe-eed5-4576-be63-58cda250e123" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d6e25091867d986d92a1dda9ec1d4b3b.png" xmlns="">03RRzUQ3AqUSovEN6IUduSA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

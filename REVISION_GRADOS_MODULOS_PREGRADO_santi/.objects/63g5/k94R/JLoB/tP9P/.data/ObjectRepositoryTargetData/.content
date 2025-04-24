@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nwHxU3-ibUGbDnrpk09qQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="729, 359, 17, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;&lt;java name=' Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;&lt;java name=' Required' role='text' /&gt;" Guid="2555cf08-6507-42f8-8030-156f368c0d2f" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="35c4103e-ceb7-4d66-aec2-78cd20de103c" CvElementArea="726, 338, 21, 18" CvTextArea="728, 342, 15, 9" CvTextArgument="Rol" CvType="Button" DesignTimeRectangle="725, 337, 23, 20" ElementType="Button" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;&lt;java name='Rol' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Directores/Codirectores' role='page tab' /&gt;&lt;java name='Rol' role='push button' check:text='Rol' /&gt;" Guid="92835dcf-f93e-48b2-b6ed-368f82111b34" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="aceec5fcd2aef9f5b33f0f0cf12bbc1e.png" xmlns="">0pg6ggCxMEEapitX3bUQoYg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
