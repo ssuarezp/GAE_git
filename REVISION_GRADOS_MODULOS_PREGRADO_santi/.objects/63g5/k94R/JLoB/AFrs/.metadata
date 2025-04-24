@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Asocia al proyecto una …",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "AFrsv-BufE2bzicEzl1tug",
+  "Reference": "6uRynW9T90a55SY8Kw234w/AFrsv-BufE2bzicEzl1tug",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-04-24T20:51:14.2142399Z",
+  "Updated": "2025-04-24T20:51:14.2142399Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

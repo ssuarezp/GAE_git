@@ -1,0 +1,14 @@
+﻿{
+  "Name": "OK ALT O",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "shCNBE9KxE-e8FvgDXLlxg",
+  "Reference": "6uRynW9T90a55SY8Kw234w/shCNBE9KxE-e8FvgDXLlxg",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-04-24T20:52:22.8613867Z",
+  "Updated": "2025-04-24T20:52:22.8613867Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
