@@ -110,7 +110,7 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="706,3775" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1566,3775" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
     </Sequence.Variables>
@@ -138,7 +138,7 @@
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,544" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\santi\OneDrive - Universidad Nacional de Colombia\ASESOR.xlsm">
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,544" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\santi\OneDrive - Universidad Nacional de Colombia\VARIOS\ARCHIVOS FACILITATIVOS\PLANTILLA REVISIÓN SOLICITUDES SIA.xlsx">
                 <ueab:ExcelApplicationCard.Body>
                   <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                     <ActivityAction.Argument>
@@ -181,7 +181,7 @@
                 <uix:NClick.Target>
                   <uix:TargetAnchorable CVScreenId="03b53d7f-c4ed-4504-8ec7-e17bc9eab9af" ContentHash="ogA2JhR7G0Gczd4LFQw8FA" CvElementArea="106, 56, 23, 23" CvTextArea="117, 66, 8, 9" CvType="Icon" DesignTimeRectangle="105, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Modo introducción criterios de consulta' role='push button' check:text='Modo introducción criterios de consulta' /&gt;" Guid="13d94462-8b00-4c46-84c8-dfd0dade2e6d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADiSURBVEhL7ZPNDcMgDEa9TQ49do3OwU7slJ1oXpEri5qU/EAO7Sc9JSHAw1Yi6aLIPM/pCv7iD+JCiPHFPYQ3jHvzW1kVqxCJotGDeOtaqIprQjvGHBFx13+jKrYt9YQq7SLWdqpID2PHu4i1Oq1aD2ArH9bqLfH2VTa3mohQaQv1bmxuNZGQr2uJy9zdYiu1rbZi5vKcK8z/NdktBisHr2IVlveHxICQA7AJkFqrkSInh8UlpBQzbqVkiLiUkiFiL4MqRpI/Kk03sffOcroYdNMWvPWwS3wGPyh+3KY0nik9AfDso3Jo9JABAAAAAElFTkSuQmCC" InformativeScreenshot="7716e5db9f314649d5418545ed20d9a9.png" Reference="6uRynW9T90a55SY8Kw234w/joH_b8VakUygID-vl-k3mA" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="03b53d7f-c4ed-4504-8ec7-e17bc9eab9af" CvTextArea="62, 37, 76, 14" CvTextArgument="Hojas de vida" CvType="Text" DesignTimeRectangle="58, 31, 85, 24" FullSelectorArgument="&lt;java name='Hojas de vida ALT H' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Hojas de vida ALT H' role='menu' check:text='Hojas de vida ALT H' /&gt;" Guid="f1dcc663-28e2-4afe-9f96-66a2cc66d0f2" SearchSteps="Selector, FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
