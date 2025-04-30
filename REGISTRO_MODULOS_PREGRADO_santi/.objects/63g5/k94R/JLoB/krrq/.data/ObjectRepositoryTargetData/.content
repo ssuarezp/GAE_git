@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h0dOiBZy0k2gl-e8Fg0zdw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ca4e85d0-3f86-443d-b181-2fa8871276bd" CvElementArea="231, 433, 498, 24" CvType="InputBox" DesignTimeRectangle="231, 433, 499, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Conceptos' role='page tab' /&gt;&lt;java name='Valor del concepto' role='text' /&gt;" Guid="41c3d7bf-d81c-44bd-a7c9-a2cf70aa5505" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ca4e85d0-3f86-443d-b181-2fa8871276bd" CvTextArea="105, 439, 112, 13" CvTextArgument="Acto administrativo" CvType="Text" DesignTimeRectangle="45, 434, 173, 24" ElementType="Text" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Conceptos' role='page tab' /&gt;&lt;java idx='4' name='Introduzca un valor para Prompt' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Conceptos' role='page tab' /&gt;&lt;java name='Introduzca un valor para Prompt' role='text' check:text='Acto administrativo' /&gt;" Guid="501aba49-ffe8-4517-9439-abdfee019f19" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e3cc699b7fa40e62e0f0d6adbe06d969.png" xmlns="">0mt9aWVFjHUyyV2fppBEa-g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

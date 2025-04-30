@@ -1,0 +1,14 @@
+﻿{
+  "Name": "text Número del documen…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "9JzayldX5ECCpC3qPHjiKw",
+  "Reference": "6uRynW9T90a55SY8Kw234w/9JzayldX5ECCpC3qPHjiKw",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-03-19T16:21:32.1505297Z",
+  "Updated": "2025-03-19T16:21:32.1505297Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

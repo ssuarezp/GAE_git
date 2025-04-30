@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DirectoresCodirectores",
+  "Type": "Element",
+  "Id": "o_kDPYIovkC7vdZy-AFxPw",
+  "Reference": "6uRynW9T90a55SY8Kw234w/o_kDPYIovkC7vdZy-AFxPw",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-03-19T16:14:04.9305474Z",
+  "Updated": "2025-03-19T16:14:04.9305474Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
