@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Modo introducción crite…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "66L7VnWyU0a1M2Q0MVsVGg",
+  "Reference": "6uRynW9T90a55SY8Kw234w/66L7VnWyU0a1M2Q0MVsVGg",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2025-05-05T19:14:18.0963246Z",
+  "Updated": "2025-05-05T19:14:18.0963246Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
