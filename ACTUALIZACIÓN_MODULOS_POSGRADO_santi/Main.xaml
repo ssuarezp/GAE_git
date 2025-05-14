@@ -110,7 +110,7 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="701,6332" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="723,6332" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
     </Sequence.Variables>
@@ -138,7 +138,7 @@
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,544" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\EstudianteAuxiliar\OneDrive - Universidad Nacional de Colombia\ACTOS &amp; MÓDULOS.xlsm">
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,544" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\santi\OneDrive - Universidad Nacional de Colombia\ACTOS &amp; MÓDULOS.xlsm">
                 <ueab:ExcelApplicationCard.Body>
                   <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                     <ActivityAction.Argument>
@@ -193,7 +193,7 @@
                         <uix:NClick.Target>
                           <uix:TargetAnchorable CVScreenId="4be80e0c-4372-4cb1-add2-439226b4a4b8" ContentHash="__AWAJqJiU-IOzwZjHQrUA" CvElementArea="106, 56, 23, 23" CvTextArea="116, 66, 9, 10" CvType="Icon" DesignTimeRectangle="105, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Modo introducción criterios de consulta' role='push button' check:text='Modo introducción criterios de consulta' /&gt;" Guid="fdd96bae-d004-4cae-9688-66681eab5686" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADiSURBVEhL7ZPNDcMgDEa9TQ49do3OwU7slJ1oXpEri5qU/EAO7Sc9JSHAw1Yi6aLIPM/pCv7iD+JCiPHFPYQ3jHvzW1kVqxCJotGDeOtaqIprQjvGHBFx13+jKrYt9YQq7SLWdqpID2PHu4i1Oq1aD2ArH9bqLfH2VTa3mohQaQv1bmxuNZGQr2uJy9zdYiu1rbZi5vKcK8z/NdktBisHr2IVlveHxICQA7AJkFqrkSInh8UlpBQzbqVkiLiUkiFiL4MqRpI/Kk03sffOcroYdNMWvPWwS3wGPyh+3KY0nik9AfDso3Jo9JABAAAAAElFTkSuQmCC" InformativeScreenshot="ec1d636637094c0bf293ca9e5640aa5d.png" Reference="6uRynW9T90a55SY8Kw234w/Sf8cAc9ye0SChCvxsyk8DA" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="4be80e0c-4372-4cb1-add2-439226b4a4b8" CvTextArea="62, 37, 76, 14" CvTextArgument="Hojas de vida" CvType="Text" DesignTimeRectangle="58, 31, 85, 24" FullSelectorArgument="&lt;java name='Hojas de vida ALT H' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Hojas de vida ALT H' role='menu' check:text='Hojas de vida ALT H' /&gt;" Guid="6ad55c08-afcb-46b2-ae96-dd58ed760cd3" SearchSteps="Selector, FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -214,7 +214,7 @@
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable CVScreenId="21a03789-e17a-4ecd-8234-9c9f5d173330" ContentHash="0ZMLfOMpOU2_vJY19PiDKw" CvElementArea="107, 136, 86, 24" CvType="InputBox" DesignTimeRectangle="108, 137, 85, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Número del documento del alumno.' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Número del documento del alumno.' role='text' /&gt;" Guid="1a89116d-93fc-46f1-8f6e-48ab524bd5fc" InformativeScreenshot="527d9bf0fefa77a5d25682a6d382b343.png" IsResponsive="True" Reference="6uRynW9T90a55SY8Kw234w/WpuFx0muUkmJ6B-IraCKCw" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="21a03789-e17a-4ecd-8234-9c9f5d173330" CvTextArea="42, 143, 63, 13" CvTextArgument="Estudiante" CvType="Text" DesignTimeRectangle="42, 143, 63, 13" ElementType="Text" Guid="d69fb886-743a-44c2-bf62-7f1dec81bcdf" SearchSteps="CV" TargetType="ComputerVisionBased" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -235,7 +235,7 @@
                         <uix:NClick.Target>
                           <uix:TargetAnchorable CVScreenId="21a03789-e17a-4ecd-8234-9c9f5d173330" ContentHash="odKC6CvMYkax0xytek56ug" CvElementArea="107, 161, 74, 25" CvType="InputBox" DesignTimeRectangle="108, 162, 73, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Código del plan de estudios del alumno' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Código del plan de estudios del alumno' role='text' /&gt;" Guid="31772a17-229d-451e-a3df-6bc3139b5f58" InformativeScreenshot="e0c0a4331d8929b765d1e52d1cbd07a0.png" IsResponsive="True" Reference="6uRynW9T90a55SY8Kw234w/8PYDlR44rkaf3xZu6hnvaQ" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="21a03789-e17a-4ecd-8234-9c9f5d173330" CvTextArea="78, 168, 27, 13" CvTextArgument="Plan" CvType="Text" DesignTimeRectangle="78, 168, 27, 13" ElementType="Text" Guid="407f8d3b-2d55-41fc-bb2b-57a593bab771" SearchSteps="CV" TargetType="ComputerVisionBased" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -256,7 +256,7 @@
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable CVScreenId="21a03789-e17a-4ecd-8234-9c9f5d173330" ContentHash="8N02hrY1L0SdP4iS5pVQow" CvElementArea="107, 161, 74, 25" CvType="InputBox" DesignTimeRectangle="108, 162, 73, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Código del plan de estudios del alumno' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Código del plan de estudios del alumno' role='text' /&gt;" Guid="293a8c22-66c9-4e33-a7f8-77d90143a087" InformativeScreenshot="70aa0fdf7597a0baa9a06dcbdd71a9bb.png" IsResponsive="True" Reference="6uRynW9T90a55SY8Kw234w/fQom2YsIKEWtzW0aEqr9Lg" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="21a03789-e17a-4ecd-8234-9c9f5d173330" CvTextArea="78, 168, 27, 13" CvTextArgument="Plan" CvType="Text" DesignTimeRectangle="78, 168, 27, 13" ElementType="Text" Guid="f54d4d94-209f-4a09-ac5e-8f48638ff92f" SearchSteps="CV" TargetType="ComputerVisionBased" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -277,7 +277,7 @@
                         <uix:NClick.Target>
                           <uix:TargetAnchorable CVScreenId="cc460772-22f1-42e4-afc2-99a791537dda" ContentHash="JKGDSTWtfU-7NxdNgtkLpQ" CvElementArea="131, 56, 24, 24" CvTextArea="142, 66, 9, 10" CvType="Icon" DesignTimeRectangle="131, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Ejecutar consulta' role='push button' check:text='Ejecutar consulta' /&gt;" Guid="9b5c7290-a89f-45f8-84e3-cee479c0d65e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD5SURBVEhL7ZNLEoMgEAW5jYssvUbOwZ24k3cittRLphAo8ZdF8qq6jIA0MxoXvxQ3TVP8Bn/xijDjQ1gYvX/DOPPL+wpjwrnV8zWaYgmRCEUHYR0Zg1vYKq+Ka0I7xhqJSI+8KrYtJblQ0kvEaqdEOowdt8Kc1gGaYlWnqnUAWzmbkx4pdLe6FSslpX1Fd6uJc1S6Js0laRo7sdXE+XRtJcxrd4ut1LbailnLfarw87/eLQYrh1LFEua/D4kBIQdgEyC1ViPVuz4sziG5mHErJbeIcym5RVzKTRUjSR+Vcpm4NGc5XQzadAul52GX+Ax+UPx8DPF+hvgC7zl7NKFdkz4AAAAASUVORK5CYII=" InformativeScreenshot="573ff0903ce209ae3e6821ce3e568e70.png" Reference="6uRynW9T90a55SY8Kw234w/44OhstX-1keBwyEXLY70jA" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="cc460772-22f1-42e4-afc2-99a791537dda" CvTextArea="147, 37, 96, 14" CvTextArgument="Homologaciones" CvType="Text" DesignTimeRectangle="143, 31, 105, 24" FullSelectorArgument="&lt;java name='Homologaciones ALT H' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Homologaciones ALT H' role='menu' check:text='Homologaciones ALT H' /&gt;" Guid="6436598b-88c3-4b70-b030-b824f3cd3064" SearchSteps="Selector, FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -298,7 +298,7 @@
                         <uix:NClick.Target>
                           <uix:TargetAnchorable CVScreenId="93478f3e-4446-4d51-a2ef-8b096fd64d40" ContentHash="_od7kuQL4U6OKkJtSXktTg" CvElementArea="106, 186, 542, 25" CvType="InputBox" DesignTimeRectangle="110, 188, 537, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Ingrese el titulo del trabajo de grado, trabajo final o tesis. Multiline' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Valores del proyecto' role='internal frame' /&gt;&lt;java name='Ingrese el titulo del trabajo de grado, trabajo final o tesis. Multiline' role='text' /&gt;" Guid="e9691e24-1d4a-427d-9dd9-4311156f0661" InformativeScreenshot="3fdf627212f53ef778582f4416608d25.png" IsResponsive="True" Reference="6uRynW9T90a55SY8Kw234w/09oKlLdwv0q-4ywRfhNIJg" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="93478f3e-4446-4d51-a2ef-8b096fd64d40" CvTextArea="75, 189, 33, 13" CvTextArgument="Título" CvType="Text" DesignTimeRectangle="75, 189, 33, 13" ElementType="Text" Guid="31f68bed-87cd-4f6f-9cbb-9ca98968d81d" SearchSteps="CV" TargetType="ComputerVisionBased" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -553,7 +553,7 @@
                         <uix:NClick.Target>
                           <uix:TargetAnchorable CVScreenId="09a4fbcc-2451-4e41-8329-ec1f529c0003" ContentHash="Civ2iXSGfkSXxZwi-lcadg" CvElementArea="106, 56, 23, 23" CvTextArea="116, 66, 9, 9" CvType="Icon" DesignTimeRectangle="105, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Modo introducción criterios de consulta' role='push button' check:text='Modo introducción criterios de consulta' /&gt;" Guid="3093a461-fc52-474c-bc39-afb79224450f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADiSURBVEhL7ZPNDcMgDEa9TQ49do3OwU7slJ1oXpEri5qU/EAO7Sc9JSHAw1Yi6aLIPM/pCv7iD+JCiPHFPYQ3jHvzW1kVqxCJotGDeOtaqIprQjvGHBFx13+jKrYt9YQq7SLWdqpID2PHu4i1Oq1aD2ArH9bqLfH2VTa3mohQaQv1bmxuNZGQr2uJy9zdYiu1rbZi5vKcK8z/NdktBisHr2IVlveHxICQA7AJkFqrkSInh8UlpBQzbqVkiLiUkiFiL4MqRpI/Kk03sffOcroYdNMWvPWwS3wGPyh+3KY0nik9AfDso3Jo9JABAAAAAElFTkSuQmCC" InformativeScreenshot="ecb89472bda393d73384255562642abc.png" Reference="6uRynW9T90a55SY8Kw234w/66L7VnWyU0a1M2Q0MVsVGg" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="09a4fbcc-2451-4e41-8329-ec1f529c0003" CvTextArea="62, 37, 76, 14" CvTextArgument="Hojas de vida" CvType="Text" DesignTimeRectangle="58, 31, 85, 24" FullSelectorArgument="&lt;java name='Hojas de vida ALT H' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Hojas de vida ALT H' role='menu' check:text='Hojas de vida ALT H' /&gt;" Guid="c62404a8-82a0-4fe6-8aae-0bc7a38b030a" SearchSteps="Selector, FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
