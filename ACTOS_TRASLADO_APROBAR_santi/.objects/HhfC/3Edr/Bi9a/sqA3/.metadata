@@ -1,0 +1,14 @@
+﻿{
+  "Name": "text Código del efecto …(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "sqA3z7g12USCJQnHx2ai-w",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/sqA3z7g12USCJQnHx2ai-w",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/Bi9aA4vTh0aTQvXPlEI9IQ",
+  "Created": "2025-06-12T14:08:09.3939061Z",
+  "Updated": "2025-06-12T14:08:09.3939061Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

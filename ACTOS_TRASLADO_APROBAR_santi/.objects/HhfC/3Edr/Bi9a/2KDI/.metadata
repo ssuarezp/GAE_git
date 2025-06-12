@@ -1,0 +1,14 @@
+﻿{
+  "Name": "text Fecha de aprobación",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "2KDItpGArk2-AoR6zQebFQ",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/2KDItpGArk2-AoR6zQebFQ",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/Bi9aA4vTh0aTQvXPlEI9IQ",
+  "Created": "2025-03-05T18:45:43.6814462Z",
+  "Updated": "2025-03-05T18:45:43.6814462Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

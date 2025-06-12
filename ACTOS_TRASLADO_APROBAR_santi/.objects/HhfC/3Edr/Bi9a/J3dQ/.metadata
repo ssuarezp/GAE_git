@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Efectos",
+  "Type": "Element",
+  "Id": "J3dQ0bDXA0il3qNN9pFWDQ",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/J3dQ0bDXA0il3qNN9pFWDQ",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/Bi9aA4vTh0aTQvXPlEI9IQ",
+  "Created": "2025-06-12T14:07:24.8492872Z",
+  "Updated": "2025-06-12T14:07:24.8492872Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
