@@ -110,7 +110,7 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="723,4952" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1309,4952" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
     </Sequence.Variables>
@@ -137,7 +137,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,544" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\santi\OneDrive - Universidad Nacional de Colombia\ACTOS &amp; MÓDULOS.xlsm">
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,544" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="G:\Mi unidad\GAE\ACTOS &amp; MÓDULOS.xlsm">
                 <ueab:ExcelApplicationCard.Body>
                   <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                     <ActivityAction.Argument>
