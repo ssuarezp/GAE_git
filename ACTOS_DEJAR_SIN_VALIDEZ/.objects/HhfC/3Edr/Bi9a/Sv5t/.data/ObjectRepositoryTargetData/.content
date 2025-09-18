@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xDmLgEJyeUyJQGUiH84iEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ecc81bf9-d796-48d0-b47c-cb6c559ac591" CvElementArea="663, 524, 109, 28" CvType="Button" DesignTimeRectangle="671, 526, 22, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java cls='VButton' role='push button' /&gt;" Guid="26c247ad-3c83-4830-8b72-45c081dfed41" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ecc81bf9-d796-48d0-b47c-cb6c559ac591" CvElementArea="663, 524, 109, 28" CvTextArea="700, 532, 65, 13" CvTextArgument="Resolución" CvType="Button" DesignTimeRectangle="663, 524, 109, 28" ElementType="Button" Guid="80354c72-5166-4e93-83e0-f2809764d0fe" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c3f50f6e686056df6584cee065d58ddd.png" xmlns="">0L1eR3b-u0U2VbgJ4aTo75Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

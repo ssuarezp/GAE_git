@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="02RL2xNdX0G1oCsxjj1P9A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="4aed5bb1-cd4d-45be-8a9f-13d0ec097171" CvElementArea="33, 401, 720, 109" CvType="InputBox" DesignTimeRectangle="35, 403, 718, 107" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name=' Multiline' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name=' Multiline' role='text' check:text='Mejores promedios 2017-03' /&gt;" Guid="613242d7-c611-4656-b04d-671bb4a2a0ac" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4aed5bb1-cd4d-45be-8a9f-13d0ec097171" CvTextArea="52, 362, 267, 15" CvTextArgument="Justificación del cambio de Estado" CvType="Text" DesignTimeRectangle="52, 362, 267, 15" ElementType="Text" Guid="c03e88e6-9ffb-4316-b4ca-83d59ed46ae7" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b06dbb8432382ea6c98b4f62dc98a92f.png" xmlns="">0WzUt4WlGFkiysFEGkJuO4Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

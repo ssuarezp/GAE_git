@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mejores promedios 2017-…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "lFJgsVMn9UupQG-w2RWHOQ",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/lFJgsVMn9UupQG-w2RWHOQ",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/Bi9aA4vTh0aTQvXPlEI9IQ",
+  "Created": "2025-09-18T16:51:55.0430646Z",
+  "Updated": "2025-09-18T16:51:55.0430646Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Sc9RU68X10-_Z58pT8BOig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="61e41e02-5a09-48a8-aad4-f4ea958ecda4" CvElementArea="43, 57, 22, 22" CvType="Icon" DesignTimeRectangle="41, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Grabar' role='push button' check:text='Grabar' /&gt;" Guid="d4e78d17-1833-4a9d-a022-6be084e32f93" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEcSURBVEhL7ZPBDcMgDEXZJoces0bnYCd2YifKRxg5xBhDpfbQRnoiCdTPn1CXvnS5GGP6Bn+xSvCuIc2vsCR2Lp/F6HE0ihzP0joLZjFEJE0Bf4YsDyF577caMItLWkiZGFJcmF9twCSW0nJpWZPTY7Q2YBJf0lY5F0N6nmcZy9rc5OwMTMWXtB0oTMUpMW8Sv+W1OFMxL1S2uW41hxro1+JZqglUsfRt273QQKNutVSTUMW3tLw4vRu819KCoXiYVoLPG9ICXYyCkFNhaqQfuTjfz9ICVVy2muScXs4as6QF6jcGtwYkKcZ6b0kLpmJiuAPs2ZoWmMXEpYHNtGBZTLQGqnQlLdgWExBSE9L8iLfFu/yg+Pk40uc50gupPIbCFpapXQAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="61e41e02-5a09-48a8-aad4-f4ea958ecda4" CvTextArea="91, 36, 103, 13" CvTextArgument="Actos Académicos" CvType="Text" DesignTimeRectangle="88, 31, 111, 24" FullSelectorArgument="&lt;java name='Actos Académicos ALT A' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Actos Académicos ALT A' role='menu' check:text='Actos Académicos ALT A' /&gt;" Guid="ac8fea32-b6a7-48f7-ac30-2a0d52e19fec" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="78d6645fe6033a272ef28cb87468a8c3.png" xmlns="">0yzMBCj0Gh02QWZtMXWcXUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
