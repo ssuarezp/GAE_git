@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Fecha de aprobación",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "NmIXcN6ZiE68X3Tw7gLJ2g",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/NmIXcN6ZiE68X3Tw7gLJ2g",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-20T21:21:03.3902285Z",
+  "Updated": "2025-10-20T21:21:03.3902285Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
