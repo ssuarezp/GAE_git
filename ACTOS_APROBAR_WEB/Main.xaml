@@ -47,6 +47,9 @@
       <x:String>UiPath.CV</x:String>
       <x:String>UiPath.CV.Activities</x:String>
       <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.Semantic.Activities</x:String>
+      <x:String>UiPath.Semantic.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Design.SWEntities.fd01231291612.Bundle</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -109,9 +112,10 @@
       <AssemblyReference>UiPath.CV</AssemblyReference>
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
       <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>fd01231291612.2BrlU3Bz8ZP1usCrl2ij9gb4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1333,3283" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1333,3056" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
     </Sequence.Variables>
@@ -120,7 +124,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="614,3260" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence sap:VirtualizedContainerService.HintSize="614,3033" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -174,13 +178,13 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ueab:ExcelProcessScopeX>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Actos académicos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580,2417" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Actos académicos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580,2190" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,2176" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1949" sap2010:WorkflowViewState.IdRef="Sequence_9">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -207,13 +211,13 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="452,1887" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="452,1660" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,1712" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,1485" sap2010:WorkflowViewState.IdRef="Sequence_10">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -244,7 +248,7 @@
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="c92ddf31-45ab-4841-8562-88cefe655d9b" ContentHash="G4hGqy1jW0uRQO9eu1uABg" CvElementArea="804, 386, 541, 45" CvType="InputBox" DesignTimeRectangle="807, 387, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_ASUNTO' tag='INPUT' type='text' class='text_field apex-item-text' aaname='Asunto' /&gt;" Guid="6647434c-dc8f-454b-a3bb-3523b3bd5fd9" InformativeScreenshot="ed214f5b521d39de493d110df3d40862.png" Reference="E_WsyKu0Yke1l9rBDikF6w/Y7cSzWMUtU6Swjfd6_zidA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="c92ddf31-45ab-4841-8562-88cefe655d9b" CvElementArea="804, 386, 541, 45" CvType="InputBox" DesignTimeRectangle="807, 387, 53, 43" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Asunto' tag='LABEL' type='' class='t-Form-label' check:innerText='Asunto' /&gt;" Guid="cd21bddd-014b-4cda-bc59-353d5c00d35c" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -265,7 +269,7 @@
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="cbc0c974-12c3-4660-b759-148144bd1f58" ContentHash="nLXcsh8ue02orjGeBZZoyA" CvElementArea="1635, 386, 228, 45" CvType="InputBox" DesignTimeRectangle="1636, 387, 227, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_DATAPROBACION' tag='INPUT' type='text' class='datepicker apex-item-text apex-item-datepicker hasDatepicker' aaname='Fecha de aprobación' /&gt;" Guid="9e683440-2e6c-485d-ad1e-66d81d8ec4a7" InformativeScreenshot="34f9517da25e323d940db0ef83b779e2.png" Reference="E_WsyKu0Yke1l9rBDikF6w/NmIXcN6ZiE68X3Tw7gLJ2g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="cbc0c974-12c3-4660-b759-148144bd1f58" CvElementArea="1635, 386, 228, 45" CvType="InputBox" DesignTimeRectangle="1636, 387, 105, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha de aprobación' tag='LABEL' type='' class='t-Form-label' check:innerText='Fecha de aprobación' /&gt;" Guid="a78bf299-1db4-4970-9a78-d7aa56c5e378" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -292,7 +296,7 @@
                         <uix:NSelectItem.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="c734033f-3e75-4ce2-b38c-bf50d95759c0" ContentHash="otbxN_hkbkuz_WZnolXe1w" CvElementArea="254, 443, 538, 46" CvType="InputBox" DesignTimeRectangle="254, 444, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='selectlist apex-item-select' aaname='Tipo de contestación (Valor Necesario)' /&gt;" Guid="97672d3a-0018-4a25-b76b-c38afa8f4564" InformativeScreenshot="48f5cebc3da7b1b9b25d2b06f328f090.png" Reference="E_WsyKu0Yke1l9rBDikF6w/UvXrrj6FPUydAqTLfNE7dQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="c734033f-3e75-4ce2-b38c-bf50d95759c0" CvElementArea="254, 443, 538, 46" CvType="InputBox" DesignTimeRectangle="254, 444, 105, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tipo de contestación ' tag='LABEL' type='' class='t-Form-label' check:innerText='Tipo de contestación&amp;#xA;(Valor Necesario)' /&gt;" Guid="19e04f5d-2f00-45cc-828c-cc5938d76d42" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -318,14 +322,14 @@
                         <uix:NSelectItem.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="42942da9-f681-458e-b7bf-0a9f478fb2b5" ContentHash="D7Ifd6LVXE2WgDQ6E4PbnQ" CvElementArea="805, 443, 540, 46" CvType="InputBox" DesignTimeRectangle="807, 444, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_TSO_CODALF' tag='SELECT' type='' class='selectlist apex-item-select' aaname='Tipo de solicitud (Valor Necesario)' /&gt;" Guid="731851be-2fe5-4ad2-b866-83ab1154ecef" InformativeScreenshot="6201cc53bdba335be885dc73222f135d.png" Reference="E_WsyKu0Yke1l9rBDikF6w/cC5uT6I8XkKAt4itZUPKzA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="42942da9-f681-458e-b7bf-0a9f478fb2b5" CvElementArea="805, 443, 540, 46" CvType="InputBox" DesignTimeRectangle="807, 444, 86, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tipo de solicitud ' tag='LABEL' type='' class='t-Form-label' check:innerText='Tipo de solicitud&amp;#xA;(Valor Necesario)' /&gt;" Guid="e4530c7d-3a83-4a39-8d4a-270083aa2691" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
                           </uix:TargetAnchorable>
                         </uix:NSelectItem.Target>
                       </uix:NSelectItem>
-                      <uix:NSelectItem DisplayName="Select Item 'Subtipo de solicitud (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="[CARGAMIN] Autorización para inscribir menos de los créditos mínimos exigidos" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                      <uix:NSelectItem DisplayName="Select Item 'Subtipo de solicitud (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="[CARGAMIN] Autorización para inscribir menos de los créditos mínimos exigidos" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NSelectItem.Items>
                           <scg:List x:TypeArguments="x:String" Capacity="36">
                             <x:String>-- Seleccione un subtipo de solicitud --</x:String>
@@ -369,34 +373,13 @@
                         <uix:NSelectItem.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="edb243ab-6761-4da3-81af-f68cfca32cf5" ContentHash="USNw1hE19E2wFxW0jiUTcg" CvElementArea="1359, 443, 538, 46" CvType="InputBox" DesignTimeRectangle="1360, 444, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_STS_CODALF' tag='SELECT' type='' class='selectlist apex-item-select' aaname='Subtipo de solicitud (Valor Necesario)' /&gt;" Guid="02ae2055-488e-49a3-bdaa-a15fa5c8a974" InformativeScreenshot="f151123188c90b340f5203ca9dfc0a5f.png" Reference="E_WsyKu0Yke1l9rBDikF6w/XtaGmLmRpk-bElJPV19iWg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="edb243ab-6761-4da3-81af-f68cfca32cf5" CvElementArea="1359, 443, 538, 46" CvType="InputBox" DesignTimeRectangle="1360, 444, 101, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Subtipo de solicitud ' tag='LABEL' type='' class='t-Form-label' check:innerText='Subtipo de solicitud&amp;#xA;(Valor Necesario)' /&gt;" Guid="5ccb1bef-89ff-484e-a667-b94db4c9b718" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
                           </uix:TargetAnchorable>
                         </uix:NSelectItem.Target>
                       </uix:NSelectItem>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON I_1001_SOLICITUD…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
-                        <uix:NClick.Target>
-                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" ContentHash="tieJzIATUUq2H7IqFYkMJg" DesignTimeRectangle="756, 502, 36, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl type='button' tabindex='-1' tag='BUTTON' class='a-Button a-Button--popupLOV' aaname='' /&gt;" Guid="8e865e81-9c0c-423a-80ef-f7c26f7a3cb5" InformativeScreenshot="484c55fda45f6a18de651bc6f5802122.png" Reference="E_WsyKu0Yke1l9rBDikF6w/tr-yLztuRUGWo3NHyNW8vg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
-                            <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                                <uix:Target CVScreenId="975b2b7c-3d7f-4677-8c2e-26d4c02d6039" CvElementArea="254, 500, 532, 46" CvType="InputBox" DesignTimeRectangle="254, 502, 503, 43" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Centro' aria-role='combobox' tag='INPUT' type='text' class='popup_lov apex-item-text apex-item-popup-lov' /&gt;" Guid="c074c237-5863-4c71-af03-f0266a823726" SearchSteps="FuzzySelector, CV" />
-                              </scg:List>
-                            </uix:TargetAnchorable.Anchors>
-                          </uix:TargetAnchorable>
-                        </uix:NClick.Target>
-                        <uix:NClick.VerifyOptions>
-                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                            <uix:VerifyExecutionOptions.Retry>
-                              <InArgument x:TypeArguments="x:Boolean" />
-                            </uix:VerifyExecutionOptions.Retry>
-                            <uix:VerifyExecutionOptions.Timeout>
-                              <InArgument x:TypeArguments="x:Double" />
-                            </uix:VerifyExecutionOptions.Timeout>
-                          </uix:VerifyExecutionOptions>
-                        </uix:NClick.VerifyOptions>
-                      </uix:NClick>
                     </Sequence>
                   </ActivityAction>
                 </ui:ForEachRow.Body>
