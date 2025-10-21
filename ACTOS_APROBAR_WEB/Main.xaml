@@ -50,6 +50,7 @@
       <x:String>UiPath.Semantic.Activities</x:String>
       <x:String>UiPath.Semantic.Activities.Models</x:String>
       <x:String>UiPath.UIAutomationNext.Activities.Design.SWEntities.fd01231291612.Bundle</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -115,7 +116,7 @@
       <AssemblyReference>fd01231291612.2BrlU3Bz8ZP1usCrl2ij9gb4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1333,3056" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1333,8434" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
     </Sequence.Variables>
@@ -124,14 +125,14 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="614,3033" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence sap:VirtualizedContainerService.HintSize="622,8411" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="580,760" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+      <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="588,760" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
         <ueab:ExcelProcessScopeX.Body>
           <ActivityAction x:TypeArguments="ui:IExcelProcess">
             <ActivityAction.Argument>
@@ -178,52 +179,73 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ueab:ExcelProcessScopeX>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Actos académicos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580,2190" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Actos académicos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588,7568" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1949" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554,7327" sap2010:WorkflowViewState.IdRef="Sequence_9">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Crear'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,227" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
-                <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="6999f0d6-19ae-4123-8126-3f3852d86ffe" ContentHash="eFeT9qadz06RCuBN5b0M7w" CvElementArea="1837, 223, 64, 39" CvTextArea="1851, 236, 35, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1838, 225, 61, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Crear' tag='BUTTON' type='button' class='t-Button t-Button--hot js-ignoreChange t-Button--large' check:innerText='Crear' /&gt;" Guid="5e4ba462-ceb5-4451-9fcf-8c85f8634fe2" InformativeScreenshot="583321c6d441ababbdb7c13541584b53.png" Reference="E_WsyKu0Yke1l9rBDikF6w/7_P1rbfmqEu3eczhDs5IHQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Actos académicos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                    <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="6999f0d6-19ae-4123-8126-3f3852d86ffe" CvElementArea="1837, 223, 64, 39" CvTextArea="1851, 236, 35, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1853, 234, 31, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Crear' class='t-Button-label' tag='SPAN' type='' check:innerText='Crear' /&gt;" Guid="ae81121a-5259-44b0-8d78-d8ef5fd0deb0" SearchSteps="FuzzySelector, CV" />
-                      </scg:List>
-                    </uix:TargetAnchorable.Anchors>
-                  </uix:TargetAnchorable>
-                </uix:NClick.Target>
-                <uix:NClick.VerifyOptions>
-                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                    <uix:VerifyExecutionOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionOptions.Retry>
-                    <uix:VerifyExecutionOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionOptions.Timeout>
-                  </uix:VerifyExecutionOptions>
-                </uix:NClick.VerifyOptions>
-              </uix:NClick>
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="452,1660" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="520,7265" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,1485" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518,7090" sap2010:WorkflowViewState.IdRef="Sequence_10">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Documento (Valor Necesa…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_19" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;DOCUMENTO&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Actos académicos'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_36" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="47760eb0-63f0-47aa-94fc-85a40a63e7df" ContentHash="1ggwQ1bA00mJYoKaoyncaQ" CvTextArea="46, 244, 108, 13" CvTextArgument="Actos académicos" CvType="Text" DesignTimeRectangle="8, 231, 216, 39" DesignTimeScaleFactor="0.8999999761581421" FuzzySelectorArgument="&lt;webctrl aria-role='none' type='' parentid='t_TreeNav_1' tag='DIV' class='a-TreeView-content is-selected is-current--top' aaname='' check:innerText='Actos académicos' /&gt;" Guid="6089f9a7-e43b-4959-9a83-4c3cb8fbf70c" InformativeScreenshot="7d2119009ebae6f9ac6739d4e806b507.png" Reference="E_WsyKu0Yke1l9rBDikF6w/dKrcePt1RUO5foYNxJ141w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Actos académicos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="47760eb0-63f0-47aa-94fc-85a40a63e7df" CvTextArea="46, 244, 108, 13" CvTextArgument="Actos académicos" CvType="Text" DesignTimeRectangle="48, 231, 176, 39" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='t_TreeNav_1' tag='A' type='' class='a-TreeView-label is-current' aaname='Actos académicos' check:innerText='Actos académicos' /&gt;" Guid="1aa95fc7-38cc-4b59-9728-76447bff7620" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Crear'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="6999f0d6-19ae-4123-8126-3f3852d86ffe" ContentHash="eFeT9qadz06RCuBN5b0M7w" CvElementArea="1837, 223, 64, 39" CvTextArea="1851, 236, 35, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1838, 225, 61, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Crear' tag='BUTTON' type='button' class='t-Button t-Button--hot js-ignoreChange t-Button--large' check:innerText='Crear' /&gt;" Guid="5e4ba462-ceb5-4451-9fcf-8c85f8634fe2" InformativeScreenshot="583321c6d441ababbdb7c13541584b53.png" Reference="E_WsyKu0Yke1l9rBDikF6w/7_P1rbfmqEu3eczhDs5IHQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Actos académicos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="6999f0d6-19ae-4123-8126-3f3852d86ffe" CvElementArea="1837, 223, 64, 39" CvTextArea="1851, 236, 35, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1853, 234, 31, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Crear' class='t-Button-label' tag='SPAN' type='' check:innerText='Crear' /&gt;" Guid="ae81121a-5259-44b0-8d78-d8ef5fd0deb0" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Documento (Valor Necesa…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_19" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;DOCUMENTO&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="fb0eca8a-38de-454a-9ba2-9396a028d2d8" ContentHash="0hKK6c5xHUWE3kgZTbYUUw" CvElementArea="251, 314, 268, 45" CvType="InputBox" DesignTimeRectangle="254, 315, 227, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='popup_lov apex-item-text apex-item-popup-lov' aaname='Documento (Valor Necesario)' /&gt;" Guid="f6956402-309c-411a-aadc-7e5fed0b2751" InformativeScreenshot="c4be49ed6b60a8d41d0a6f542266ec89.png" Reference="E_WsyKu0Yke1l9rBDikF6w/iIwrm6zhdUaSqpnlUruilA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -244,7 +266,7 @@
                           </uix:VerifyExecutionTypeIntoOptions>
                         </uix:NTypeInto.VerifyOptions>
                       </uix:NTypeInto>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Asunto'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_21" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;TIPO SOLICITUD&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Asunto'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_21" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;TIPO SOLICITUD&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="c92ddf31-45ab-4841-8562-88cefe655d9b" ContentHash="G4hGqy1jW0uRQO9eu1uABg" CvElementArea="804, 386, 541, 45" CvType="InputBox" DesignTimeRectangle="807, 387, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_ASUNTO' tag='INPUT' type='text' class='text_field apex-item-text' aaname='Asunto' /&gt;" Guid="6647434c-dc8f-454b-a3bb-3523b3bd5fd9" InformativeScreenshot="ed214f5b521d39de493d110df3d40862.png" Reference="E_WsyKu0Yke1l9rBDikF6w/Y7cSzWMUtU6Swjfd6_zidA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -265,7 +287,7 @@
                           </uix:VerifyExecutionTypeIntoOptions>
                         </uix:NTypeInto.VerifyOptions>
                       </uix:NTypeInto>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Fecha de aprobación'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_22" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;FECHA APROBACIÓN&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Fecha de aprobación'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_22" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;FECHA APROBACIÓN&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="cbc0c974-12c3-4660-b759-148144bd1f58" ContentHash="nLXcsh8ue02orjGeBZZoyA" CvElementArea="1635, 386, 228, 45" CvType="InputBox" DesignTimeRectangle="1636, 387, 227, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_DATAPROBACION' tag='INPUT' type='text' class='datepicker apex-item-text apex-item-datepicker hasDatepicker' aaname='Fecha de aprobación' /&gt;" Guid="9e683440-2e6c-485d-ad1e-66d81d8ec4a7" InformativeScreenshot="34f9517da25e323d940db0ef83b779e2.png" Reference="E_WsyKu0Yke1l9rBDikF6w/NmIXcN6ZiE68X3Tw7gLJ2g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -286,7 +308,7 @@
                           </uix:VerifyExecutionTypeIntoOptions>
                         </uix:NTypeInto.VerifyOptions>
                       </uix:NTypeInto>
-                      <uix:NSelectItem DisplayName="Select Item 'Tipo de contestación (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Actos Académicos" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                      <uix:NSelectItem DisplayName="Select Item 'Tipo de contestación (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Actos Académicos" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NSelectItem.Items>
                           <scg:List x:TypeArguments="x:String" Capacity="2">
                             <x:String>-- Seleccione un tipo de contestación --</x:String>
@@ -303,7 +325,7 @@
                           </uix:TargetAnchorable>
                         </uix:NSelectItem.Target>
                       </uix:NSelectItem>
-                      <uix:NSelectItem DisplayName="Select Item 'Tipo de solicitud (Valo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[SOLEST] Solicitudes Estudiantiles" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Tipo de solicitud (Valo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_12" Item="[SOLEST] Solicitudes Estudiantiles" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NSelectItem.Items>
                           <scg:List x:TypeArguments="x:String" Capacity="11">
                             <x:String>-- Seleccione un tipo de solicitud --</x:String>
@@ -320,16 +342,16 @@
                           </scg:List>
                         </uix:NSelectItem.Items>
                         <uix:NSelectItem.Target>
-                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="42942da9-f681-458e-b7bf-0a9f478fb2b5" ContentHash="D7Ifd6LVXE2WgDQ6E4PbnQ" CvElementArea="805, 443, 540, 46" CvType="InputBox" DesignTimeRectangle="807, 444, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_TSO_CODALF' tag='SELECT' type='' class='selectlist apex-item-select' aaname='Tipo de solicitud (Valor Necesario)' /&gt;" Guid="731851be-2fe5-4ad2-b866-83ab1154ecef" InformativeScreenshot="6201cc53bdba335be885dc73222f135d.png" Reference="E_WsyKu0Yke1l9rBDikF6w/cC5uT6I8XkKAt4itZUPKzA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="f9d5c432-55f3-4f5e-a757-5f51e070533c" ContentHash="TM5r6MZhIkKbZm_eYW4nzw" CvElementArea="805, 442, 540, 46" CvType="InputBox" DesignTimeRectangle="807, 444, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_TSO_CODALF' tag='SELECT' type='' class='selectlist apex-item-select' aaname='Tipo de solicitud (Valor Necesario)' /&gt;" Guid="2e617003-70be-4536-b312-d6ca6130809b" InformativeScreenshot="1edb5ee5685ff582b249f311cb2f4049.png" Reference="E_WsyKu0Yke1l9rBDikF6w/rCiOVimQ-Ui_NuWVGBtYqA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
                               <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target CVScreenId="42942da9-f681-458e-b7bf-0a9f478fb2b5" CvElementArea="805, 443, 540, 46" CvType="InputBox" DesignTimeRectangle="807, 444, 86, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tipo de solicitud ' tag='LABEL' type='' class='t-Form-label' check:innerText='Tipo de solicitud&amp;#xA;(Valor Necesario)' /&gt;" Guid="e4530c7d-3a83-4a39-8d4a-270083aa2691" SearchSteps="FuzzySelector, CV" />
+                                <uix:Target CVScreenId="f9d5c432-55f3-4f5e-a757-5f51e070533c" CvElementArea="805, 442, 540, 46" CvType="InputBox" DesignTimeRectangle="807, 444, 86, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tipo de solicitud ' tag='LABEL' type='' class='t-Form-label' check:innerText='Tipo de solicitud&amp;#xA;(Valor Necesario)' /&gt;" Guid="b3fa72dc-6bff-4f1d-ac4b-f18b3f1e15b6" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
                           </uix:TargetAnchorable>
                         </uix:NSelectItem.Target>
                       </uix:NSelectItem>
-                      <uix:NSelectItem DisplayName="Select Item 'Subtipo de solicitud (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="[CARGAMIN] Autorización para inscribir menos de los créditos mínimos exigidos" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Subtipo de solicitud (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_13" Item="[INSASIG] Inscripción asignaturas o activ acad con posterioridad período inscripción" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NSelectItem.Items>
                           <scg:List x:TypeArguments="x:String" Capacity="36">
                             <x:String>-- Seleccione un subtipo de solicitud --</x:String>
@@ -371,15 +393,442 @@
                           </scg:List>
                         </uix:NSelectItem.Items>
                         <uix:NSelectItem.Target>
-                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="edb243ab-6761-4da3-81af-f68cfca32cf5" ContentHash="USNw1hE19E2wFxW0jiUTcg" CvElementArea="1359, 443, 538, 46" CvType="InputBox" DesignTimeRectangle="1360, 444, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_STS_CODALF' tag='SELECT' type='' class='selectlist apex-item-select' aaname='Subtipo de solicitud (Valor Necesario)' /&gt;" Guid="02ae2055-488e-49a3-bdaa-a15fa5c8a974" InformativeScreenshot="f151123188c90b340f5203ca9dfc0a5f.png" Reference="E_WsyKu0Yke1l9rBDikF6w/XtaGmLmRpk-bElJPV19iWg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="820a5a17-6d80-4668-965e-700974d885f3" ContentHash="kl0JXmyu9UyFRMaVDjHEAw" CvElementArea="1362, 443, 534, 45" CvType="InputBox" DesignTimeRectangle="1360, 444, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_STS_CODALF' tag='SELECT' type='' class='selectlist apex-item-select' aaname='Subtipo de solicitud (Valor Necesario)' /&gt;" Guid="367084ec-14d0-4f73-b6e0-f81eccc6f75b" InformativeScreenshot="2ccc55153a70a558c4e67f2e1712fecf.png" Reference="E_WsyKu0Yke1l9rBDikF6w/irInPWK9dEuJRplMb39f_Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
                               <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target CVScreenId="edb243ab-6761-4da3-81af-f68cfca32cf5" CvElementArea="1359, 443, 538, 46" CvType="InputBox" DesignTimeRectangle="1360, 444, 101, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Subtipo de solicitud ' tag='LABEL' type='' class='t-Form-label' check:innerText='Subtipo de solicitud&amp;#xA;(Valor Necesario)' /&gt;" Guid="5ccb1bef-89ff-484e-a667-b94db4c9b718" SearchSteps="FuzzySelector, CV" />
+                                <uix:Target CVScreenId="820a5a17-6d80-4668-965e-700974d885f3" CvElementArea="1362, 443, 534, 45" CvType="InputBox" DesignTimeRectangle="1360, 444, 101, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Subtipo de solicitud ' tag='LABEL' type='' class='t-Form-label' check:innerText='Subtipo de solicitud&amp;#xA;(Valor Necesario)' /&gt;" Guid="7e9c0168-309c-4622-af37-64f736638f6d" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
                           </uix:TargetAnchorable>
                         </uix:NSelectItem.Target>
                       </uix:NSelectItem>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'BUTTON I_1001_SOLICITUD…(6)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_30" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="FACULTAD DE MINAS" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" ContentHash="23BrH-3CTUS3HDZFfo0kKw" DesignTimeRectangle="756, 502, 36, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl type='button' tabindex='-1' tag='BUTTON' class='a-Button a-Button--popupLOV' aaname='' /&gt;" Guid="30d39d80-27c0-47db-8a07-5b6daab1101c" InformativeScreenshot="5f5de3a5d0dc135c516b18fdd8d1fcd5.png" Reference="E_WsyKu0Yke1l9rBDikF6w/f4CD3QJNx0qf4XMgJMvIeQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="74d348b9-e226-4a70-836e-eca421ec3496" CvElementArea="252, 500, 536, 46" CvType="InputBox" DesignTimeRectangle="254, 502, 503, 43" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Centro' aria-role='combobox' tag='INPUT' type='text' class='popup_lov apex-item-text apex-item-popup-lov' /&gt;" Guid="186a3f1d-27b7-4a12-91aa-e91746c1e020" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Utilizar Navegador Chrome: Acto académico" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,560" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="3564a8fd-0ad4-4ee0-99e3-ac67021fcb6c" Version="V2">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,310" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,248" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" ScopeIdentifier="3564a8fd-0ad4-4ee0-99e3-ac67021fcb6c" Shortcuts="[d(hk)][k(tab)][u(hk)][d(hk)][k(enter)][u(hk)][d(hk)][k(tab)][u(hk)][d(hk)][k(tab)][u(hk)][d(hk)][k(enter)][u(hk)]" Version="V4">
+                                <uix:NKeyboardShortcuts.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NKeyboardShortcuts.VerifyOptions>
+                              </uix:NKeyboardShortcuts>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="-8, -8, 1936, 1066" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="80fbc529c12e266c8ff6a87e2e79e3a5.jpg" Selector="&lt;html app='chrome.exe' title='Acto académico' /&gt;" Url="https://sia.unal.edu.co/ac_app/f?p=400000:1001:::YES:1001::&amp;cs=3oOXT_yDlTk5KV6FOjRXRsLo8zxzK80XR_NSN5SsR7I5QzuWVKhE18JeLPPZaePanyQ_GprQ8Be4gIl9YkAcO7A" Version="V2" />
+                        </uix:NApplicationCard.TargetApp>
+                      </uix:NApplicationCard>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'BUTTON I_1001_SOLICITUD…(4)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_24" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;CÓDIGO PLAN&quot;).ToString()]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="a6d06ccf-2576-4848-9a58-1c6500dbb180" ContentHash="Ldk7UdFQzE6T4-C61e8Ptw" CvElementArea="1286, 501, 39, 45" CvType="Button" DesignTimeRectangle="1288, 502, 36, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl type='button' tabindex='-1' tag='BUTTON' class='a-Button a-Button--popupLOV' aaname='' /&gt;" Guid="f562d058-9c7d-426e-a29a-6c86a8f912c8" InformativeScreenshot="afe6386ca30bf1b650dad020894b789d.png" Reference="E_WsyKu0Yke1l9rBDikF6w/SFTvdsAOMUqpgeEoQM6wTA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="a6d06ccf-2576-4848-9a58-1c6500dbb180" CvElementArea="806, 500, 491, 45" CvType="InputBox" DesignTimeRectangle="807, 502, 482, 43" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Plan' aria-role='combobox' tag='INPUT' type='text' class='popup_lov apex-item-text apex-item-popup-lov' /&gt;" Guid="f1b7a9bd-08d1-4d5f-af5b-4aa707ce9ebc" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Utilizar Navegador Chrome: Acto académico" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,560" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="3564a8fd-0ad4-4ee0-99e3-ac67021fcb6c" Version="V2">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,310" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,248" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" ScopeIdentifier="3564a8fd-0ad4-4ee0-99e3-ac67021fcb6c" Shortcuts="[d(hk)][k(tab)][u(hk)][d(hk)][k(enter)][u(hk)][d(hk)][k(tab)][u(hk)][d(hk)][k(tab)][u(hk)][d(hk)][k(enter)][u(hk)]" Version="V4">
+                                <uix:NKeyboardShortcuts.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NKeyboardShortcuts.VerifyOptions>
+                              </uix:NKeyboardShortcuts>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="-8, -8, 1936, 1066" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="80fbc529c12e266c8ff6a87e2e79e3a5.jpg" Selector="&lt;html app='chrome.exe' title='Acto académico' /&gt;" Url="https://sia.unal.edu.co/ac_app/f?p=400000:1001:::YES:1001::&amp;cs=3oOXT_yDlTk5KV6FOjRXRsLo8zxzK80XR_NSN5SsR7I5QzuWVKhE18JeLPPZaePanyQ_GprQ8Be4gIl9YkAcO7A" Version="V2" />
+                        </uix:NApplicationCard.TargetApp>
+                      </uix:NApplicationCard>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'BUTTON I_1001_SOLICITUD…(5)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_26" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;PERIODO&quot;).ToString()]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="f1d9706a-5931-435d-8a2a-ad230d2e827f" ContentHash="yxX74xIK4Ue85-d06CxiMw" CvElementArea="1839, 501, 39, 44" CvType="Button" DesignTimeRectangle="1841, 502, 36, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl type='button' class='a-Button a-Button--popupLOV' tabindex='-1' tag='BUTTON' aaname='' /&gt;" Guid="d5f4a8c4-366c-4c48-8e6b-4aa569d3951f" InformativeScreenshot="db08d94d6c60179dd7efcb3f263c2e16.png" Reference="E_WsyKu0Yke1l9rBDikF6w/CaYVabmmtUO6v-Nou88cKg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="f1d9706a-5931-435d-8a2a-ad230d2e827f" CvElementArea="1359, 500, 491, 45" CvType="InputBox" DesignTimeRectangle="1360, 502, 482, 43" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Periodo académico' aria-role='combobox' tag='INPUT' type='text' class='popup_lov apex-item-text apex-item-popup-lov' /&gt;" Guid="f6c0246d-dcc8-40fe-a930-816a1569388e" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Utilizar Navegador Chrome: Acto académico" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,560" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="3564a8fd-0ad4-4ee0-99e3-ac67021fcb6c" Version="V2">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,310" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,248" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" ScopeIdentifier="3564a8fd-0ad4-4ee0-99e3-ac67021fcb6c" Shortcuts="[d(hk)][k(tab)][u(hk)][d(hk)][k(enter)][u(hk)][d(hk)][k(tab)][u(hk)][d(hk)][k(tab)][u(hk)][d(hk)][k(enter)][u(hk)]" Version="V4">
+                                <uix:NKeyboardShortcuts.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NKeyboardShortcuts.VerifyOptions>
+                              </uix:NKeyboardShortcuts>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="-8, -8, 1936, 1066" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="80fbc529c12e266c8ff6a87e2e79e3a5.jpg" Selector="&lt;html app='chrome.exe' title='Acto académico' /&gt;" Url="https://sia.unal.edu.co/ac_app/f?p=400000:1001:::YES:1001::&amp;cs=3oOXT_yDlTk5KV6FOjRXRsLo8zxzK80XR_NSN5SsR7I5QzuWVKhE18JeLPPZaePanyQ_GprQ8Be4gIl9YkAcO7A" Version="V2" />
+                        </uix:NApplicationCard.TargetApp>
+                      </uix:NApplicationCard>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Crear(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="362d88d2-01ee-44f0-a16a-2aa9675ca8a1" ContentHash="UOBxvpqLqUCj6AltVplZwg" CvElementArea="1852, 214, 64, 38" CvTextArea="1867, 226, 34, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1853, 215, 61, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Crear' parentid='R1631097929644983322' tag='BUTTON' type='button' class='t-Button t-Button--hot t-Button--large t-Button--gapBottom' check:innerText='Crear' /&gt;" Guid="c0821420-b93b-4bc4-9dc2-885dd8dfc53f" InformativeScreenshot="961ade26da11a9d7ea74e78f34bcdf3a.png" Reference="E_WsyKu0Yke1l9rBDikF6w/FuPf4hbvwkq4m27E894fmw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="362d88d2-01ee-44f0-a16a-2aa9675ca8a1" CvElementArea="1852, 214, 64, 38" CvTextArea="1867, 226, 34, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1868, 224, 31, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Crear' class='t-Button-label' tag='SPAN' type='' check:innerText='Crear' /&gt;" Guid="3611e597-6ca8-40dc-951c-c9c886bb3e40" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Instancias(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_38" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="7855863e-55c5-4182-b808-8bd0e4ba2af6" ContentHash="EQT5rHpe1UiuwP7kLu5tWQ" CvElementArea="437, 710, 79, 38" CvTextArea="449, 722, 55, 13" CvTextArgument="Instancias" CvType="Button" DesignTimeRectangle="439, 711, 76, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Instancias' aria-role='tab' tag='A' type='' class='t-Tabs-link' check:innerText='Instancias' /&gt;" Guid="d111b7f8-d42c-4c30-a129-5b9fb43546a1" InformativeScreenshot="7551c8e657f7af2ddf441df6e751c680.png" Reference="E_WsyKu0Yke1l9rBDikF6w/zhFR63f0K0OHiUULeWq-Sg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="7855863e-55c5-4182-b808-8bd0e4ba2af6" CvElementArea="437, 710, 79, 38" CvTextArea="449, 722, 55, 13" CvTextArgument="Instancias" CvType="Button" DesignTimeRectangle="450, 720, 54, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Instancias' tag='SPAN' type='' class='' check:innerText='Instancias' /&gt;" Guid="e86d852d-5dfa-4864-9166-3180c90da4db" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Instancias(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_40" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="593bbf0b-8cd8-492a-90da-5e230e576335" ContentHash="wEXgU_EWGUmZ3pNLamMaxA" CvElementArea="437, 658, 79, 38" CvTextArea="449, 670, 56, 13" CvTextArgument="Instancias" CvType="Button" DesignTimeRectangle="450, 668, 54, 17" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Instancias' tag='SPAN' type='' class='' check:innerText='Instancias' /&gt;" Guid="10f927b6-e1e1-407f-9bdd-57dca599ef6b" InformativeScreenshot="3ec0e70cb96625fda49dd510a61304a3.png" Reference="E_WsyKu0Yke1l9rBDikF6w/Xo5Rr336PkCZ4sS5HoSL_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="593bbf0b-8cd8-492a-90da-5e230e576335" CvElementArea="437, 658, 79, 38" CvTextArea="449, 670, 56, 13" CvTextArgument="Instancias" CvType="Button" DesignTimeRectangle="439, 659, 76, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Instancias' aria-role='tab' tag='A' type='' class='t-Tabs-link' check:innerText='Instancias' /&gt;" Guid="3e911148-6472-4146-ab19-124d84d2e52e" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Añadir Instancia(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_39" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="6521f584-e58b-46bb-ae38-32e410972446" ContentHash="JSeqQtLExk2buesiQcZd6w" CvElementArea="1802, 746, 113, 32" CvTextArea="1812, 755, 91, 13" CvTextArgument="Añadir Instancia" CvType="Button" DesignTimeRectangle="1803, 747, 111, 30" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='button' tag='BUTTON' class='t-Button js-ignoreChange t-Button--primary t-Button--gapBottom' aaname='Añadir Instancia' check:innerText='Añadir Instancia' /&gt;" Guid="5448c99e-2959-4ae4-afdc-000e570501d3" InformativeScreenshot="97ae93b3da9bc40350a8ab3597a4d883.png" Reference="E_WsyKu0Yke1l9rBDikF6w/0V7pwj5h2ke9KWL_b2fJwg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="6521f584-e58b-46bb-ae38-32e410972446" CvElementArea="1802, 746, 113, 32" CvTextArea="1812, 755, 91, 13" CvTextArgument="Añadir Instancia" CvType="Button" DesignTimeRectangle="1814, 753, 89, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='t-Button-label' aaname='Añadir Instancia' check:innerText='Añadir Instancia' /&gt;" Guid="9d4755c5-1385-43a6-9d43-93357358a97a" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Instancia (Valor Necesa…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_6" Item="[ 072 ] Consejo Fac.Minas Medellín" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NSelectItem.Items>
+                          <scg:List x:TypeArguments="x:String" Capacity="50">
+                            <x:String>[ 010 ] Consejo de Sede Manizales</x:String>
+                            <x:String>[ 011 ] Consejo de Sede Palmira</x:String>
+                            <x:String>[ 012 ] Consejo de Sede Medellín</x:String>
+                            <x:String>[ 017 ] Comité Acad. Administrativo Caribe</x:String>
+                            <x:String>[ 018 ] Comité Acad. Administrativo Tumaco</x:String>
+                            <x:String>[ 019 ] Comité Acad. Administrativo Amazonas</x:String>
+                            <x:String>[ 020 ] Comité Acad. Administrativo Orinoquia</x:String>
+                            <x:String>[ 048 ] Consejo de la Facultad de Artes de la Sede Bogotá</x:String>
+                            <x:String>[ 049 ] Consejo de la Facultad de Ciencias Agrarias de la Sede Bogotá</x:String>
+                            <x:String>[ 050 ] Consejo de la Facultad de Ciencias de la Sede Bogotá</x:String>
+                            <x:String>[ 052 ] Consejo de la Facultad de Ingeniería de la Sede Bogotá</x:String>
+                            <x:String>[ 053 ] Consejo Fac.Agronomía Bogotá</x:String>
+                            <x:String>[ 054 ] Consejo de la Facultad de Enfermería de la Sede Bogotá</x:String>
+                            <x:String>[ 056 ] Consejo de la Facultad de Ciencias Humanas de la Sede Bogotá</x:String>
+                            <x:String>[ 057 ] Consejo de la Facultad de Ciencias Económicas de la Sede Bogotá</x:String>
+                            <x:String>[ 058 ] Consejo de la Facultad de Medicina Veterinaria y Zootecnia de la Sede Bogotá</x:String>
+                            <x:String>[ 060 ] Consejo Fac.Ingeniería y Administración Palmira</x:String>
+                            <x:String>[ 061 ] Consejo Fac.Ciencias Agropecuarias Palmira</x:String>
+                            <x:String>[ 062 ] Consejo Fac.Agronomía Palmira</x:String>
+                            <x:String>[ 067 ] Consejo Fac.Ciencias Agrarias Medellín</x:String>
+                            <x:String>[ 068 ] Consejo Fac.C.Humanas y Econ. Medellín</x:String>
+                            <x:String>[ 069 ] Consejo Fac.Ciencias Medellín</x:String>
+                            <x:String>[ 070 ] Consejo Fac.Ciencias Agropecuarias Medellín</x:String>
+                            <x:String>[ 071 ] Consejo Fac.Arquitectura Medellín</x:String>
+                            <x:String>[ 072 ] Consejo Fac.Minas Medellín</x:String>
+                            <x:String>[ 073 ] Consejo Fac. entre Sedes Medellín</x:String>
+                            <x:String>[ 074 ] Dirección Académica Palmira</x:String>
+                            <x:String>[ 075 ] Dirección Académica Manizales</x:String>
+                            <x:String>[ 076 ] Dirección Académica Bogotá</x:String>
+                            <x:String>[ 080 ] Consejo Fac.Manizales</x:String>
+                            <x:String>[ 082 ] Consejo Fac. Administración Manizales</x:String>
+                            <x:String>[ 083 ] Consejo Fac.Ingeniería y Arquitectura Manizales</x:String>
+                            <x:String>[ 085 ] Consejo Fac.Maestría en Física Manizales</x:String>
+                            <x:String>[ 086 ] Consejo Fac.Maestría Aut Ind Manizales</x:String>
+                            <x:String>[ 087 ] Consejo Fac.Maestría Med Amb Manizales</x:String>
+                            <x:String>[ 088 ] Consejo Fac.Maestría en Habitah Manizales</x:String>
+                            <x:String>[ 090 ] Consejo Fac.Maestría Matematica Aplicada Manizales</x:String>
+                            <x:String>[ 091 ] Consejo Fac.Maestría Ingeniería Industrial Manizales</x:String>
+                            <x:String>[ 092 ] Consejo Fac.Esp GPDA Manizales</x:String>
+                            <x:String>[ 093 ] Consejo Fac.Doc Ing Línea Aut Manizales</x:String>
+                            <x:String>[ 094 ] Consejo Fac.Esp Ing Amb Sanit Manizales</x:String>
+                            <x:String>[ 096 ] Consejo Fac.Esp Ing Financ Manizales</x:String>
+                            <x:String>[ 097 ] Consejo Fac.Doctorado Ingeniería Industrial Manizales</x:String>
+                            <x:String>[ 098 ] Consejo Fac.Esp Dirección Producción Manizales</x:String>
+                            <x:String>[ 099 ] Consejo Fac.Esp Gestión Cultural Manizales</x:String>
+                            <x:String>[ 252 ] Consejo de Sede De La Paz</x:String>
+                            <x:String>[ 253 ] Consejo de Escuelas de La Paz</x:String>
+                            <x:String>[ 260 ] Comisión Delegataria del Consejo Superior Universitario</x:String>
+                            <x:String>[ 261 ] Dirección Académica Medellín</x:String>
+                            <x:String>[ 461 ] Comisión Delegataria del Consejo de Facultad</x:String>
+                          </scg:List>
+                        </uix:NSelectItem.Items>
+                        <uix:NSelectItem.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="afc11418-6582-4970-940f-22cd3c2b3587" ContentHash="CT4gZ3CGG0mqMPuLKJSEHw" CvElementArea="655, 551, 626, 44" CvType="InputBox" DesignTimeRectangle="655, 551, 626, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='f?p=400000:1002:::YES:RP:I_1002_FUNDAMENTOS_RSO_NUMORD,I_1002_FUNDAMENTOS_TSO_CODALF,I_1002_FUNDAMENTOS_STS_CODALF:859401,SOLEST,ANUASIG&amp;amp;cs=3kt2UF2wfdaziH6LZHcNf1CbT0HmlyZ-Ljqqo0mgglACu5PpYnTU5ru9SoLRqEquNuQtv-LW5qv77KJwU3pNtLA&amp;amp;p_dialog_cs=P_pu_Vb4J1eZcD-Cjc3C-nz4eaJc-KDpEhlh3K0aEI8QTG-6FfXvZK9dav3wzEvgOWpTkr1uQ9mZmL624KmUPQ' tag='IFRAME' /&gt;&lt;webctrl tag='SELECT' type='' class='selectlist apex-item-select' aaname='Instancia (Valor Necesario)' /&gt;" Guid="8961d84e-d2e3-432b-b09d-3ff6cc98cd8c" InformativeScreenshot="a840e2c8c3a8405f526cfd8f9fd842b1.png" Reference="E_WsyKu0Yke1l9rBDikF6w/jvW_6ow0wkWIaWg1l37Jhg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="afc11418-6582-4970-940f-22cd3c2b3587" CvElementArea="655, 551, 626, 44" CvType="InputBox" DesignTimeRectangle="655, 551, 52, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='f?p=400000:1002:::YES:RP:I_1002_FUNDAMENTOS_RSO_NUMORD,I_1002_FUNDAMENTOS_TSO_CODALF,I_1002_FUNDAMENTOS_STS_CODALF:859401,SOLEST,ANUASIG&amp;amp;cs=3kt2UF2wfdaziH6LZHcNf1CbT0HmlyZ-Ljqqo0mgglACu5PpYnTU5ru9SoLRqEquNuQtv-LW5qv77KJwU3pNtLA&amp;amp;p_dialog_cs=P_pu_Vb4J1eZcD-Cjc3C-nz4eaJc-KDpEhlh3K0aEI8QTG-6FfXvZK9dav3wzEvgOWpTkr1uQ9mZmL624KmUPQ' tag='IFRAME' /&gt;&lt;webctrl aaname='Instancia ' tag='LABEL' type='' class='t-Form-label' check:innerText='Instancia&amp;#xA;(Valor Necesario)' /&gt;" Guid="5bcacbbd-0c54-4fbf-bb63-82cc7880ca2a" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NSelectItem.Target>
+                      </uix:NSelectItem>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Crear(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="0b5fe773-2884-4cb0-8772-2b70462d8fb6" ContentHash="BqiDeBLlJEG_cnYUe7T6qg" CvElementArea="1224, 728, 56, 33" CvTextArea="1234, 737, 34, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1224, 729, 53, 30" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl src='f?p=400000:1002:::YES:RP:I_1002_FUNDAMENTOS_RSO_NUMORD,I_1002_FUNDAMENTOS_TSO_CODALF,I_1002_FUNDAMENTOS_STS_CODALF:859401,SOLEST,ANUASIG&amp;amp;cs=3kt2UF2wfdaziH6LZHcNf1CbT0HmlyZ-Ljqqo0mgglACu5PpYnTU5ru9SoLRqEquNuQtv-LW5qv77KJwU3pNtLA&amp;amp;p_dialog_cs=P_pu_Vb4J1eZcD-Cjc3C-nz4eaJc-KDpEhlh3K0aEI8QTG-6FfXvZK9dav3wzEvgOWpTkr1uQ9mZmL624KmUPQ' tag='IFRAME' /&gt;&lt;webctrl id='B1629884179199948246' tag='BUTTON' type='button' class='t-Button t-Button--hot ' aaname='Crear' check:innerText='Crear' /&gt;" Guid="4a93755c-1c2c-42fd-bb18-d9862e2283a2" InformativeScreenshot="bcd07ae43ef930a12f3e6509b1bb9536.png" Reference="E_WsyKu0Yke1l9rBDikF6w/Dc8TH0z1wUy2f1cvE7W8-w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="0b5fe773-2884-4cb0-8772-2b70462d8fb6" CvElementArea="1224, 728, 56, 33" CvTextArea="1234, 737, 34, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1235, 735, 32, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='f?p=400000:1002:::YES:RP:I_1002_FUNDAMENTOS_RSO_NUMORD,I_1002_FUNDAMENTOS_TSO_CODALF,I_1002_FUNDAMENTOS_STS_CODALF:859401,SOLEST,ANUASIG&amp;amp;cs=3kt2UF2wfdaziH6LZHcNf1CbT0HmlyZ-Ljqqo0mgglACu5PpYnTU5ru9SoLRqEquNuQtv-LW5qv77KJwU3pNtLA&amp;amp;p_dialog_cs=P_pu_Vb4J1eZcD-Cjc3C-nz4eaJc-KDpEhlh3K0aEI8QTG-6FfXvZK9dav3wzEvgOWpTkr1uQ9mZmL624KmUPQ' tag='IFRAME' /&gt;&lt;webctrl parentid='B1629884179199948246' tag='SPAN' type='' class='t-Button-label' aaname='Crear' check:innerText='Crear' /&gt;" Guid="829f6ed2-fe1e-4e25-854d-a05f1de9ca90" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Guardar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_34" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="cda1b143-dd80-414a-b6ac-1bf6cdaa6b89" ContentHash="pCrs6gisVkCTOx3h1jQrKg" CvElementArea="1821, 214, 80, 39" CvTextArea="1834, 226, 52, 13" CvTextArgument="Guardar" CvType="Button" DesignTimeRectangle="1822, 215, 77, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Guardar' parentid='R1631097929644983322' tag='BUTTON' type='button' class='t-Button t-Button--hot t-Button--large t-Button--gapBottom' check:innerText='Guardar' /&gt;" Guid="4ab0b503-170c-4d1a-b946-8e90f7002c76" InformativeScreenshot="f837c00d4387ec38da6ca8ee66bd42e5.png" Reference="E_WsyKu0Yke1l9rBDikF6w/eMzZBuhxIE2os5C__kRCCg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="cda1b143-dd80-414a-b6ac-1bf6cdaa6b89" CvElementArea="1821, 214, 80, 39" CvTextArea="1834, 226, 52, 13" CvTextArgument="Guardar" CvType="Button" DesignTimeRectangle="1836, 224, 48, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Guardar' class='t-Button-label' tag='SPAN' type='' check:innerText='Guardar' /&gt;" Guid="da789935-5ab7-432a-9720-aa2a6b52f916" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Estado (Valor Necesario)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_7" Item="APROBADA" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NSelectItem.Items>
+                          <scg:List x:TypeArguments="x:String" Capacity="7">
+                            <x:String>APROBADA</x:String>
+                            <x:String>Desistimiento</x:String>
+                            <x:String>ERROR ADMINISTRATIVO</x:String>
+                            <x:String>MODIFICACIÓN PLAN - MIGRACIÓN</x:String>
+                            <x:String>NEGADA</x:String>
+                            <x:String>PENDIENTE</x:String>
+                            <x:String>POR PROCESAR</x:String>
+                          </scg:List>
+                        </uix:NSelectItem.Items>
+                        <uix:NSelectItem.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="28968b70-27b4-49ae-b1e3-7ee286bb85db" ContentHash="KZHFPemSA0e8pKnV4XP9eg" CvElementArea="254, 601, 539, 46" CvType="InputBox" DesignTimeRectangle="254, 603, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='selectlist apex-item-select' aaname='Estado (Valor Necesario)' /&gt;" Guid="cde67a75-6097-4e34-9c84-3963cacf8fd3" InformativeScreenshot="8dbcefe3eb49163f3130c7424dffd59a.png" Reference="E_WsyKu0Yke1l9rBDikF6w/fNJqddtf2UmWwN58mNHzvg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="28968b70-27b4-49ae-b1e3-7ee286bb85db" CvElementArea="254, 601, 539, 46" CvType="InputBox" DesignTimeRectangle="254, 603, 43, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Estado ' tag='LABEL' type='' class='t-Form-label' check:innerText='Estado&amp;#xA;(Valor Necesario)' /&gt;" Guid="2305244f-e9ab-4a34-9ec5-e4d97321b756" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NSelectItem.Target>
+                      </uix:NSelectItem>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Justificación de cambio…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_28" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;TEXTO&quot;).ToString()]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="89076529-7581-4e72-b635-152fd0ab0c44" ContentHash="xOK5sCU_bEmZ_u3x_VyMCQ" CvElementArea="246, 656, 1642, 111" CvType="InputBox" DesignTimeRectangle="254, 660, 1629, 108" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='textarea apex-item-textarea' aaname='Justificación de cambio de estado' /&gt;" Guid="4f20548a-9f95-4dd1-af5c-d43b9b274efe" InformativeScreenshot="a36562c977ccb1847103663350bb247b.png" Reference="E_WsyKu0Yke1l9rBDikF6w/Ql4yRg_toUuM3cklBW51nw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="89076529-7581-4e72-b635-152fd0ab0c44" CvElementArea="246, 656, 1642, 111" CvType="InputBox" DesignTimeRectangle="254, 660, 201, 43" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Justificación de cambio de estado' tag='LABEL' type='' class='t-Form-label' check:innerText='Justificación de cambio de estado' /&gt;" Guid="bb0d5011-d45f-40b6-8fb8-63abf85071ad" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Guardar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="cda1b143-dd80-414a-b6ac-1bf6cdaa6b89" ContentHash="pCrs6gisVkCTOx3h1jQrKg" CvElementArea="1821, 214, 80, 39" CvTextArea="1834, 226, 52, 13" CvTextArgument="Guardar" CvType="Button" DesignTimeRectangle="1822, 215, 77, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Guardar' parentid='R1631097929644983322' tag='BUTTON' type='button' class='t-Button t-Button--hot t-Button--large t-Button--gapBottom' check:innerText='Guardar' /&gt;" Guid="4ab0b503-170c-4d1a-b946-8e90f7002c76" InformativeScreenshot="f837c00d4387ec38da6ca8ee66bd42e5.png" Reference="E_WsyKu0Yke1l9rBDikF6w/eMzZBuhxIE2os5C__kRCCg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="cda1b143-dd80-414a-b6ac-1bf6cdaa6b89" CvElementArea="1821, 214, 80, 39" CvTextArea="1834, 226, 52, 13" CvTextArgument="Guardar" CvType="Button" DesignTimeRectangle="1836, 224, 48, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Guardar' class='t-Button-label' tag='SPAN' type='' check:innerText='Guardar' /&gt;" Guid="da789935-5ab7-432a-9720-aa2a6b52f916" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Actos académicos(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,218" sap2010:WorkflowViewState.IdRef="NClick_35" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="337cf268-5aee-4bb7-a639-6cc897989a90" ContentHash="FJ5cO1mPg02udpagdHHimw" CvTextArea="46, 244, 108, 13" CvTextArgument="Actos académicos" CvType="Text" DesignTimeRectangle="8, 231, 216, 39" DesignTimeScaleFactor="0.8999999761581421" FuzzySelectorArgument="&lt;webctrl aria-role='none' type='' parentid='t_TreeNav_1' tag='DIV' class='a-TreeView-content is-selected is-current--top' aaname='' check:innerText='Actos académicos' /&gt;" Guid="a489de5c-6d8e-4846-a0b1-c9e98f6521fc" InformativeScreenshot="59713963cce8d9306c1e00c59d4edfdc.png" Reference="E_WsyKu0Yke1l9rBDikF6w/KSiitIgjHkqxmMZTtf3_RA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Actos académicos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
                     </Sequence>
                   </ActivityAction>
                 </ui:ForEachRow.Body>
