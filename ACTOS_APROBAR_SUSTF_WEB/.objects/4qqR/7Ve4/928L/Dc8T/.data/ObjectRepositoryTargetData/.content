@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BqiDeBLlJEG_cnYUe7T6qg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="0b5fe773-2884-4cb0-8772-2b70462d8fb6" CvElementArea="1224, 728, 56, 33" CvTextArea="1234, 737, 34, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1224, 729, 53, 30" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl src='f?p=400000:1002:::YES:RP:I_1002_FUNDAMENTOS_RSO_NUMORD,I_1002_FUNDAMENTOS_TSO_CODALF,I_1002_FUNDAMENTOS_STS_CODALF:859401,SOLEST,ANUASIG&amp;amp;cs=3kt2UF2wfdaziH6LZHcNf1CbT0HmlyZ-Ljqqo0mgglACu5PpYnTU5ru9SoLRqEquNuQtv-LW5qv77KJwU3pNtLA&amp;amp;p_dialog_cs=P_pu_Vb4J1eZcD-Cjc3C-nz4eaJc-KDpEhlh3K0aEI8QTG-6FfXvZK9dav3wzEvgOWpTkr1uQ9mZmL624KmUPQ' tag='IFRAME' /&gt;&lt;webctrl id='B1629884179199948246' tag='BUTTON' type='button' class='t-Button t-Button--hot ' aaname='Crear' check:innerText='Crear' /&gt;" Guid="4a93755c-1c2c-42fd-bb18-d9862e2283a2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0b5fe773-2884-4cb0-8772-2b70462d8fb6" CvElementArea="1224, 728, 56, 33" CvTextArea="1234, 737, 34, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1235, 735, 32, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='f?p=400000:1002:::YES:RP:I_1002_FUNDAMENTOS_RSO_NUMORD,I_1002_FUNDAMENTOS_TSO_CODALF,I_1002_FUNDAMENTOS_STS_CODALF:859401,SOLEST,ANUASIG&amp;amp;cs=3kt2UF2wfdaziH6LZHcNf1CbT0HmlyZ-Ljqqo0mgglACu5PpYnTU5ru9SoLRqEquNuQtv-LW5qv77KJwU3pNtLA&amp;amp;p_dialog_cs=P_pu_Vb4J1eZcD-Cjc3C-nz4eaJc-KDpEhlh3K0aEI8QTG-6FfXvZK9dav3wzEvgOWpTkr1uQ9mZmL624KmUPQ' tag='IFRAME' /&gt;&lt;webctrl parentid='B1629884179199948246' tag='SPAN' type='' class='t-Button-label' aaname='Crear' check:innerText='Crear' /&gt;" Guid="829f6ed2-fe1e-4e25-854d-a05f1de9ca90" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bcd07ae43ef930a12f3e6509b1bb9536.png" xmlns="">0xTnO31Aty0ucQEhHYAmV7g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

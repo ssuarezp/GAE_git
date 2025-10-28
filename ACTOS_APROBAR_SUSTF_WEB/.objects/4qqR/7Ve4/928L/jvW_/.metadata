@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Instancia (Valor Necesa…",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "jvW_6ow0wkWIaWg1l37Jhg",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/jvW_6ow0wkWIaWg1l37Jhg",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-21T16:16:45.0953049Z",
+  "Updated": "2025-10-21T16:16:45.0953049Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

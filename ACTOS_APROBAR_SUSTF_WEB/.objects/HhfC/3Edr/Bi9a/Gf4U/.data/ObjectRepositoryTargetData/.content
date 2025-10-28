@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JTa2UvvlS0GbpaiDSSvcIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1f760816-aa39-4fc0-98aa-226e28ca2dee" CvElementArea="196, 58, 23, 21" CvType="Icon" DesignTimeRectangle="195, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;java cls='ToolBar' idx='14' role='tool bar' /&gt;&lt;java name='Insertar nuevo registro' role='push button' /&gt;" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Insertar nuevo registro' role='push button' check:text='Insertar nuevo registro' /&gt;" Guid="a4e525c9-13dd-4c2c-94c8-7c49f5c4fabc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD6SURBVEhL7ZHLDYMwEETdDYcc3UbqoCf3RE8OgxhrWK0dcAgckkFPwevPY52Qb0qYpinfwV98GV8Tp5TcOjldDCEYx9GdJ6eIKSOodYt5QA1PRiCNMW5qlkMdt2QYQwjw3i3mVakI6BqMVabpFvfINB93DPbIAp8Ul7Hu96iK8cXvZFjHOUrDvA9B3Z6pNMVeMMcb0FgxYs9Udokxpgz1TZf6rOIynt/tuaQptjKdL2LIavSI+d9qjR/Ca166U1aZovuVphi/KtMPsSndzzKGaz2qYgpt1x6Iir01lqr4CIt4x/UqzY69uofGm/c4peMeflD8fAz5eob8AjLossnbOmmoAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d35c0581cf0c4046f17106d8586f1f38.png" xmlns="">0sYMcLn_TJE67ZYK8ZLHSRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kUyhxRYqZEe0XgdC_H125g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" DesignTimeRectangle="833, 548, 270, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' type='' tabindex='0' tag='LI' class='a-IconList-item' aaname='[ 3534 ] ' check:innerText='[ 3534 ] INGENIERÍA DE SISTEMAS E INFORMÁTICA' /&gt;" Guid="a093302d-0db5-49af-9ba5-9e583c9a18cf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7e67104b-de7d-45b8-9409-735f20960995" CvTextArea="838, 527, 7, 11" CvTextArgument="-" CvType="Text" DesignTimeRectangle="833, 518, 270, 29" ElementType="Button" FuzzySelectorArgument="&lt;webctrl class='a-PopupLOV-clearButton' type='button' tag='BUTTON' aaname='-' check:innerText='-' /&gt;" Guid="4524ecf1-5d51-46b3-be65-83c16e13f42c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="abd66930c626a4233f59be9c47e0904a.png" xmlns="">0089wuQeI1EWMi47tPpbplQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
