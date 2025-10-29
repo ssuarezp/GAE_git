@@ -327,7 +327,7 @@
                           </uix:TargetAnchorable>
                         </uix:NSelectItem.Target>
                       </uix:NSelectItem>
-                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Tipo de solicitud (Valo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_12" Item="[SOLEST] Solicitudes Estudiantiles" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Tipo de solicitud (Valo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_12" Item="[SUSTTF] Sustentación y modificación calificación Tesis o Trabajo Final" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NSelectItem.Items>
                           <scg:List x:TypeArguments="x:String" Capacity="11">
                             <x:String>-- Seleccione un tipo de solicitud --</x:String>
@@ -353,52 +353,18 @@
                           </uix:TargetAnchorable>
                         </uix:NSelectItem.Target>
                       </uix:NSelectItem>
-                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Subtipo de solicitud (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_13" Item="[RES] Reserva de cupo adicional" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Subtipo de solicitud (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_14" Item="[SUSTTF] Sustentación y modificación calificación Tesis o Trabajo Final" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NSelectItem.Items>
-                          <scg:List x:TypeArguments="x:String" Capacity="36">
+                          <scg:List x:TypeArguments="x:String" Capacity="2">
                             <x:String>-- Seleccione un subtipo de solicitud --</x:String>
-                            <x:String>[APLREN] Desistimiento o Reintegro anticipado de aplazamiento</x:String>
-                            <x:String>[INSASIG] Inscripción asignaturas o activ acad con posterioridad período inscripción</x:String>
-                            <x:String>[DESANUL] Desanulación de asignaturas</x:String>
-                            <x:String>[CSREN] Desistimiento/Renuncia cancelación de periodo</x:String>
-                            <x:String>[APL] Aplazamiento del uso del derecho de matrícula inicial</x:String>
-                            <x:String>[APLPRO] Prórroga del aplazamiento del uso del derecho de matrícula inicial</x:String>
-                            <x:String>[RES] Reserva de cupo adicional</x:String>
-                            <x:String>[REI] Reingreso</x:String>
-                            <x:String>[CSM] Cancelación de periodo</x:String>
-                            <x:String>[DTL] Doble titulación</x:String>
-                            <x:String>[TRA] Traslado</x:String>
-                            <x:String>[ANUASIG] Cancelación de asignaturas sin pérdida de créditos</x:String>
-                            <x:String>[MOVISED] Movilidad entre Sedes</x:String>
-                            <x:String>[HOMEQUI] Homologación/Equivalencia</x:String>
-                            <x:String>[CARGAMAX] Máximo número de créditos en inscripción</x:String>
-                            <x:String>[MOVINTER] Intercambio académico remoto</x:String>
-                            <x:String>[EXCEPREI] Excepción cumplimiento num. 3 Art 44 o 4 Art 45 Ac 008/2008 CSU(Reingresos)</x:String>
-                            <x:String>[PROYTES] Aprobación del proyecto de tesis o propuesta de trabajo final</x:String>
-                            <x:String>[DATPROY] Modificación datos de proyecto de tesis y trabajo final</x:String>
-                            <x:String>[INSGRADO] Inscripción para Grado</x:String>
-                            <x:String>[INSPAE] Inscripción de la Práctica Académica Especial (PAE)</x:String>
-                            <x:String>[PRUVAL] Pruebas de validación</x:String>
-                            <x:String>[RET PROG] Retiro definitivo de un programa curricular</x:String>
-                            <x:String>[REVCALIF] Revisión de las calificaciones de evaluaciones ordinarias</x:String>
-                            <x:String>[CANASIG] Cancelación de asignaturas con pérdida de créditos</x:String>
-                            <x:String>[TRAREN] Desistimiento de traslado</x:String>
-                            <x:String>[NODO] Cambio nodo inicio historia académica</x:String>
-                            <x:String>[CARGAMIN] Autorización para inscribir menos de los créditos mínimos exigidos</x:String>
-                            <x:String>[MOVIPEA] Movilidad PEAMA</x:String>
-                            <x:String>[MOVISAL] Movilidad académica estudiantil saliente - Internacional</x:String>
-                            <x:String>[MOVISALNAL] Movilidad académica estudiantil saliente - Nacional</x:String>
-                            <x:String>[MOVIENTNAL] Movilidad académica estudiantil entrante - Nacional</x:String>
-                            <x:String>[MOVIENTINT] Movilidad académica estudiantil entrante - Internacional</x:String>
-                            <x:String>[CONVDTNAL] Convenio doble titulación - Nacional</x:String>
-                            <x:String>[CONVDTINT] Convenio doble titulación - Internacional</x:String>
+                            <x:String>[SUSTTF] Sustentación y modificación calificación Tesis o Trabajo Final</x:String>
                           </scg:List>
                         </uix:NSelectItem.Items>
                         <uix:NSelectItem.Target>
-                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="820a5a17-6d80-4668-965e-700974d885f3" ContentHash="kl0JXmyu9UyFRMaVDjHEAw" CvElementArea="1362, 443, 534, 45" CvType="InputBox" DesignTimeRectangle="1360, 444, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_STS_CODALF' tag='SELECT' type='' class='selectlist apex-item-select' aaname='Subtipo de solicitud (Valor Necesario)' /&gt;" Guid="367084ec-14d0-4f73-b6e0-f81eccc6f75b" InformativeScreenshot="2ccc55153a70a558c4e67f2e1712fecf.png" Reference="E_WsyKu0Yke1l9rBDikF6w/irInPWK9dEuJRplMb39f_Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="caeb1de8-5c43-4b4c-8e6c-56661fd32033" ContentHash="OvRTQFY1_UqlhV8-FEwYYQ" CvElementArea="980, 446, 366, 39" CvType="InputBox" DesignTimeRectangle="982, 446, 365, 38" DesignTimeScaleFactor="0.800000011920929" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_STS_CODALF' tag='SELECT' type='' class='selectlist apex-item-select' aaname='Subtipo de solicitud (Valor Necesario)' /&gt;" Guid="468501c0-5731-40f6-a281-16d713411748" InformativeScreenshot="0517dc06fd1e2894406cfea581210eba.png" Reference="E_WsyKu0Yke1l9rBDikF6w/O_lRJ_aOEEuci5OW3RQ37w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target CVScreenId="820a5a17-6d80-4668-965e-700974d885f3" CvElementArea="1362, 443, 534, 45" CvType="InputBox" DesignTimeRectangle="1360, 444, 101, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Subtipo de solicitud ' tag='LABEL' type='' class='t-Form-label' check:innerText='Subtipo de solicitud&amp;#xA;(Valor Necesario)' /&gt;" Guid="7e9c0168-309c-4622-af37-64f736638f6d" SearchSteps="FuzzySelector, CV" />
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="caeb1de8-5c43-4b4c-8e6c-56661fd32033" CvElementArea="980, 446, 366, 39" CvType="InputBox" DesignTimeRectangle="982, 446, 90, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Subtipo de solicitud ' tag='LABEL' type='' class='t-Form-label' check:innerText='Subtipo de solicitud&amp;#xA;(Valor Necesario)' /&gt;" Guid="5624f04c-7e4f-40c8-bbc4-53ac2f6d85c5" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
                           </uix:TargetAnchorable>
@@ -581,7 +547,7 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="484,123" sap2010:WorkflowViewState.IdRef="Delay_7" />
+                      <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="484,123" sap2010:WorkflowViewState.IdRef="Delay_7" />
                       <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Instancias(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_38" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="7855863e-55c5-4182-b808-8bd0e4ba2af6" ContentHash="EQT5rHpe1UiuwP7kLu5tWQ" CvElementArea="437, 710, 79, 38" CvTextArea="449, 722, 55, 13" CvTextArgument="Instancias" CvType="Button" DesignTimeRectangle="439, 711, 76, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Instancias' aria-role='tab' tag='A' type='' class='t-Tabs-link' check:innerText='Instancias' /&gt;" Guid="d111b7f8-d42c-4c30-a129-5b9fb43546a1" InformativeScreenshot="7551c8e657f7af2ddf441df6e751c680.png" Reference="E_WsyKu0Yke1l9rBDikF6w/zhFR63f0K0OHiUULeWq-Sg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
