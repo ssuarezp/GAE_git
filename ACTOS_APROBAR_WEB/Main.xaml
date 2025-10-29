@@ -116,7 +116,7 @@
       <AssemblyReference>fd01231291612.2BrlU3Bz8ZP1usCrl2ij9gb4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="727,8595" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1333,8595" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
     </Sequence.Variables>
@@ -627,6 +627,18 @@
                       <uix:NSelectItem DisplayName="Seleccionar elemento 'Instancia (Valor Necesa…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_6" Item="[ 072 ] Consejo Fac.Minas Medellín" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NSelectItem.Items>
                           <scg:List x:TypeArguments="x:String" Capacity="50">
+                            <x:String>-- Seleccione una Instancia --</x:String>
+                            <x:String>[ 051 ] Consejo de la Facultad de Medicina de la Sede Bogotá</x:String>
+                            <x:String>[ 055 ] Consejo de la Facultad de Odontología de la Sede Bogotá</x:String>
+                            <x:String>[ 059 ] Consejo de la Facultad de Derecho, Ciencias Políticas y Sociales de la Sede Bogotá</x:String>
+                            <x:String>[ 081 ] Consejo Fac. Ciencias Exactas y Naturales Manizales</x:String>
+                            <x:String>[ 084 ] Consejo Fac.Maestría Administración Manizales</x:String>
+                            <x:String>[ 089 ] Consejo Fac.Maestría Enseñanza Ciencias Manizales</x:String>
+                            <x:String>[ 095 ] Consejo Fac.Esp Vias y Transp Manizales</x:String>
+                            <x:String>[ 001 ] Rectoría</x:String>
+                            <x:String>[ 002 ] Vicerrectoría Académica</x:String>
+                            <x:String>[ 003 ] Consejo Superior Universitario</x:String>
+                            <x:String>[ 009 ] Consejo de Sede Bogotá</x:String>
                             <x:String>[ 010 ] Consejo de Sede Manizales</x:String>
                             <x:String>[ 011 ] Consejo de Sede Palmira</x:String>
                             <x:String>[ 012 ] Consejo de Sede Medellín</x:String>
@@ -665,18 +677,6 @@
                             <x:String>[ 088 ] Consejo Fac.Maestría en Habitah Manizales</x:String>
                             <x:String>[ 090 ] Consejo Fac.Maestría Matematica Aplicada Manizales</x:String>
                             <x:String>[ 091 ] Consejo Fac.Maestría Ingeniería Industrial Manizales</x:String>
-                            <x:String>[ 092 ] Consejo Fac.Esp GPDA Manizales</x:String>
-                            <x:String>[ 093 ] Consejo Fac.Doc Ing Línea Aut Manizales</x:String>
-                            <x:String>[ 094 ] Consejo Fac.Esp Ing Amb Sanit Manizales</x:String>
-                            <x:String>[ 096 ] Consejo Fac.Esp Ing Financ Manizales</x:String>
-                            <x:String>[ 097 ] Consejo Fac.Doctorado Ingeniería Industrial Manizales</x:String>
-                            <x:String>[ 098 ] Consejo Fac.Esp Dirección Producción Manizales</x:String>
-                            <x:String>[ 099 ] Consejo Fac.Esp Gestión Cultural Manizales</x:String>
-                            <x:String>[ 252 ] Consejo de Sede De La Paz</x:String>
-                            <x:String>[ 253 ] Consejo de Escuelas de La Paz</x:String>
-                            <x:String>[ 260 ] Comisión Delegataria del Consejo Superior Universitario</x:String>
-                            <x:String>[ 261 ] Dirección Académica Medellín</x:String>
-                            <x:String>[ 461 ] Comisión Delegataria del Consejo de Facultad</x:String>
                           </scg:List>
                         </uix:NSelectItem.Items>
                         <uix:NSelectItem.Target>
