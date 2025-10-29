@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Acta",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ep1YJueUkEy7Euf-hTkopg",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/ep1YJueUkEy7Euf-hTkopg",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-29T14:15:25.142776Z",
+  "Updated": "2025-10-29T14:15:25.142776Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

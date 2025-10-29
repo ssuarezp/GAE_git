@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_WY4LjLrd06heoayUrH3Gg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="46c21842-eac6-4c94-ac8d-3061b7826692" CvElementArea="479, 638, 533, 27" CvType="InputBox" DesignTimeRectangle="481, 640, 544, 25" DesignTimeScaleFactor="0.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl class='control-group' parentid='identificaciones' tag='DIV' type='' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" Guid="af687c88-bf5b-4f9b-8319-87d8fc305e67" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="46c21842-eac6-4c94-ac8d-3061b7826692" CvTextArea="357, 646, 115, 10" CvTextArgument="Documento Identificación" CvType="Text" DesignTimeRectangle="356, 646, 114, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='identificaciones' tag='SPAN' type='' class='textlabel' aaname='Documento Identificación' check:innerText='Documento Identificación' /&gt;" Guid="0dcc9d79-1659-48f2-a76d-f052ea0fd125" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8444b89ca8153271dbe55fba3419a541.png" xmlns="">0Mw78dd7wAkWE4f4ixMe1qQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

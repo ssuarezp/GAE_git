@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lx2Ey0qpfkySIdb6ntPTkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="9eaf0368-7653-422b-972b-e6b4bae43286" CvElementArea="477, 639, 534, 26" CvType="InputBox" DesignTimeRectangle="481, 640, 530, 25" DesignTimeScaleFactor="0.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[identificaciones]' tag='INPUT' type='text' class='pmdynaform-control-text form-control' aaname=' &amp;#x9;            &amp;#x9;Documento Identificación &amp;#x9;&amp;#x9;             &amp;#x9;            ' /&gt;" Guid="923e563e-9a91-440c-8b5b-eec809163172" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9eaf0368-7653-422b-972b-e6b4bae43286" CvTextArea="355, 645, 115, 11" CvTextArgument="Documento Identificación" CvType="Text" DesignTimeRectangle="203, 640, 267, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='identificaciones' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;            &amp;#x9; &amp;#x9;&amp;#x9;             &amp;#x9;            ' check:innerText='Documento Identificación' /&gt;" Guid="4daaa052-b2d8-4905-98c5-85e20e9e3dd4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a1bc535a7be8a24d78b397836e1f7542.png" xmlns="">063rVQAUl_0OZp25onfn5eg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

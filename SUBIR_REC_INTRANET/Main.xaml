@@ -1,0 +1,632 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.Semantic.Activities</x:String>
+      <x:String>UiPath.Semantic.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Design.SWEntities.fd01231291612.Bundle</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>fd01231291612.2BrlU3Bz8ZP1usCrl2ij9gb4</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1333,6515" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="622,6492" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="588,760" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+        <ueab:ExcelProcessScopeX.Body>
+          <ActivityAction x:TypeArguments="ui:IExcelProcess">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+            </ActivityAction.Argument>
+            <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,641" sap2010:WorkflowViewState.IdRef="Sequence_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,550" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="G:\Mi unidad\GAE\NOTIFICACIÓN.xlsm">
+                <ueab:ExcelApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478,254" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="444,194" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;REC&quot;)]" SaveTo="[vDtbDatos]">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </ueab:ReadRangeX>
+                    </Sequence>
+                  </ActivityAction>
+                </ueab:ExcelApplicationCard.Body>
+              </ueab:ExcelApplicationCard>
+            </Sequence>
+          </ActivityAction>
+        </ueab:ExcelProcessScopeX.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ueab:ExcelProcessScopeX>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Actos académicos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588,5649" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554,5408" sap2010:WorkflowViewState.IdRef="Sequence_9">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="520,5346" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+                <ui:ForEachRow.Body>
+                  <ActivityAction x:TypeArguments="sd:DataRow">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518,5173" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Acta'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_37" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;CF Acta No.2&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="d48030fb-0f03-424a-8ae6-f72d64e33376" ContentHash="90lGutT1t0SxM3yrCNXhsw" CvElementArea="479, 500, 533, 27" CvType="InputBox" DesignTimeRectangle="483, 501, 530, 25" DesignTimeScaleFactor="0.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=7443070436902212231d0a5020556878&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[actos]' tag='INPUT' type='text' class='pmdynaform-control-text form-control' aaname=' &amp;#x9;            &amp;#x9;Acta &amp;#x9;&amp;#x9;             &amp;#x9;            ' /&gt;" Guid="eb90dd71-2207-482e-b07d-3a88246d2283" InformativeScreenshot="c6c7e11b1c50ef93fd13fcb4e0557c2f.png" IsResponsive="True" Reference="E_WsyKu0Yke1l9rBDikF6w/ep1YJueUkEy7Euf-hTkopg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="d48030fb-0f03-424a-8ae6-f72d64e33376" CvTextArea="451, 508, 21, 9" CvTextArgument="Acta" CvType="Text" DesignTimeRectangle="205, 501, 267, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=7443070436902212231d0a5020556878&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='actos' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;            &amp;#x9; &amp;#x9;&amp;#x9;             &amp;#x9;            ' check:innerText='Acta' /&gt;" Guid="29aa6eb7-c59c-4e3d-8445-f16a271dd52f" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Facultad *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_15" Item="Facultad de Minas" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NSelectItem.Items>
+                          <scg:List x:TypeArguments="x:String" Capacity="2">
+                            <x:String>-- SELECCIONE --</x:String>
+                            <x:String>Facultad de Minas</x:String>
+                          </scg:List>
+                        </uix:NSelectItem.Items>
+                        <uix:NSelectItem.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="2433e9fe-4c5a-4366-8ebf-f6c56d4223b7" ContentHash="YfLyP8fX9UeiDM-0VXPrLg" CvElementArea="1325, 499, 530, 27" CvType="InputBox" DesignTimeRectangle="1326, 501, 530, 25" DesignTimeScaleFactor="0.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=867595917690213479b9d48094341936&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[facultades]' tag='SELECT' type='' class='pmdynaform-control-dropdown form-control' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Facultad &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;* &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" Guid="5d90e635-c829-4587-a719-1479596aabc3" InformativeScreenshot="3501066c0cccb9e06a905ed5392cb003.png" Reference="E_WsyKu0Yke1l9rBDikF6w/sQHBf0UjxESdYKNmdV-XRg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="2433e9fe-4c5a-4366-8ebf-f6c56d4223b7" CvTextArea="1270, 506, 39, 11" CvTextArgument="Facultad" CvType="Text" DesignTimeRectangle="1048, 501, 267, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=867595917690213479b9d48094341936&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='facultades' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;' check:innerText='Facultad *' /&gt;" Guid="84796b89-a4c3-4d87-b610-4dfae1f4f0a8" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NSelectItem.Target>
+                      </uix:NSelectItem>
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Nivel Educativo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_16" Item="Posgrado" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NSelectItem.Items>
+                          <scg:List x:TypeArguments="x:String" Capacity="3">
+                            <x:String>-- SELECCIONE --</x:String>
+                            <x:String>Pregrado</x:String>
+                            <x:String>Posgrado</x:String>
+                          </scg:List>
+                        </uix:NSelectItem.Items>
+                        <uix:NSelectItem.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="a852a9a4-8dd6-406f-9f26-94e3889dcee2" ContentHash="Zlvdq1TWfU6VjIae-vzjIQ" CvElementArea="479, 521, 534, 27" CvType="InputBox" DesignTimeRectangle="483, 522, 530, 25" DesignTimeScaleFactor="0.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[nivelEducativo]' tag='SELECT' type='' class='pmdynaform-control-dropdown form-control' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Nivel Educativo &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" Guid="5e13b5ba-2ea8-4096-ae78-492ae45636a9" InformativeScreenshot="b1410c63b4d83903d8b6234d6d7a37e9.png" Reference="E_WsyKu0Yke1l9rBDikF6w/ZvD2nDFFXkWkUCiW5IcG4g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="a852a9a4-8dd6-406f-9f26-94e3889dcee2" CvTextArea="403, 527, 69, 11" CvTextArgument="Nivel Educativo" CvType="Text" DesignTimeRectangle="205, 522, 267, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='nivelEducativo' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;' check:innerText='Nivel Educativo' /&gt;" Guid="c8e16954-b031-4968-91cb-72c7961c3ff8" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NSelectItem.Target>
+                      </uix:NSelectItem>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Acto Administrativo'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_38" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;Acto administrativo Universitas XXI2&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="d48030fb-0f03-424a-8ae6-f72d64e33376" ContentHash="n5d0lWOdVk6WbB9OIRb31w" CvElementArea="479, 575, 533, 26" CvType="InputBox" DesignTimeRectangle="483, 576, 530, 25" DesignTimeScaleFactor="0.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=7443070436902212231d0a5020556878&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[actoAdministrativo]' tag='INPUT' type='text' class='pmdynaform-control-text form-control' aaname=' &amp;#x9;            &amp;#x9;Acto Administrativo &amp;#x9;&amp;#x9;             &amp;#x9;            ' /&gt;" Guid="f4824596-25ee-4b85-9e77-59e37ec4f491" InformativeScreenshot="e98de2ebe5fd7dec714cfb4d30b3a452.png" IsResponsive="True" Reference="E_WsyKu0Yke1l9rBDikF6w/E4jqURPh4kOJbaqLaySN2w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="d48030fb-0f03-424a-8ae6-f72d64e33376" CvTextArea="384, 582, 88, 10" CvTextArgument="Acto Administrativo" CvType="Text" DesignTimeRectangle="205, 576, 267, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=7443070436902212231d0a5020556878&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='actoAdministrativo' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;            &amp;#x9; &amp;#x9;&amp;#x9;             &amp;#x9;            ' check:innerText='Acto Administrativo' /&gt;" Guid="e2fc5970-422f-4427-bf59-efbbddf01f87" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Documento Identificación'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_39" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;Documento de Identidad2&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="6b597934-9058-4da4-9104-91cf56fa2774" ContentHash="TMLTYbL0S0OfTCBq_N2KuQ" CvElementArea="479, 496, 533, 29" CvType="InputBox" DesignTimeRectangle="483, 498, 530, 26" DesignTimeScaleFactor="0.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=7443070436902212231d0a5020556878&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[identificaciones]' tag='INPUT' type='text' class='pmdynaform-control-text form-control' aaname=' &amp;#x9;            &amp;#x9;Documento Identificación &amp;#x9;&amp;#x9;             &amp;#x9;            ' /&gt;" Guid="9f50f7bc-7b15-4935-ae21-6359652f0754" InformativeScreenshot="80076b65c537d338cebe0b9c926f1f87.png" IsResponsive="True" Reference="E_WsyKu0Yke1l9rBDikF6w/a6-uDq57gEaNjwYLVixtDg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="6b597934-9058-4da4-9104-91cf56fa2774" CvTextArea="357, 505, 115, 10" CvTextArgument="Documento Identificación" CvType="Text" DesignTimeRectangle="205, 498, 267, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=7443070436902212231d0a5020556878&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='identificaciones' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;            &amp;#x9; &amp;#x9;&amp;#x9;             &amp;#x9;            ' check:innerText='Documento Identificación' /&gt;" Guid="d57aab5a-3ba7-418c-9cd7-4b7b6d26ff4d" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Programa Curricular'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_34" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;Programa Curricular2&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="bcc42118-bc35-480a-83ca-8ce070441e22" ContentHash="pvfCQnv81E2UF_6tdYp9VQ" CvElementArea="477, 703, 1377, 89" CvType="InputBox" DesignTimeRectangle="482, 706, 1372, 86" DesignTimeScaleFactor="0.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[solicitudes]' tag='TEXTAREA' type='' class='pmdynaform-control-textarea form-control' placeholder='Realizar un breve resumen de la solicitud e indicar el periodo para el que aplica ' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Descripción de la solicitud &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" Guid="288825f0-4b28-4df3-86a8-6dd7dd737311" InformativeScreenshot="a9d5d2aeacc118c52e788b3f7fdb4e55.png" IsResponsive="True" Reference="E_WsyKu0Yke1l9rBDikF6w/r9laUWZ9AEW6wTMhGMrrSA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="bcc42118-bc35-480a-83ca-8ce070441e22" CvTextArea="356, 711, 116, 13" CvTextArgument="Descripción de la solicitud" CvType="Text" DesignTimeRectangle="203, 706, 269, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='solicitudes' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' check:innerText='Descripción de la solicitud' /&gt;" Guid="45fe9813-6427-4be5-83b2-845f376717b7" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en ''Programa Curricular''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_40" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="%[k(Enter)]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="25443293-7975-4868-baed-05dbf30c0192" CvElementArea="485, 546, 523, 24" CvType="InputBox" DesignTimeRectangle="487, 547, 522, 23" DesignTimeScaleFactor="0.75" ElementType="InputBox" FullSelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73978164369022276d30168080075771&amp;amp;DEL_INDEX=1&amp;amp;sid=829712479690222e543cae5005935619' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='search' /&gt;" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73978164369022276d30168080075771&amp;amp;DEL_INDEX=1&amp;amp;sid=829712479690222e543cae5005935619' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='search' class='select2-search__field' aaname='' /&gt;" Guid="e0d0eac2-a0e7-43f5-aaf8-8f60218f637f" InformativeScreenshot="f61117be4f116fda72b5aaa7c2ce4dce.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="25443293-7975-4868-baed-05dbf30c0192" CvTextArea="382, 526, 91, 12" CvTextArgument="Programa Curricular" CvType="Text" DesignTimeRectangle="383, 526, 89, 12" ElementType="Text" FullSelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73978164369022276d30168080075771&amp;amp;DEL_INDEX=1&amp;amp;sid=829712479690222e543cae5005935619' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='programas' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73978164369022276d30168080075771&amp;amp;DEL_INDEX=1&amp;amp;sid=829712479690222e543cae5005935619' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='programas' tag='SPAN' type='' class='textlabel' aaname='Programa Curricular' check:innerText='Programa Curricular' /&gt;" Guid="18e60029-d73d-4b7b-83f5-c92426b9dff6" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Tipo de solicitud'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NSelectItem_19" Item="Registro nota definitiva posgrados" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NSelectItem.Items>
+                          <scg:List x:TypeArguments="x:String" Capacity="16">
+                            <x:String>-- SELECCIONE --</x:String>
+                            <x:String>Admisión automática posgrado</x:String>
+                            <x:String>Bloqueo Reserva de Cupo Adicional</x:String>
+                            <x:String>Cancelación Extemporánea de Asignatura</x:String>
+                            <x:String>Cancelación Extemporánea de Periodo</x:String>
+                            <x:String>Carga Máxima</x:String>
+                            <x:String>Carga Mínima</x:String>
+                            <x:String>Corrección de notas</x:String>
+                            <x:String>Devolución de Créditos</x:String>
+                            <x:String>Doble titulación</x:String>
+                            <x:String>Registro nota definitiva posgrados</x:String>
+                            <x:String>Regularización posgrado</x:String>
+                            <x:String>Reingreso</x:String>
+                            <x:String>Retiro definitivo de un programa curricular</x:String>
+                            <x:String>Tránsito entre programas posgrado</x:String>
+                            <x:String>Traslados</x:String>
+                          </scg:List>
+                        </uix:NSelectItem.Items>
+                        <uix:NSelectItem.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="a067bcf4-df95-4086-a51a-80d203ebafce" ContentHash="V74X0joV2EGbuNQzW3YvJg" CvElementArea="477, 667, 534, 27" CvType="InputBox" DesignTimeRectangle="481, 669, 530, 25" DesignTimeScaleFactor="0.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[tipos]' tag='SELECT' type='' class='pmdynaform-control-dropdown form-control' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Tipo de solicitud &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" Guid="7ebbb475-26cf-4559-a3b8-3daacbe34ee2" InformativeScreenshot="bc766aba18bd8da14f465b9ae5d1e9e0.png" Reference="E_WsyKu0Yke1l9rBDikF6w/ZHAKQ4Ws8k-xekovDmvXzg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="a067bcf4-df95-4086-a51a-80d203ebafce" CvTextArea="396, 674, 74, 13" CvTextArgument="Tipo de solicitud" CvType="Text" DesignTimeRectangle="203, 669, 267, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='tipos' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;' check:innerText='Tipo de solicitud' /&gt;" Guid="4867a3b2-8905-4475-adbe-a70721ddc485" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NSelectItem.Target>
+                      </uix:NSelectItem>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Programa Curricular'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_35" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;Descripción solicitud&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="bcc42118-bc35-480a-83ca-8ce070441e22" ContentHash="pvfCQnv81E2UF_6tdYp9VQ" CvElementArea="477, 703, 1377, 89" CvType="InputBox" DesignTimeRectangle="482, 706, 1372, 86" DesignTimeScaleFactor="0.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[solicitudes]' tag='TEXTAREA' type='' class='pmdynaform-control-textarea form-control' placeholder='Realizar un breve resumen de la solicitud e indicar el periodo para el que aplica ' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Descripción de la solicitud &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" Guid="288825f0-4b28-4df3-86a8-6dd7dd737311" InformativeScreenshot="a9d5d2aeacc118c52e788b3f7fdb4e55.png" IsResponsive="True" Reference="E_WsyKu0Yke1l9rBDikF6w/r9laUWZ9AEW6wTMhGMrrSA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="bcc42118-bc35-480a-83ca-8ce070441e22" CvTextArea="356, 711, 116, 13" CvTextArgument="Descripción de la solicitud" CvType="Text" DesignTimeRectangle="203, 706, 269, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='solicitudes' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' check:innerText='Descripción de la solicitud' /&gt;" Guid="45fe9813-6427-4be5-83b2-845f376717b7" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Choose Files'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_44" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="f45f7df0-17dc-4f4c-8392-9e9cc2767e2c" ContentHash="_ShHyR9BPUKh_V7LiWfvFA" CvTextArea="1146, 853, 57, 11" CvTextArgument="Choose Files" CvType="Text" DesignTimeRectangle="485, 847, 1380, 26" DesignTimeScaleFactor="0.75" ElementType="Button" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='button' class='btn btn-uploadfile' aaname='Choose Files' check:innerText='Choose Files' /&gt;" Guid="d02e9b89-f366-4e8c-a358-f2f461879e8b" InformativeScreenshot="2d641073438d5f07a796e256933c0137.png" Reference="E_WsyKu0Yke1l9rBDikF6w/NDbNe5tg1Em8G_xaXdSxTw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="f45f7df0-17dc-4f4c-8392-9e9cc2767e2c" CvTextArea="377, 854, 97, 11" CvTextArgument="Anexos (Máximo 5MB)" CvType="Text" DesignTimeRectangle="207, 847, 267, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='anexos' tag='LABEL' type='' class='control-label pmdynaform-label' aaname='                                                           ' check:innerText='Anexos (Máximo 5MB)' /&gt;" Guid="516b625c-3fad-4c93-970e-ea34acc72860" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Este equipo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_45" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="506b1caf-8844-4da6-8b1f-3477f4738503" ContentHash="a4n1z0Qsl0iLi0SykQKIzw" CvTextArea="60, 326, 54, 15" CvTextArgument="Descargas" CvType="Text" DesignTimeRectangle="59, 321, 57, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Controlar host' cls='NamespaceTreeControl' title='Control de árbol de espacios de nombres' /&gt;&lt;wnd ctrlid='100' title='Vista en árbol' /&gt;&lt;ctrl name='Descargas' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Controlar host' cls='NamespaceTreeControl' title='Control de árbol de espacios de nombres' /&gt;&lt;wnd ctrlid='100' title='Vista en árbol' /&gt;&lt;ctrl name='Descargas' role='outline item' automationid='' check:text='Descargas' /&gt;" Guid="0c04e75e-b5aa-4c7f-b6bb-3ebddd608511" InformativeScreenshot="0803e0ea25425bfc9fa16e32e399cbec.png" Reference="E_WsyKu0Yke1l9rBDikF6w/m0kHn6q82EymuDkyDoguAg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="506b1caf-8844-4da6-8b1f-3477f4738503" CvTextArea="52, 302, 62, 15" CvTextArgument="Este equipo" CvType="Text" DesignTimeRectangle="51, 297, 65, 24" FullSelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Controlar host' cls='NamespaceTreeControl' title='Control de árbol de espacios de nombres' /&gt;&lt;wnd ctrlid='100' title='Vista en árbol' /&gt;&lt;ctrl name='Este equipo' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Controlar host' cls='NamespaceTreeControl' title='Control de árbol de espacios de nombres' /&gt;&lt;wnd ctrlid='100' title='Vista en árbol' /&gt;&lt;ctrl name='Este equipo' role='outline item' automationid='' check:text='Este equipo' /&gt;" Guid="1cecf230-81c5-41a5-a19e-88ec6ae79e06" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Cuadro de búsqueda'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,288" sap2010:WorkflowViewState.IdRef="NTypeInto_36" InteractionMode="HardwareEvents" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;Nombre Completo y Apellidos5&quot;).ToString() + &quot;[k(Tab)]&quot;]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="506b1caf-8844-4da6-8b1f-3477f4738503" ContentHash="ntKWzl5V10iZ27cinZ6www" CvElementArea="1322, 36, 204, 24" CvType="InputBox" DesignTimeRectangle="1329, 40, 170, 15" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname=' Buscar en Descargas' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Buscar en Descargas' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;" FuzzySelectorArgument="&lt;wnd aaname=' Buscar en Descargas' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Buscar en Descargas' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' role='editable text' /&gt;" Guid="d8fbe024-641a-429c-b1d2-79234b325ab2" InformativeScreenshot="97d303d6831b08e19af5cdd81575d1e7.png" Reference="E_WsyKu0Yke1l9rBDikF6w/3ZIMrqflNkuo0opjAwkdTg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Utilizar Aplicación: Abrir" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,832" sap2010:WorkflowViewState.IdRef="NApplicationCard_12" IsDisplayNameAuto="True" ScopeGuid="7a7bb779-6d1e-4541-8085-798fe4614607" Version="V2">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,531" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic ''Resultados de la búsque…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_46" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7a7bb779-6d1e-4541-8085-798fe4614607" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable CVScreenId="252c3773-777c-4ee2-826e-1c635022e460" CvTextArea="1328, 41, 166, 12" CvTextArgument="VIN NICOLAS GARAY RAMIREZ" CvType="Text" DesignTimeRectangle="1322, 36, 204, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd cls='Search Box' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Search Box' check:text='KEVIN NICOLAS GARAY RAMIREZ' /&gt;" Guid="1bb08f0f-1487-416f-8818-77b400bb3637" InformativeScreenshot="66347f378bf969f148f6fa44078ae3f8.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <uix:Target CVScreenId="252c3773-777c-4ee2-826e-1c635022e460" CvElementArea="111, 36, 1194, 23" CvType="InputBox" DesignTimeRectangle="150, 37, 220, 21" FullSelectorArgument="&lt;wnd ctrlid='1001' title='Dirección: search-ms:displayname=Resultados%20de%20la%20búsqueda*' /&gt;&lt;ctrl name='Dirección: search-ms:displayname=Resultados%20de%20la%20búsqueda*' role='tool bar' /&gt;&lt;ctrl name='Resultados de la búsqueda en Descargas' role='menu item' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1001' title='Dirección: search-ms:displayname=Resultados%20de%20la%20búsqueda*' /&gt;&lt;ctrl name='Dirección: search-ms:displayname=Resultados%20de%20la%20búsqueda*' role='tool bar' /&gt;&lt;ctrl name='Resultados de la búsqueda en Descargas' role='menu item' automationid='' check:text='Resultados de la búsqueda en Descargas' /&gt;" Guid="6ea653eb-baab-4f46-abc6-e336d68d95e4" SearchSteps="Selector, FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                    <uix:TargetAnchorable.PointOffset>
+                                      <uix:PointOffset />
+                                    </uix:TargetAnchorable.PointOffset>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,242" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" InteractionMode="SameAsCard" ScopeIdentifier="7a7bb779-6d1e-4541-8085-798fe4614607" Shortcuts="[d(hk)][k(tab)][u(hk)][d(hk)][k(tab)][u(hk)][d(hk)][k(tab)][u(hk)][d(hk)][k(enter)][u(hk)]" Version="V4">
+                                <uix:NKeyboardShortcuts.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NKeyboardShortcuts.VerifyOptions>
+                              </uix:NKeyboardShortcuts>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="0, 0, 1545, 1014" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" IconBase64="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" InformativeScreenshot="6c97f498f70a4b1dc2e365f3cde41da3.png" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" Version="V2" />
+                        </uix:NApplicationCard.TargetApp>
+                      </uix:NApplicationCard>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic '&amp;Abrir'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_47" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="5c7fb112-8836-403a-97ef-b3298ec7e7cd" ContentHash="3sEfEnStSkGt6K6sNzz_Mw" CvElementArea="1331, 967, 90, 27" CvTextArea="1362, 974, 28, 12" CvTextArgument="Abrir" CvType="Button" DesignTimeRectangle="1332, 968, 88, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Abrir' check:text='&amp;amp;Abrir' /&gt;" Guid="2de8b56e-c888-4c8e-bc9a-fee4572e1edc" InformativeScreenshot="ea865ffc4e3beaef19454d1d90372408.png" Reference="E_WsyKu0Yke1l9rBDikF6w/M3sJIyFqqE2LE9B8Tdf7lg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="5c7fb112-8836-403a-97ef-b3298ec7e7cd" CvElementArea="1431, 967, 90, 28" CvTextArea="1452, 974, 48, 12" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="1432, 968, 88, 26" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='2' title='Cancelar' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='Cancelar' check:text='Cancelar' /&gt;" Guid="8383aa09-a370-4b1d-a6d3-7ec846e5311a" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Actos académicos'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_48" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/sedes" ContentHash="PGSRYyGBoEuCy-M2Z53-ew" DesignTimeRectangle="960, 341, 159, 240" DesignTimeScaleFactor="0.75" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Catálogo de serviciosSede Medellín' tag='A' type='' class='boton fw-bold p-2 fs-3 d-flex justify-content-center align-items-center h-100' check:innerText='Catálogo de servicios&amp;#xA;Sede Medellín' /&gt;" Guid="35c5422d-d855-460e-a216-225acf036f61" InformativeScreenshot="57f6d1321a62c19795e23dd85d9faeae.png" Reference="E_WsyKu0Yke1l9rBDikF6w/dKrcePt1RUO5foYNxJ141w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="6f5e763e-6863-46c0-8936-aee7b2b7c33f" CvTextArea="986, 511, 106, 16" CvTextArgument="Sede Medellín" CvType="Text" DesignTimeRectangle="987, 510, 105, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Sede Medellín' tag='SPAN' type='' class='' check:innerText='Sede Medellín' /&gt;" Guid="92b7b189-0909-45dd-ad4d-ca9346bf4545" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Dirección Académica - T…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_49" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="364aa710-3b3a-4211-a09b-309450508680" ContentHash="wgLgIDpUDk6AlzBByPXIzA" CvTextArea="1508, 464, 352, 13" CvTextArgument="Dirección Académica - Trámites de solicitudes de los Consejos en Registro y Matricula" CvType="Text" DesignTimeRectangle="1508, 464, 353, 13" DesignTimeScaleFactor="1" ElementType="Text" Guid="18c8c4e4-8986-4f5a-9950-f012e3bb66d7" InformativeScreenshot="22cb8a26aa7c47f864bded358305c5b6.png" Reference="E_WsyKu0Yke1l9rBDikF6w/jBk0j3pb_k-bNecfqLinug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="364aa710-3b3a-4211-a09b-309450508680" CvTextArea="1640, 420, 88, 10" CvTextArgument="Misional - Formación" CvType="Text" DesignTimeRectangle="1477, 421, 414, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Misional - Formación' class='ng-star-inserted' tag='SPAN' type='' check:innerText='Misional - Formación' /&gt;" Guid="00caea5a-fc35-4c67-b9a0-96f5a885ac9a" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic ''Crear''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_50" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="eff175d6-70ed-4fc2-9851-def34948c462" CvElementArea="911, 666, 51, 27" CvTextArea="923, 673, 28, 11" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="913, 667, 48, 25" DesignTimeScaleFactor="0.75" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Crear' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Crear' tag='BUTTON' type='button' class='swal2-confirm swal2-styled' check:innerText='Crear' /&gt;" Guid="0ec2c2b9-c9a7-4be8-920a-c7360055780a" InformativeScreenshot="9a6c23557d8554ca303e1ee0a9db0e02.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="800, 530, 336, 63" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='swal2-title' aaname='¿Estás seguro que quieres crear un caso?' check:innerText='¿Estás seguro que quieres crear un caso?' /&gt;" Guid="f5cbbf4d-d4b7-43e7-b4c0-abd9011c2b83" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Utilizar Navegador Chrome: Sistema de gestión de procesos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,333" sap2010:WorkflowViewState.IdRef="NApplicationCard_13" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="5c5836cb-0f48-4d5a-9ad0-f851fa68b8ef" Version="V2">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="-8, -8, 1936, 1066" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFcSURBVDhPjdJrK4RBFMDxecGGtlBsknhB5LZJkWxYd3JNLm/cb5Hc8gGUN3wYH9L/r1HPtLvl1K+nmXN2mjl7Qo3IYwL78ev6X9GCPWzjE9/4imv3zdeMejRhC5d4xys+4noD5q2riF4sYhMWL+AMK5n1BXYxjz4ksYR7lHELr/yAGbzgEO67vsIykmjDKXp+VyEMoICD+B1EJ8yfoB1JeIBXHoanT6MLY/DN/ugG5v1an0QjHmEvbOI4rnEMn3WEVph/hvVJ3MHEGry+bKA3mcUkfMYqrLM+iSKe0I8GeAMb99cwb+Ch5q2zPgnf5t/j17/I5hneyCZ6C+cgW5dECW9YRzc60AybWAdH2j3z1lmfRA6e7Cw4NKNxzwP8unbfvHXuVYRvdNK8ttM3l/k6he6bt65qDMFh8r02ziaeYwfOwRSclRFUDU92fH2fjbTTHugzXHuw+cwNQvgBHVwumPRoCgwAAAAASUVORK5CYII=" InformativeScreenshot="07b1c4b2772415671041de70507a24a4.jpg" Selector="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" Url="https://processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" Version="V2" />
+                        </uix:NApplicationCard.TargetApp>
+                      </uix:NApplicationCard>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEachRow.Body>
+              </ui:ForEachRow>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1936, 1066" BrowserType="Chrome" ContentHash="SzCjinHjgUGZYtz8Wmk4Jg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFcSURBVDhPjdJrK4RBFMDxecGGtlBsknhB5LZJkWxYd3JNLm/cb5Hc8gGUN3wYH9L/r1HPtLvl1K+nmXN2mjl7Qo3IYwL78ev6X9GCPWzjE9/4imv3zdeMejRhC5d4xys+4noD5q2riF4sYhMWL+AMK5n1BXYxjz4ksYR7lHELr/yAGbzgEO67vsIykmjDKXp+VyEMoICD+B1EJ8yfoB1JeIBXHoanT6MLY/DN/ugG5v1an0QjHmEvbOI4rnEMn3WEVph/hvVJ3MHEGry+bKA3mcUkfMYqrLM+iSKe0I8GeAMb99cwb+Ch5q2zPgnf5t/j17/I5hneyCZ6C+cgW5dECW9YRzc60AybWAdH2j3z1lmfRA6e7Cw4NKNxzwP8unbfvHXuVYRvdNK8ttM3l/k6he6bt65qDMFh8r02ziaeYwfOwRSclRFUDU92fH2fjbTTHugzXHuw+cwNQvgBHVwumPRoCgwAAAAASUVORK5CYII=" InformativeScreenshot="e4f9f9ee04dce32ced1fea784e9638d5.jpg" Reference="E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg" Selector="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" Url="https://processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

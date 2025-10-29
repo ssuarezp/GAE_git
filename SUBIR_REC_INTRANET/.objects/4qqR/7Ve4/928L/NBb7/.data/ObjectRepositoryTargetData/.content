@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1za8pRLOl0C4RIODIDRDRQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="e5637786-9529-46fe-bcb8-24c06003cbea" CvElementArea="477, 676, 532, 28" CvType="InputBox" DesignTimeRectangle="481, 677, 530, 26" DesignTimeScaleFactor="0.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl aria-role='combobox' tag='SPAN' type='' class='select2-selection select2-selection--single' aaname='' /&gt;" Guid="ba97befe-4022-4407-90cc-d3221356efb9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e5637786-9529-46fe-bcb8-24c06003cbea" CvTextArea="380, 684, 91, 12" CvTextArgument="Programa Curricular" CvType="Text" DesignTimeRectangle="381, 684, 89, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='programas' tag='SPAN' type='' class='textlabel' aaname='Programa Curricular' check:innerText='Programa Curricular' /&gt;" Guid="7bf5cd21-5a7b-4d43-a2d3-53c991b4f6d3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="95d5969a50f59e7440567c15b71c81dc.png" xmlns="">07EqIK6RDcUSA5kEgHQB3Bw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

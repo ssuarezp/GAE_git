@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Dirección Académica - T…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jBk0j3pb_k-bNecfqLinug",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/jBk0j3pb_k-bNecfqLinug",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-29T13:09:49.0107415Z",
+  "Updated": "2025-10-29T13:09:49.0107415Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

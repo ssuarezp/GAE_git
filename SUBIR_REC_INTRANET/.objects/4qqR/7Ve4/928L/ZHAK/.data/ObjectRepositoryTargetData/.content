@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="V74X0joV2EGbuNQzW3YvJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="a067bcf4-df95-4086-a51a-80d203ebafce" CvElementArea="477, 667, 534, 27" CvType="InputBox" DesignTimeRectangle="481, 669, 530, 25" DesignTimeScaleFactor="0.75" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[tipos]' tag='SELECT' type='' class='pmdynaform-control-dropdown form-control' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Tipo de solicitud &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" Guid="7ebbb475-26cf-4559-a3b8-3daacbe34ee2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a067bcf4-df95-4086-a51a-80d203ebafce" CvTextArea="396, 674, 74, 13" CvTextArgument="Tipo de solicitud" CvType="Text" DesignTimeRectangle="203, 669, 267, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/cases/open?APP_UID=73451576468d297505e0a17069946834&amp;amp;DEL_INDEX=1&amp;amp;sid=669786102690214021a5277080037521' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='tipos' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;' check:innerText='Tipo de solicitud' /&gt;" Guid="4867a3b2-8905-4475-adbe-a70721ddc485" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bc766aba18bd8da14f465b9ae5d1e9e0.png" xmlns="">04GAr6__V50m_sG4WuFUw6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

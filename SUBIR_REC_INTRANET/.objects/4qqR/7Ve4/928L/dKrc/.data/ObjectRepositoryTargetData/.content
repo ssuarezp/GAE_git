@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PGSRYyGBoEuCy-M2Z53-ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/sedes" DesignTimeRectangle="960, 341, 159, 240" DesignTimeScaleFactor="0.75" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Catálogo de serviciosSede Medellín' tag='A' type='' class='boton fw-bold p-2 fs-3 d-flex justify-content-center align-items-center h-100' check:innerText='Catálogo de servicios&amp;#xA;Sede Medellín' /&gt;" Guid="35c5422d-d855-460e-a216-225acf036f61" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6f5e763e-6863-46c0-8936-aee7b2b7c33f" CvTextArea="986, 511, 106, 16" CvTextArgument="Sede Medellín" CvType="Text" DesignTimeRectangle="987, 510, 105, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Sede Medellín' tag='SPAN' type='' class='' check:innerText='Sede Medellín' /&gt;" Guid="92b7b189-0909-45dd-ad4d-ca9346bf4545" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="57f6d1321a62c19795e23dd85d9faeae.png" xmlns="">08VDkUFpLF0abnNpbxtZUtQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

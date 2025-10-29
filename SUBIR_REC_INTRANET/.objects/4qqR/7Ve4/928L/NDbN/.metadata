@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Choose Files",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "NDbNe5tg1Em8G_xaXdSxTw",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/NDbNe5tg1Em8G_xaXdSxTw",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-29T13:32:06.4238641Z",
+  "Updated": "2025-10-29T13:32:06.4238641Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

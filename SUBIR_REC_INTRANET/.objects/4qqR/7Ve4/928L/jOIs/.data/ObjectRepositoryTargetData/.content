@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FFEyvbZDGUmZKx7lsFOXgQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="b5c23ba6-0f52-4aff-89a7-12b868a5951d" CvElementArea="1481, 565, 405, 28" CvType="Button" DesignTimeRectangle="1477, 406, 414, 237" DesignTimeScaleFactor="0.75" FuzzySelectorArgument="&lt;webctrl type='' class='col-item overflow-auto' tag='DIV' aaname='' check:innerText='Misional - Formación&amp;#xA;Dirección Académica - Trámites de solicitudes de los Consejos en Registro y' /&gt;" Guid="3cf30f59-d93f-4c4d-9249-e65084762780" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="df28a47bf8ddce9f9b3a10f69dc099da.png" xmlns="">0XDMJ9w915EW5ulXZmbxvhg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

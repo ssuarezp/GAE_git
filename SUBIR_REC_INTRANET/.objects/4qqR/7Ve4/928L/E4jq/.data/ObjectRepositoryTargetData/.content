@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="n5d0lWOdVk6WbB9OIRb31w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="d48030fb-0f03-424a-8ae6-f72d64e33376" CvElementArea="479, 575, 533, 26" CvType="InputBox" DesignTimeRectangle="483, 576, 530, 25" DesignTimeScaleFactor="0.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=7443070436902212231d0a5020556878&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[actoAdministrativo]' tag='INPUT' type='text' class='pmdynaform-control-text form-control' aaname=' &amp;#x9;            &amp;#x9;Acto Administrativo &amp;#x9;&amp;#x9;             &amp;#x9;            ' /&gt;" Guid="f4824596-25ee-4b85-9e77-59e37ec4f491" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d48030fb-0f03-424a-8ae6-f72d64e33376" CvTextArea="384, 582, 88, 10" CvTextArgument="Acto Administrativo" CvType="Text" DesignTimeRectangle="205, 576, 267, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=7443070436902212231d0a5020556878&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='actoAdministrativo' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;            &amp;#x9; &amp;#x9;&amp;#x9;             &amp;#x9;            ' check:innerText='Acto Administrativo' /&gt;" Guid="e2fc5970-422f-4427-bf59-efbbddf01f87" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e98de2ebe5fd7dec714cfb4d30b3a452.png" xmlns="">0ychBzZ0xCkeSmsY3XL0Uqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

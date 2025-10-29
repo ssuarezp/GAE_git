@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ntKWzl5V10iZ27cinZ6www" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="506b1caf-8844-4da6-8b1f-3477f4738503" CvElementArea="1322, 36, 204, 24" CvType="InputBox" DesignTimeRectangle="1329, 40, 170, 15" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname=' Buscar en Descargas' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Buscar en Descargas' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;" FuzzySelectorArgument="&lt;wnd aaname=' Buscar en Descargas' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Buscar en Descargas' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' role='editable text' /&gt;" Guid="d8fbe024-641a-429c-b1d2-79234b325ab2" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="97d303d6831b08e19af5cdd81575d1e7.png" xmlns="">0z8G7wWvVuU2gUypFkOZYvA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

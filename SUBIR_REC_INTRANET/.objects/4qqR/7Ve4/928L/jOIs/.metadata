@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Misional - Formación Di…",
+  "Type": "Element",
+  "Id": "jOIsLmat9UmOXBNpRwu1mQ",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/jOIsLmat9UmOXBNpRwu1mQ",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-29T13:06:52.1643639Z",
+  "Updated": "2025-10-29T13:06:52.1643639Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

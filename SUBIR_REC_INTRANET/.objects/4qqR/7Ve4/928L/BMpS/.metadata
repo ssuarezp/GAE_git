@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[ 3534 ] INGENIERÍA DE …(1)",
+  "Type": "Element",
+  "Id": "BMpSGQGbG06BQtlbpQ7Tvg",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/BMpSGQGbG06BQtlbpQ7Tvg",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-21T14:31:46.5835052Z",
+  "Updated": "2025-10-21T14:31:46.5835052Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

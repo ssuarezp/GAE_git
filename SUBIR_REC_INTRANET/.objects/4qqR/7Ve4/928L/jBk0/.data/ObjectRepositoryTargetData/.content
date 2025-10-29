@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wgLgIDpUDk6AlzBByPXIzA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="364aa710-3b3a-4211-a09b-309450508680" CvTextArea="1508, 464, 352, 13" CvTextArgument="Dirección Académica - Trámites de solicitudes de los Consejos en Registro y Matricula" CvType="Text" DesignTimeRectangle="1508, 464, 353, 13" DesignTimeScaleFactor="1" ElementType="Text" Guid="18c8c4e4-8986-4f5a-9950-f012e3bb66d7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="364aa710-3b3a-4211-a09b-309450508680" CvTextArea="1640, 420, 88, 10" CvTextArgument="Misional - Formación" CvType="Text" DesignTimeRectangle="1477, 421, 414, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Misional - Formación' class='ng-star-inserted' tag='SPAN' type='' check:innerText='Misional - Formación' /&gt;" Guid="00caea5a-fc35-4c67-b9a0-96f5a885ac9a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="22cb8a26aa7c47f864bded358305c5b6.png" xmlns="">0nZAe7LCp6kiV0hRGgrK6Tg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cuadro de búsqueda",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "3ZIMrqflNkuo0opjAwkdTg",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/3ZIMrqflNkuo0opjAwkdTg",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-29T13:33:08.6078941Z",
+  "Updated": "2025-10-29T13:33:08.6078941Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

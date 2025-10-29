@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TMLTYbL0S0OfTCBq_N2KuQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" CVScreenId="6b597934-9058-4da4-9104-91cf56fa2774" CvElementArea="479, 496, 533, 29" CvType="InputBox" DesignTimeRectangle="483, 498, 530, 26" DesignTimeScaleFactor="0.75" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=7443070436902212231d0a5020556878&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl id='form[identificaciones]' tag='INPUT' type='text' class='pmdynaform-control-text form-control' aaname=' &amp;#x9;            &amp;#x9;Documento Identificación &amp;#x9;&amp;#x9;             &amp;#x9;            ' /&gt;" Guid="9f50f7bc-7b15-4935-ae21-6359652f0754" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6b597934-9058-4da4-9104-91cf56fa2774" CvTextArea="357, 505, 115, 10" CvTextArgument="Documento Identificación" CvType="Text" DesignTimeRectangle="205, 498, 267, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://processp.medellin.unal.edu.co/sysunmed/es/neoclassic/gestionCasos/gestionCasos?a=newCase&amp;amp;process=816181942561ea9fe691264079530728&amp;amp;task=856335313561eab40991713088197988&amp;amp;user=4358953525ff290bd2c2ed2035518007&amp;amp;username=asesorestu_med&amp;amp;sid=7443070436902212231d0a5020556878&amp;amp;sede=3' tag='IFRAME' /&gt;&lt;webctrl id='openCaseFrame' tag='IFRAME' /&gt;&lt;webctrl parentid='identificaciones' tag='LABEL' type='' class='control-label pmdynaform-label' aaname=' &amp;#x9;            &amp;#x9; &amp;#x9;&amp;#x9;             &amp;#x9;            ' check:innerText='Documento Identificación' /&gt;" Guid="d57aab5a-3ba7-418c-9cd7-4b7b6d26ff4d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="80076b65c537d338cebe0b9c926f1f87.png" xmlns="">049wgknxBd0SsPuX8b2Md_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

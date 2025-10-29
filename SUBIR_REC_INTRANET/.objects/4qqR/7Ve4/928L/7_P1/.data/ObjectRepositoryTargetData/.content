@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="j_m17o3uUUKptBlFSBNW2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" DesignTimeRectangle="1484, 459, 400, 41" DesignTimeScaleFactor="0.75" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Dirección Académica - Trámites de solicitudes de los Consejos en Registro y Matrícula (Realizar solicitud) ' tag='BUTTON' type='' class='btn bg-white text-surface item ng-star-inserted' check:innerText='Dirección Académica - Trámites de solicitudes de los Consejos en Registro y Matrícula (Realizar' /&gt;" Guid="8d7277e0-ab5c-4f12-ba42-e3abc2afd4f4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b5c23ba6-0f52-4aff-89a7-12b868a5951d" CvTextArea="1508, 464, 352, 13" CvTextArgument="Dirección Académica - Trámites de solicitudes de los Consejos en Registro y Matricula" CvType="Text" DesignTimeRectangle="1508, 464, 352, 13" ElementType="Text" Guid="d8a321cb-ee64-4ca2-af04-19861863934a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7e70051cd787936f202b42bfd984bba2.png" xmlns="">0HxW0kwWDpUmkWLduYa2SuA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

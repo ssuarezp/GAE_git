@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="SzCjinHjgUGZYtz8Wmk4Jg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1066" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFcSURBVDhPjdJrK4RBFMDxecGGtlBsknhB5LZJkWxYd3JNLm/cb5Hc8gGUN3wYH9L/r1HPtLvl1K+nmXN2mjl7Qo3IYwL78ev6X9GCPWzjE9/4imv3zdeMejRhC5d4xys+4noD5q2riF4sYhMWL+AMK5n1BXYxjz4ksYR7lHELr/yAGbzgEO67vsIykmjDKXp+VyEMoICD+B1EJ8yfoB1JeIBXHoanT6MLY/DN/ugG5v1an0QjHmEvbOI4rnEMn3WEVph/hvVJ3MHEGry+bKA3mcUkfMYqrLM+iSKe0I8GeAMb99cwb+Ch5q2zPgnf5t/j17/I5hneyCZ6C+cgW5dECW9YRzc60AybWAdH2j3z1lmfRA6e7Cw4NKNxzwP8unbfvHXuVYRvdNK8ttM3l/k6he6bt65qDMFh8r02ziaeYwfOwRSclRFUDU92fH2fjbTTHugzXHuw+cwNQvgBHVwumPRoCgwAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='Sistema de gestión de procesos' /&gt;" Url="https://processp.medellin.unal.edu.co/external-cases/nuevo-caso/3" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="e4f9f9ee04dce32ced1fea784e9638d5.jpg" xmlns="">04N0nzxN75kuqkHScCkQY5A</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Programa Curricular(1)",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "NBb76eD5TUCvFrGfRhab9A",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/NBb76eD5TUCvFrGfRhab9A",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-29T13:23:40.8832297Z",
+  "Updated": "2025-10-29T13:23:40.8832297Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

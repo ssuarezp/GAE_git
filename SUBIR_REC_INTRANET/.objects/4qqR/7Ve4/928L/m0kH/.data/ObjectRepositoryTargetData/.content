@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a4n1z0Qsl0iLi0SykQKIzw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="processp.medellin.unal.edu.co/external-cases/bandeja-entrada/edit" CVScreenId="506b1caf-8844-4da6-8b1f-3477f4738503" CvTextArea="60, 326, 54, 15" CvTextArgument="Descargas" CvType="Text" DesignTimeRectangle="59, 321, 57, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Controlar host' cls='NamespaceTreeControl' title='Control de árbol de espacios de nombres' /&gt;&lt;wnd ctrlid='100' title='Vista en árbol' /&gt;&lt;ctrl name='Descargas' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Controlar host' cls='NamespaceTreeControl' title='Control de árbol de espacios de nombres' /&gt;&lt;wnd ctrlid='100' title='Vista en árbol' /&gt;&lt;ctrl name='Descargas' role='outline item' automationid='' check:text='Descargas' /&gt;" Guid="0c04e75e-b5aa-4c7f-b6bb-3ebddd608511" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="506b1caf-8844-4da6-8b1f-3477f4738503" CvTextArea="52, 302, 62, 15" CvTextArgument="Este equipo" CvType="Text" DesignTimeRectangle="51, 297, 65, 24" FullSelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Controlar host' cls='NamespaceTreeControl' title='Control de árbol de espacios de nombres' /&gt;&lt;wnd ctrlid='100' title='Vista en árbol' /&gt;&lt;ctrl name='Este equipo' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Controlar host' cls='NamespaceTreeControl' title='Control de árbol de espacios de nombres' /&gt;&lt;wnd ctrlid='100' title='Vista en árbol' /&gt;&lt;ctrl name='Este equipo' role='outline item' automationid='' check:text='Este equipo' /&gt;" Guid="1cecf230-81c5-41a5-a19e-88ec6ae79e06" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0803e0ea25425bfc9fa16e32e399cbec.png" xmlns="">0hmWXStnjoEeIrRCeXgUUPA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
