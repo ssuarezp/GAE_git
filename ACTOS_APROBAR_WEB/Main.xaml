@@ -588,7 +588,7 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <Delay DisplayName="Retraso" Duration="00:00:03" sap:VirtualizedContainerService.HintSize="484,123" sap2010:WorkflowViewState.IdRef="Delay_29" />
+                      <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,123" sap2010:WorkflowViewState.IdRef="Delay_29" />
                       <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Instancias(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="NClick_38" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="7855863e-55c5-4182-b808-8bd0e4ba2af6" ContentHash="EQT5rHpe1UiuwP7kLu5tWQ" CvElementArea="437, 710, 79, 38" CvTextArea="449, 722, 55, 13" CvTextArgument="Instancias" CvType="Button" DesignTimeRectangle="439, 711, 76, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Instancias' aria-role='tab' tag='A' type='' class='t-Tabs-link' check:innerText='Instancias' /&gt;" Guid="d111b7f8-d42c-4c30-a129-5b9fb43546a1" InformativeScreenshot="7551c8e657f7af2ddf441df6e751c680.png" Reference="E_WsyKu0Yke1l9rBDikF6w/zhFR63f0K0OHiUULeWq-Sg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
