@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Buscar",
+  "Type": "Element",
+  "Id": "Y2-OLvXyg0mk6GVSr_oMTQ",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/Y2-OLvXyg0mk6GVSr_oMTQ",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-20T21:27:31.7958742Z",
+  "Updated": "2025-10-20T21:27:31.7958742Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

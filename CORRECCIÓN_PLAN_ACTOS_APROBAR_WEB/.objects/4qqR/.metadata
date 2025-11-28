@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Actos académicos",
+  "Type": "App",
+  "Id": "4qqReKhdREiTfOcUAW2lJA",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/4qqReKhdREiTfOcUAW2lJA",
+  "Created": "2025-10-20T20:43:22.9682119Z",
+  "Updated": "2025-10-20T20:43:22.9682119Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
