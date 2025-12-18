@@ -31,8 +31,8 @@ def buscar_texto_en_documento(pdf_path, texto):
 # Iterar sobre cada archivo PDF en la lista
 for archivo in contenido:
     pdf = fitz.open(archivo)
-    #altura = buscar_texto_en_documento(archivo, texto)
-    altura = None
+    altura = buscar_texto_en_documento(archivo, texto)
+    #altura = None
     if altura is not None: # Verificar si se encontró el texto en el PDF
         pagina = pdf[0]
         # Calcular la posición de la imagen en función de la altura del texto
