@@ -353,7 +353,7 @@
                           </uix:TargetAnchorable>
                         </uix:NSelectItem.Target>
                       </uix:NSelectItem>
-                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Subtipo de solicitud (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,198" sap2010:WorkflowViewState.IdRef="NSelectItem_13" Item="[CARGAMIN] Autorización para inscribir menos de los créditos mínimos exigidos" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Subtipo de solicitud (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,198" sap2010:WorkflowViewState.IdRef="NSelectItem_13" Item="[HOMEQUI] Homologación/Equivalencia" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NSelectItem.Items>
                           <scg:List x:TypeArguments="x:String" Capacity="36">
                             <x:String>-- Seleccione un subtipo de solicitud --</x:String>
