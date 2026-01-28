@@ -116,7 +116,7 @@
       <AssemblyReference>fd01231291612.2BrlU3Bz8ZP1usCrl2ij9gb4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="727,10237" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="734,10364" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
     </Sequence.Variables>
@@ -125,7 +125,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="622,10214" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence sap:VirtualizedContainerService.HintSize="622,10341" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -179,25 +179,25 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ueab:ExcelProcessScopeX>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Actos académicos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588,9355" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Actos académicos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588,9482" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554,9110" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554,9237" sap2010:WorkflowViewState.IdRef="Sequence_9">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="520,9044" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="520,9171" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518,8865" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518,8992" sap2010:WorkflowViewState.IdRef="Sequence_10">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -588,6 +588,7 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
+                      <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,127" sap2010:WorkflowViewState.IdRef="Delay_32" />
                       <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Guardar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,233" sap2010:WorkflowViewState.IdRef="NClick_40" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="275b7355-d7dd-4b20-8490-99a6130eb4d3" ContentHash="9cVXd8NtGk-K-UeKKfKk2g" CvElementArea="1257, 204, 87, 43" CvTextArea="1272, 218, 57, 13" CvTextArgument="Guardar" CvType="Button" DesignTimeRectangle="1258, 205, 85, 40" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Guardar' parentid='R1631097929644983322' tag='BUTTON' type='button' class='t-Button t-Button--hot t-Button--large t-Button--gapBottom' check:innerText='Guardar' /&gt;" Guid="a3eacec5-1851-4ce7-a20a-a0c78e34ce3b" InformativeScreenshot="79e0558c537617fc512d6cebc233e282.png" Reference="E_WsyKu0Yke1l9rBDikF6w/pd3uJEItg02OhoqIt3a9Ow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
