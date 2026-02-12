@@ -353,7 +353,7 @@
                           </uix:TargetAnchorable>
                         </uix:NSelectItem.Target>
                       </uix:NSelectItem>
-                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Subtipo de solicitud (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,198" sap2010:WorkflowViewState.IdRef="NSelectItem_13" Item="[HOMEQUI] Homologación/Equivalencia" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                      <uix:NSelectItem DisplayName="Seleccionar elemento 'Subtipo de solicitud (V…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,198" sap2010:WorkflowViewState.IdRef="NSelectItem_13" Item="[RET PROG] Retiro definitivo de un programa curricular" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NSelectItem.Items>
                           <scg:List x:TypeArguments="x:String" Capacity="36">
                             <x:String>-- Seleccione un subtipo de solicitud --</x:String>
@@ -567,7 +567,7 @@
                         </uix:NApplicationCard.TargetApp>
                       </uix:NApplicationCard>
                       <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,127" sap2010:WorkflowViewState.IdRef="Delay_28" />
-                      <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Clic 'Crear(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,233" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Crear(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,233" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="362d88d2-01ee-44f0-a16a-2aa9675ca8a1" ContentHash="UOBxvpqLqUCj6AltVplZwg" CvElementArea="1852, 214, 64, 38" CvTextArea="1867, 226, 34, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1853, 215, 61, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Crear' parentid='R1631097929644983322' tag='BUTTON' type='button' class='t-Button t-Button--hot t-Button--large t-Button--gapBottom' check:innerText='Crear' /&gt;" Guid="c0821420-b93b-4bc4-9dc2-885dd8dfc53f" InformativeScreenshot="961ade26da11a9d7ea74e78f34bcdf3a.png" Reference="E_WsyKu0Yke1l9rBDikF6w/FuPf4hbvwkq4m27E894fmw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
