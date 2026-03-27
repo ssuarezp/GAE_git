@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="13NYZCFWbUafrc28YeXlLw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e5900735-242f-4ed7-8274-7c478140fec9" CvElementArea="32, 439, 88, 24" CvType="InputBox" DesignTimeRectangle="33, 440, 87, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Instancias' role='page tab' /&gt;&lt;java name='Código del fundamento Required' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Instancias' role='page tab' /&gt;&lt;java name='Código del fundamento Required' role='text' /&gt;" Guid="78ffe098-9800-41d2-9b92-053f1c4a4f68" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e5900735-242f-4ed7-8274-7c478140fec9" CvElementArea="32, 417, 88, 21" CvTextArea="59, 421, 34, 13" CvTextArgument="Código" CvType="Button" DesignTimeRectangle="33, 417, 87, 20" ElementType="Button" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Instancias' role='page tab' /&gt;&lt;java name='Ordenar por código' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Instancias' role='page tab' /&gt;&lt;java name='Ordenar por código' role='push button' check:text='Ordenar por código' /&gt;" Guid="d14682e8-2eaa-4f42-a2b0-d8599eab0722" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9eb2d6df6f0bb2fb3e85c08426886af4.png" xmlns="">0SJcTwGfmcEOWDc3ITp7ZiA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

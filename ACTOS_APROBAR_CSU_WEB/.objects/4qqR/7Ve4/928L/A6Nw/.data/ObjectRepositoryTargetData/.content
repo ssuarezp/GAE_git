@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m1WdiNxd30qX_UKwKOB69A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" DesignTimeRectangle="784, 502, 517, 43" DesignTimeScaleFactor="0.8999999761581421" FuzzySelectorArgument="&lt;webctrl type='' class='apex-item-group apex-item-group--popup-lov' tag='DIV' aaname='' check:text='-' /&gt;" Guid="8eee5bda-46c2-4957-92fd-3ddc94d5f5d3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="833, 548, 270, 43" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' tag='LI' type='' class='a-IconList-item' aaname='[ MGPR ] MODALIDAD ASIGNATURAS DE POSGRADO' check:innerText='[ MGPR ] MODALIDAD ASIGNATURAS DE POSGRADO' /&gt;" Guid="5d97f951-36d6-496a-b4cf-5e98d8e622ba" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7d99d95fdc1c2ce234bb37956f3e3690.png" xmlns="">0aEWQuZch00C4w79eO1L3Mw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

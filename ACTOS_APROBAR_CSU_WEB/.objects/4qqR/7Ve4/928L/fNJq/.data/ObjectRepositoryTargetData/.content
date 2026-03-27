@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KZHFPemSA0e8pKnV4XP9eg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="28968b70-27b4-49ae-b1e3-7ee286bb85db" CvElementArea="254, 601, 539, 46" CvType="InputBox" DesignTimeRectangle="254, 603, 538, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='selectlist apex-item-select' aaname='Estado (Valor Necesario)' /&gt;" Guid="cde67a75-6097-4e34-9c84-3963cacf8fd3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="28968b70-27b4-49ae-b1e3-7ee286bb85db" CvElementArea="254, 601, 539, 46" CvType="InputBox" DesignTimeRectangle="254, 603, 43, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Estado ' tag='LABEL' type='' class='t-Form-label' check:innerText='Estado&amp;#xA;(Valor Necesario)' /&gt;" Guid="2305244f-e9ab-4a34-9ec5-e4d97321b756" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8dbcefe3eb49163f3130c7424dffd59a.png" xmlns="">0x_dHM-lN00S8Nz2-l0218Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

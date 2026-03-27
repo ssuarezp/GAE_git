@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[ 3068 ] FACULTAD DE MI…",
+  "Type": "Element",
+  "Id": "E9spApyCt0qCb3qDPDZk3w",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/E9spApyCt0qCb3qDPDZk3w",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-20T21:26:39.1987879Z",
+  "Updated": "2025-10-20T21:26:39.1987879Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

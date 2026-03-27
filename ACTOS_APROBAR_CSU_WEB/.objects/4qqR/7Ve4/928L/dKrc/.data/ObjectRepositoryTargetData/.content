@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1ggwQ1bA00mJYoKaoyncaQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="47760eb0-63f0-47aa-94fc-85a40a63e7df" CvTextArea="46, 244, 108, 13" CvTextArgument="Actos académicos" CvType="Text" DesignTimeRectangle="8, 231, 216, 39" DesignTimeScaleFactor="0.8999999761581421" FuzzySelectorArgument="&lt;webctrl aria-role='none' type='' parentid='t_TreeNav_1' tag='DIV' class='a-TreeView-content is-selected is-current--top' aaname='' check:innerText='Actos académicos' /&gt;" Guid="6089f9a7-e43b-4959-9a83-4c3cb8fbf70c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Actos académicos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="47760eb0-63f0-47aa-94fc-85a40a63e7df" CvTextArea="46, 244, 108, 13" CvTextArgument="Actos académicos" CvType="Text" DesignTimeRectangle="48, 231, 176, 39" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='t_TreeNav_1' tag='A' type='' class='a-TreeView-label is-current' aaname='Actos académicos' check:innerText='Actos académicos' /&gt;" Guid="1aa95fc7-38cc-4b59-9728-76447bff7620" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7d2119009ebae6f9ac6739d4e806b507.png" xmlns="">0ho-hH4Va4U2-rXJ5AxB7PQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

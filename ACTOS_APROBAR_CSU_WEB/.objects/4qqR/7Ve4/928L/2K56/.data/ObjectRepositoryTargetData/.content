@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ggd_YCrgTUW7W5BO_hfsSA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" DesignTimeRectangle="784, 502, 538, 43" DesignTimeScaleFactor="0.8999999761581421" FuzzySelectorArgument="&lt;webctrl type='' class='apex-item-group apex-item-group--popup-lov' tag='DIV' aaname='' check:text='-' /&gt;" Guid="78d6707e-1e34-4ee9-9792-4c4788eeca61" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="833, 648, 270, 44" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' type='' tabindex='-1' tag='LI' class='a-IconList-item' aaname='[ 3534 ] INGENIERÍA DE SISTEMAS E INFORMÁTICA' check:innerText='[ 3534 ] INGENIERÍA DE SISTEMAS E INFORMÁTICA' /&gt;" Guid="4e74b728-9394-43b5-b86c-f0f4c3446c70" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="984612c355ac3f2b9f9d92646fdbecaa.png" xmlns="">0gHxa4P6W20yuUnveYbG8Sw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cEk8z5hRRU6UEGSWj-cwuw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="d01b40c4-dad9-4629-9b31-c8e929dc9c7e" CvTextArea="843, 585, 153, 14" CvTextArgument="[3068 ] FACULTAD DE MINAS" CvType="Text" DesignTimeRectangle="833, 577, 270, 28" DesignTimeScaleFactor="0.8999999761581421" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' tabindex='-1' tag='LI' type='' class='a-IconList-item' aaname=' [ 3068 ] FACULTAD DE MINAS' check:innerText='[ 3068 ] FACULTAD DE MINAS' /&gt;" Guid="3e892086-6f1a-4f69-8d76-7aed0b5401a1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d01b40c4-dad9-4629-9b31-c8e929dc9c7e" CvTextArea="842, 554, 108, 16" CvTextArgument="[3] SEDE MEDELLÍN" CvType="Text" DesignTimeRectangle="833, 548, 270, 29" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' tag='LI' type='' class='a-IconList-item' aaname=' [ 3 ] SEDE MEDELLÍN' check:innerText='[ 3 ] SEDE MEDELLÍN' /&gt;" Guid="d426d721-c100-424b-a21d-a113fe4870d8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="89d4f7093270fe60ecb27f1861cea03c.png" xmlns="">0GTj5CE2BbkiSQK_ENlG4iw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
