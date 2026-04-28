@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yxX74xIK4Ue85-d06CxiMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="f1d9706a-5931-435d-8a2a-ad230d2e827f" CvElementArea="1839, 501, 39, 44" CvType="Button" DesignTimeRectangle="1841, 502, 36, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl type='button' class='a-Button a-Button--popupLOV' tabindex='-1' tag='BUTTON' aaname='' /&gt;" Guid="d5f4a8c4-366c-4c48-8e6b-4aa569d3951f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f1d9706a-5931-435d-8a2a-ad230d2e827f" CvElementArea="1359, 500, 491, 45" CvType="InputBox" DesignTimeRectangle="1360, 502, 482, 43" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Periodo académico' aria-role='combobox' tag='INPUT' type='text' class='popup_lov apex-item-text apex-item-popup-lov' /&gt;" Guid="f6c0246d-dcc8-40fe-a930-816a1569388e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="db08d94d6c60179dd7efcb3f263c2e16.png" xmlns="">0YWpKeX_Qd0eg4v4Oe0HcIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
