@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ChBdnKqSkUOLRysphlvpHw" Reference="E_WsyKu0Yke1l9rBDikF6w/jvW_6ow0wkWIaWg1l37Jhg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="b33d9343-0207-4b04-b369-ff0e3291f115" CvElementArea="374, 355, 620, 45" CvType="InputBox" DesignTimeRectangle="373, 356, 619, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='f?p=400000:1002::::RP:I_1002_FUNDAMENTOS_RSO_NUMORD,I_1002_FUNDAMENTOS_TSO_CODALF,I_1002_FUNDAMENTOS_STS_CODALF:891547,SOLEST,INSASIG&amp;amp;cs=31-D8YNbt-CEs8ElHj-TsR6mDnWzV37BGhHKTfUfI2HfQ9bkv1E7ODWu9FDlghcF-Y-VsD27mfVVzggMBkNh9qg&amp;amp;p_dialog_cs=mIsw49EjCuY3MV_n3TbmjSykcOrl2abX7sT8WeeFQCaQRCL4l-0TgbkMnBtvolhBNWuNbSsMJaR9G1n6SfhTvA' tag='IFRAME' /&gt;&lt;webctrl tag='SELECT' type='' class='selectlist apex-item-select' aaname='Instancia  ' /&gt;" Guid="180d266f-1b92-4d98-b2cc-bd721cb4e210" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b33d9343-0207-4b04-b369-ff0e3291f115" CvElementArea="374, 355, 620, 45" CvType="InputBox" DesignTimeRectangle="373, 356, 619, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='f?p=400000:1002::::RP:I_1002_FUNDAMENTOS_RSO_NUMORD,I_1002_FUNDAMENTOS_TSO_CODALF,I_1002_FUNDAMENTOS_STS_CODALF:891547,SOLEST,INSASIG&amp;amp;cs=31-D8YNbt-CEs8ElHj-TsR6mDnWzV37BGhHKTfUfI2HfQ9bkv1E7ODWu9FDlghcF-Y-VsD27mfVVzggMBkNh9qg&amp;amp;p_dialog_cs=mIsw49EjCuY3MV_n3TbmjSykcOrl2abX7sT8WeeFQCaQRCL4l-0TgbkMnBtvolhBNWuNbSsMJaR9G1n6SfhTvA' tag='IFRAME' /&gt;&lt;webctrl aaname='Instancia  ' tag='LABEL' type='' class='t-Form-label' check:innerText='Instancia' /&gt;" Guid="3ed64330-5946-4f6d-9bdb-851c8c45a839" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f1696ab516b5ecd361ad32ea07893838.png" xmlns="">0RuUEfTwjYUCmw83GpmysJA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

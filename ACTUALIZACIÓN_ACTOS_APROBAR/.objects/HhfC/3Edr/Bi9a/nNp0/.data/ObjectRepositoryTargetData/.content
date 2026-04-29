@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="-6oigMVBSkucRxxtmSkIVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="23, 292, 195, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name=' ' role='label' /&gt;" FuzzySelectorArgument="&lt;java name='Registro de Actos Académicos' role='internal frame' /&gt;&lt;java name='Estado' role='combo box' /&gt;&lt;java cls='ChoiceList' role='list' /&gt;&lt;java name=' ' role='label' /&gt;" Guid="fc56d0de-72e0-4380-92fb-127941eec7d5" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="f0c189e8425a53703a99c88d83decc1d.png" xmlns="">08zXsmVvSkEK3FcoQX_YDpw</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">TypeInto</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>
