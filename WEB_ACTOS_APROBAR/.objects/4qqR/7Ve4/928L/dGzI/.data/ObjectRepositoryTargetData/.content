@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="I_PLQhpn0kuZLRHuvYofhA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="I3jZsPMbT0aVu3w5UQEU8Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="541aac04-23f5-4d3a-a43a-826801892d6e" CvElementArea="987, 429, 357, 45" CvType="InputBox" DesignTimeRectangle="980, 430, 329, 44" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Subtipo de solicitud  ' aria-role='combobox' tag='INPUT' type='text' class='popup_lov apex-item-text apex-item-popup-lov' /&gt;" Guid="67551664-5091-4d05-b730-489cf9ebd7ad" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="98818704-3335-4dd5-8463-688556e323c6" CvElementArea="987, 487, 354, 42" CvType="InputBox" DesignTimeRectangle="988, 486, 329, 44" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Subtipo de solicitud  ' aria-role='combobox' tag='INPUT' type='text' class='popup_lov apex-item-text apex-item-popup-lov' /&gt;" Guid="ac9c2cd9-72e4-40ad-b050-fcbc939ba0a8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="541aac04-23f5-4d3a-a43a-826801892d6e" CvElementArea="987, 429, 357, 45" CvType="InputBox" DesignTimeRectangle="980, 430, 357, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Subtipo de solicitud  ' tag='LABEL' type='' class='t-Form-label' check:innerText='Subtipo de solicitud' /&gt;" Guid="150eb7fb-3617-46f5-8321-509ba450f290" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="98818704-3335-4dd5-8463-688556e323c6" CvElementArea="987, 487, 354, 42" CvType="InputBox" DesignTimeRectangle="988, 486, 357, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Subtipo de solicitud  ' tag='LABEL' type='' class='t-Form-label' check:innerText='Subtipo de solicitud' /&gt;" Guid="659250a8-a18b-48eb-8326-ad5fbdbe05b8" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="8bfd80735149cd620f789d893da92c56.png" xmlns="">0Qu68rOcRCECjiKnVStxrYw</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="f19fc2582789909a3fc37d854783b2ae.png" xmlns="">0A1xt-xIcDEaJLXFg_3W7kg</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">SelectItem</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
