@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="8sdDEpuc8USMX1mXUaijJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="7FhH8hsWXkGLU2UCmGlEeA" Reference="E_WsyKu0Yke1l9rBDikF6w/k6c2bGpac0OuaaAVmuSjUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="8d11a1f5-ee0a-4bf7-80a2-6ff886fe0b53" CvElementArea="1162, 242, 149, 45" CvType="InputBox" DesignTimeRectangle="1162, 243, 147, 44" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_DATAPROBACION' tag='INPUT' type='text' class='datepicker apex-item-text apex-item-datepicker hasDatepicker' aaname='Fecha de aprobación' /&gt;" Guid="01e8019f-7f86-46d1-a689-48ddaaa39e7f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="8d11a1f5-ee0a-4bf7-80a2-6ff886fe0b53" CvElementArea="1162, 242, 149, 45" CvType="InputBox" DesignTimeRectangle="1632, 372, 239, 44" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_DATAPROBACION' tag='INPUT' type='text' class='datepicker apex-item-text apex-item-datepicker hasDatepicker' aaname='Fecha de aprobación' /&gt;" Guid="01e8019f-7f86-46d1-a689-48ddaaa39e7f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="8d11a1f5-ee0a-4bf7-80a2-6ff886fe0b53" CvTextArea="1168, 249, 108, 16" CvTextArgument="Fecha de aprobación" CvType="Text" DesignTimeRectangle="1162, 243, 175, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha de aprobación' tag='LABEL' type='' class='t-Form-label' check:innerText='Fecha de aprobación' /&gt;" Guid="bd405b01-278f-40e2-9ec8-b340693a9c73" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="47e5f2b4-35c2-4c4a-8e94-5f568967276f" CvElementArea="1357, 371, 254, 46" CvType="InputBox" DesignTimeRectangle="1358, 372, 231, 44" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_DATSOLICITUD' tag='INPUT' type='text' class='datepicker apex-item-text apex-item-datepicker hasDatepicker' aaname='Fecha de solicitud  ' /&gt;" Guid="b3b44ae4-53af-4c03-9b75-93923115780d" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="123dfe07429b197379774b314b23d326.png" xmlns="">09tXP3APDNkOkssC_RrfQ6Q</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="6e9a1ca4d9f4b03fc1119f5e0710ceef.png" xmlns="">0oAKDZRg0ckywxw-TB8XKEg</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">TypeInto</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
