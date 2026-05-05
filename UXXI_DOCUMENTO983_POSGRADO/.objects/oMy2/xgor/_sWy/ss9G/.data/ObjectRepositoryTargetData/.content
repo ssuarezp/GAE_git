@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6S4Y8rPTCk6ydPfYVIY6gg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e1a32409-46ec-40e4-b567-9f29518129f4" CvElementArea="592, 567, 174, 26" CvType="InputBox" DesignTimeRectangle="594, 569, 172, 24" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VPopList' role='combo box' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java cls='VPopList' role='combo box' /&gt;" Guid="02c9f456-e8f6-4623-a7da-c078d7175b12" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e1a32409-46ec-40e4-b567-9f29518129f4" CvElementArea="449, 570, 134, 24" CvTextArea="456, 576, 121, 12" CvTextArgument="Obs. Historia Académica" CvType="Button" DesignTimeRectangle="450, 571, 134, 23" ElementType="Button" FullSelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Obs. Historia Académica' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Mantenimiento Historias Académicas' role='internal frame' /&gt;&lt;java name='Obs. Historia Académica' role='push button' check:text='Obs. Historia Académica' /&gt;" Guid="37defb09-530a-43a5-b563-5353a381cfb3" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f9fbdcbe23424a6190c930810aab7c92.png" xmlns="">0jCn5oyfp70WLPGQlX09YTA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

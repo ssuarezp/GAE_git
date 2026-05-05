@@ -1,0 +1,14 @@
+﻿{
+  "Name": "combo box(2)",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "ss9GUuEZOUKa8iGF41PsPg",
+  "Reference": "6uRynW9T90a55SY8Kw234w/ss9GUuEZOUKa8iGF41PsPg",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/_sWyX_Tox0upwrMzW8VLeA",
+  "Created": "2026-05-05T23:43:31.4447916Z",
+  "Updated": "2026-05-05T23:43:31.4447916Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
