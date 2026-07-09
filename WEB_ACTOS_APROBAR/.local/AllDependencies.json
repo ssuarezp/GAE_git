@@ -19444,15 +19444,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Unalmed\\.nuget\\packages\\": {}
+    "C:\\Users\\santi\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "ACTOS",
       "projectName": "ACTOS",
-      "projectPath": "D:\\1.Biblioteca Unalmed\\Documents\\GitHub\\GAE_git\\ACTOS_APROBAR_WEB\\.local",
-      "packagesPath": "C:\\Users\\Unalmed\\.nuget\\packages\\",
-      "outputPath": "D:\\1.Biblioteca Unalmed\\Documents\\GitHub\\GAE_git\\ACTOS_APROBAR_WEB\\.local",
+      "projectPath": "C:\\Users\\santi\\OneDrive\\Documentos\\GAE_git\\WEB_ACTOS_APROBAR\\.local",
+      "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\santi\\OneDrive\\Documentos\\GAE_git\\WEB_ACTOS_APROBAR\\.local",
       "UsingMicrosoftNETSdk": false,
       "restoreAuditProperties": {
         "enableAudit": "False"
@@ -19477,7 +19477,7 @@
             "version": "[25.2.1-preview, 25.2.1-preview]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Unalmed\\AppData\\Local\\Programs\\UiPathPlatform\\Studio\\26.0.181-cloud.21801\\PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\santi\\AppData\\Local\\Programs\\UiPathPlatform\\Studio\\26.0.196-cloud.23789\\SolutionPackager\\Tools\\WorkflowCompiler\\PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

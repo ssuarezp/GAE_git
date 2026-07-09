@@ -1,0 +1,31 @@
+﻿{
+  "Version": "1.0",
+  "Metadata": [
+    {
+      "ApplicationType": "WindowsApplication",
+      "ExecutablePath": {
+        "Value": "jp2launcher.exe",
+        "IsExpression": false
+      },
+      "Url": null,
+      "Arguments": {
+        "Value": "-secure -javaws -jre \"\"C:\\Program Files (x86)\\Java\\jre1.8.0_361\"\" -vma LWNsYXNzcGF0aABDOlxQcm9ncmFtIEZpbGVzICh4ODYpXEphdmFcanJlMS44LjBfMzYxXGxpYlxkZXBsb3kuamFyAC1EamF2YS5zZWN1cml0eS5wb2xpY3k9ZmlsZTpDOlxQcm9ncmFtIEZpbGVzICh4ODYpXEphdmFcanJlMS44LjBfMzYxXGxpYlxzZWN1cml0eVxqYXZhd3MucG9saWN5AC1EdHJ1c3RQcm94eT10cnVlAC1YdmVyaWZ5OnJlbW90ZQAtRGpubHB4LmhvbWU9QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxKYXZhXGpyZTEuOC4wXzM2MVxiaW4ALURqYXZhLnNlY3VyaXR5Lm1hbmFnZXIALURqbmxweC5vcmlnRmlsZW5hbWVBcmc9QzpcVXNlcnNcRXN0dWRpYW50ZUF1eGlsaWFyXE9uZURyaXZlIC0gVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ29sb21iaWFcZnJtc2VydmxldC5qbmxwAC1Eam5scHgucmVtb3ZlPWZhbHNlAC1YYm9vdGNsYXNzcGF0aC9hOkM6XFByb2dyYW0gRmlsZXMgKHg4NilcSmF2YVxqcmUxLjguMF8zNjFcbGliXGphdmF3cy5qYXI7QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxKYXZhXGpyZTEuOC4wXzM2MVxsaWJcZGVwbG95LmphcjtDOlxQcm9ncmFtIEZpbGVzICh4ODYpXEphdmFcanJlMS44LjBfMzYxXGxpYlxwbHVnaW4uamFyAC1Eam5scHguc3BsYXNocG9ydD01MDQ3NgAtRGpubHB4Lmp2bT1DOlxQcm9ncmFtIEZpbGVzICh4ODYpXEphdmFcanJlMS44LjBfMzYxXGJpblxqYXZhdy5leGU= -ma QzpcVXNlcnNcRXN0dWRpYW50ZUF1eGlsaWFyXE9uZURyaXZlIC0gVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ29sb21iaWFcZnJtc2VydmxldC5qbmxw",
+        "IsExpression": false
+      },
+      "Version": null
+    },
+    {
+      "ApplicationType": "WindowsApplication",
+      "ExecutablePath": {
+        "Value": "excel.exe",
+        "IsExpression": false
+      },
+      "Url": null,
+      "Arguments": {
+        "Value": "G:\\Mi unidad\\GAE\\ACTOS & MÓDULOS.xlsm",
+        "IsExpression": false
+      },
+      "Version": null
+    }
+  ]
+}
