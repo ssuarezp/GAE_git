@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Datos del proyecto mnem…",
+  "Type": "Element",
+  "Id": "Eu1NEKYaUk68GMTZQtZmPw",
+  "Reference": "6uRynW9T90a55SY8Kw234w/Eu1NEKYaUk68GMTZQtZmPw",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2026-07-09T23:15:33.4393616Z",
+  "Updated": "2026-07-09T23:15:33.4393616Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

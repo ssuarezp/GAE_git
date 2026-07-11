@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Historia Académica mnem…",
+  "Type": "Element",
+  "Id": "YwlDzsuf50eEQXy1x8Dddg",
+  "Reference": "6uRynW9T90a55SY8Kw234w/YwlDzsuf50eEQXy1x8Dddg",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2026-07-09T23:12:54.9773708Z",
+  "Updated": "2026-07-09T23:12:54.9773708Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

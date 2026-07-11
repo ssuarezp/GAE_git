@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Valores del proyecto mn…",
+  "Type": "Element",
+  "Id": "lUOzCVJMyEyL0xEUtTMoxA",
+  "Reference": "6uRynW9T90a55SY8Kw234w/lUOzCVJMyEyL0xEUtTMoxA",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2026-07-09T23:16:15.1104827Z",
+  "Updated": "2026-07-09T23:16:15.1104827Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

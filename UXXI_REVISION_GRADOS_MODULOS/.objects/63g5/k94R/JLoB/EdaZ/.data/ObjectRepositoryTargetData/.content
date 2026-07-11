@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LsOFJ67nBEmZqcdSSAv8kg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="368ca363-ae33-4541-ba3e-d8c659a8ed82" CvTextArea="705, 37, 28, 13" CvTextArgument="Salir" CvType="Text" DesignTimeRectangle="700, 31, 39, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;java name='Salir ALT S' role='menu item' /&gt;" FuzzySelectorArgument="&lt;java name='Salir ALT S' role='menu item' check:text='Salir ALT S' /&gt;" Guid="bb13a28e-d9b2-478f-8900-e80e81aafc84" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="368ca363-ae33-4541-ba3e-d8c659a8ed82" CvTextArea="663, 37, 33, 14" CvTextArgument="Cupo" CvType="Text" DesignTimeRectangle="660, 31, 40, 24" FullSelectorArgument="&lt;java name='Cupo ALT C' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Cupo ALT C' role='menu' check:text='Cupo ALT C' /&gt;" Guid="9f61c4d2-9105-4e37-91f9-8de41c275b4f" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5185552b4dccccf48c09c73a4fdfc531.png" xmlns="">0jb4JYSQrLkurT2tap44JLw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

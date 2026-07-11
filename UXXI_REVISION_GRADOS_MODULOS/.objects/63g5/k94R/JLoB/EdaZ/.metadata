@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Cupo ALT C",
+  "Type": "Element",
+  "Id": "EdaZxDyAn0W8iqJ63WYgiQ",
+  "Reference": "6uRynW9T90a55SY8Kw234w/EdaZxDyAn0W8iqJ63WYgiQ",
+  "ParentRef": "6uRynW9T90a55SY8Kw234w/JLoBeLXxzkmAiMDepjGvpg",
+  "Created": "2026-07-09T23:12:09.5766925Z",
+  "Updated": "2026-07-09T23:12:09.5766925Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

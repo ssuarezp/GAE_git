@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fwVlJYamcU-Q5t2DkpvWVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b71cf254-c995-41e3-8b7e-3efd56e3b05f" CvTextArea="63, 499, 105, 15" CvTextArgument="Datos del proyecto" CvType="Text" DesignTimeRectangle="61, 495, 261, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;java name='Hojas de vida ALT H' role='menu' /&gt;&lt;java name='Datos del proyecto mnemonic D' role='menu' /&gt;" FuzzySelectorArgument="&lt;java name='Hojas de vida ALT H' role='menu' /&gt;&lt;java name='Datos del proyecto mnemonic D' role='menu' check:text='Datos del proyecto mnemonic D' /&gt;" Guid="62aaa645-d1ae-4a3b-ae88-579947594ba4" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3bf29b90a0ffbc180daec06bc8faf58e.png" xmlns="">0qBBKNbMtlkKOPnESF5thZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
