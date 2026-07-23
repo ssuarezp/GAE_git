@@ -9,22 +9,9 @@
       },
       "Url": null,
       "Arguments": {
-        "Value": "G:\\Mi unidad\\GAE\\ACTOS & MÓDULOS.xlsm",
+        "Value": null,
         "IsExpression": false
       },
-      "Version": null
-    },
-    {
-      "ApplicationType": "Chrome",
-      "ExecutablePath": {
-        "Value": "chrome.exe",
-        "IsExpression": false
-      },
-      "Url": {
-        "Value": "https://sia.unal.edu.co",
-        "IsExpression": false
-      },
-      "Arguments": null,
       "Version": null
     }
   ]
