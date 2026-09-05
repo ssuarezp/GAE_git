@@ -2,19 +2,6 @@
   "Version": "1.0",
   "Metadata": [
     {
-      "ApplicationType": "WindowsApplication",
-      "ExecutablePath": {
-        "Value": "excel.exe",
-        "IsExpression": false
-      },
-      "Url": null,
-      "Arguments": {
-        "Value": "G:\\Mi unidad\\GAE\\ACTOS & MÓDULOS.xlsm",
-        "IsExpression": false
-      },
-      "Version": null
-    },
-    {
       "ApplicationType": "Chrome",
       "ExecutablePath": {
         "Value": "chrome.exe",
@@ -25,6 +12,19 @@
         "IsExpression": false
       },
       "Arguments": null,
+      "Version": null
+    },
+    {
+      "ApplicationType": "WindowsApplication",
+      "ExecutablePath": {
+        "Value": "excel.exe",
+        "IsExpression": false
+      },
+      "Url": null,
+      "Arguments": {
+        "Value": "G:\\Mi unidad\\GAE\\ACTOS & MÓDULOS.xlsm",
+        "IsExpression": false
+      },
       "Version": null
     }
   ]

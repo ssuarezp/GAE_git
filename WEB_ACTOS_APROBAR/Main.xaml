@@ -421,7 +421,7 @@
                           </uix:TargetAnchorable>
                         </uix:NTypeInto.Target>
                       </uix:NTypeInto>
-                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_11" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V4">
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_11" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V4">
                         <uix:NKeyboardShortcuts.VerifyOptions>
                           <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                             <uix:VerifyExecutionOptions.Retry>
