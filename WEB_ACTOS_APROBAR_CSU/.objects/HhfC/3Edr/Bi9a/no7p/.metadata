@@ -1,0 +1,14 @@
+﻿{
+  "Name": "text Fecha de Solicitud",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "no7p-HkuX0aZ2u--P_8Lpw",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/no7p-HkuX0aZ2u--P_8Lpw",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/Bi9aA4vTh0aTQvXPlEI9IQ",
+  "Created": "2025-03-05T18:53:05.8206742Z",
+  "Updated": "2025-03-05T18:53:05.8206742Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

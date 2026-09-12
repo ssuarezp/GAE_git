@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0gVqaR9NlUOQiZGTuG6XdA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" DesignTimeRectangle="833, 548, 270, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' tag='LI' type='' class='a-IconList-item' aaname='[ 3534 ] ' check:innerText='[ 3534 ] INGENIERÍA DE SISTEMAS E INFORMÁTICA' /&gt;" Guid="e91971f1-e292-4069-b85d-a4ef079a2aef" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7b10c8f767873ad240f42f733d643434.png" xmlns="">0_jhXkEst4ESDwxgq5VMCXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

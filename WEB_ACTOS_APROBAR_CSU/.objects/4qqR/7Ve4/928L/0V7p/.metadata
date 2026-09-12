@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Añadir Instancia(1)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "0V7pwj5h2ke9KWL_b2fJwg",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/0V7pwj5h2ke9KWL_b2fJwg",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-21T17:37:38.1092054Z",
+  "Updated": "2025-10-21T17:37:38.1092054Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

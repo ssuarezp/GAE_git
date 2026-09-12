@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y-LKirGJx0WZ_-XWpNIMwQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="8d11a1f5-ee0a-4bf7-80a2-6ff886fe0b53" CvElementArea="244, 300, 356, 46" CvType="InputBox" DesignTimeRectangle="245, 301, 329, 44" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Tipo de contestación  ' aria-role='combobox' tag='INPUT' type='text' class='popup_lov apex-item-text apex-item-popup-lov' /&gt;" Guid="3a87a25a-fab1-4404-a3ca-eafde45c26f7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8d11a1f5-ee0a-4bf7-80a2-6ff886fe0b53" CvElementArea="244, 300, 356, 46" CvType="InputBox" DesignTimeRectangle="245, 301, 357, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tipo de contestación  ' tag='LABEL' type='' class='t-Form-label' check:innerText='Tipo de contestación' /&gt;" Guid="232c16af-a4a7-4a5c-89cb-50cc550aa619" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b5421c5d3b662d971334dd077cbc4a92.png" xmlns="">07vMH_YBUykC0oe3VrZtV9Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z5RqKE3dv0abSRUd8_coFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="29f37df7-09b3-40a9-a126-90814b526348" CvElementArea="42, 56, 23, 23" CvType="Icon" DesignTimeRectangle="41, 57, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;java cls='ToolBar' idx='14' role='tool bar' /&gt;&lt;java name='Grabar' role='push button' /&gt;" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Grabar' role='push button' check:text='Grabar' /&gt;" Guid="91dc2804-47c9-4378-b12b-6fd4ae44e9f7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEcSURBVEhL7ZPBDcMgDEXZJoces0bnYCd2YifKRxg5xBhDpfbQRnoiCdTPn1CXvnS5GGP6Bn+xSvCuIc2vsCR2Lp/F6HE0ihzP0joLZjFEJE0Bf4YsDyF577caMItLWkiZGFJcmF9twCSW0nJpWZPTY7Q2YBJf0lY5F0N6nmcZy9rc5OwMTMWXtB0oTMUpMW8Sv+W1OFMxL1S2uW41hxro1+JZqglUsfRt273QQKNutVSTUMW3tLw4vRu819KCoXiYVoLPG9ICXYyCkFNhaqQfuTjfz9ICVVy2muScXs4as6QF6jcGtwYkKcZ6b0kLpmJiuAPs2ZoWmMXEpYHNtGBZTLQGqnQlLdgWExBSE9L8iLfFu/yg+Pk40uc50gupPIbCFpapXQAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='UXXI - Académico' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d0f2d4042b7a11588a64e40d6120eb70.png" xmlns="">0HI04LzQjwke5Z7m4y20IfA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

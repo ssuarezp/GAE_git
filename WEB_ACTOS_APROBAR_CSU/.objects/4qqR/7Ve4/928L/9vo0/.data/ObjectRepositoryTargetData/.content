@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9DO7fkzPEEiLQBo9aZwG8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" DesignTimeRectangle="784, 502, 517, 43" DesignTimeScaleFactor="0.8999999761581421" FuzzySelectorArgument="&lt;webctrl type='' class='apex-item-group apex-item-group--popup-lov' tag='DIV' aaname='' check:text='-' /&gt;" Guid="21b91e36-afc1-49b8-bdef-1fc46da4d438" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c196ada63482b4d84673f081a7e174ac.png" xmlns="">01MKlGlO5BkurhO7oS0s1vA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

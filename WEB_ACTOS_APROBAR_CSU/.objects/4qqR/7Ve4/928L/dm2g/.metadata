@@ -1,0 +1,14 @@
+﻿{
+  "Name": "BUTTON I_1001_SOLICITUD…(8)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "dm2gR6I3ukeG_WA6Vm0vFw",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/dm2gR6I3ukeG_WA6Vm0vFw",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2026-04-30T16:35:52.6754922Z",
+  "Updated": "2026-04-30T16:35:52.6754922Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

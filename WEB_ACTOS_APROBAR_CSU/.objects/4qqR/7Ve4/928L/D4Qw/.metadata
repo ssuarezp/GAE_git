@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SPAN(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "D4QwQnlka0SbF-zpdmkW0w",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/D4QwQnlka0SbF-zpdmkW0w",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2026-04-29T15:27:33.0582844Z",
+  "Updated": "2026-04-29T15:27:33.0582844Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

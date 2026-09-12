@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ti0M2tzVska57KeOWAbAuQ" Reference="E_WsyKu0Yke1l9rBDikF6w/0V7pwj5h2ke9KWL_b2fJwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="6521f584-e58b-46bb-ae38-32e410972446" CvElementArea="1802, 746, 113, 32" CvTextArea="1812, 755, 91, 13" CvTextArgument="Añadir Instancia" CvType="Button" DesignTimeRectangle="261, 673, 103, 29" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='button' tag='BUTTON' class='t-Button js-ignoreChange t-Button--primary t-Button--gapBottom' aaname='Añadir Instancia' check:innerText='Añadir Instancia' /&gt;" Guid="5448c99e-2959-4ae4-afdc-000e570501d3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6521f584-e58b-46bb-ae38-32e410972446" CvElementArea="1802, 746, 113, 32" CvTextArea="1812, 755, 91, 13" CvTextArgument="Añadir Instancia" CvType="Button" DesignTimeRectangle="272, 679, 81, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='t-Button-label' aaname='Añadir Instancia' check:innerText='Añadir Instancia' /&gt;" Guid="9d4755c5-1385-43a6-9d43-93357358a97a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="7" Y="2" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2eb19dd665b0d507a1619142a88663fe.png" xmlns="">0TuVbww1_Q0ORouyAZdT3KQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

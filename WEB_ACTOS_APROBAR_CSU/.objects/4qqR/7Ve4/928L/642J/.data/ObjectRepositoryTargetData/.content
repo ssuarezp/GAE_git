@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CsqkrqoRp0SjApSXeuwKfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="8200631d-37db-4b58-8f1a-34fac289172e" CvElementArea="1802, 746, 113, 32" CvTextArea="1812, 755, 91, 13" CvTextArgument="Añadir Instancia" CvType="Button" DesignTimeRectangle="1803, 747, 111, 30" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='button' tag='BUTTON' class='t-Button js-ignoreChange t-Button--primary t-Button--gapBottom' aaname='Añadir Instancia' check:innerText='Añadir Instancia' /&gt;" Guid="692659ab-6d54-4ec2-9698-5e756f81a55d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8200631d-37db-4b58-8f1a-34fac289172e" CvElementArea="1802, 746, 113, 32" CvTextArea="1812, 755, 91, 13" CvTextArgument="Añadir Instancia" CvType="Button" DesignTimeRectangle="1814, 753, 89, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='t-Button-label' aaname='Añadir Instancia' check:innerText='Añadir Instancia' /&gt;" Guid="11ccd2e3-8d7f-4ae2-b6ef-26bf352d8d26" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="30dfe79f30d309f9babc8a7298e563c0.png" xmlns="">0Z4I1Sl9UqkyowQ-XHyDhvQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

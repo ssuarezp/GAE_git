@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tieJzIATUUq2H7IqFYkMJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" DesignTimeRectangle="756, 502, 36, 43" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl type='button' tabindex='-1' tag='BUTTON' class='a-Button a-Button--popupLOV' aaname='' /&gt;" Guid="8e865e81-9c0c-423a-80ef-f7c26f7a3cb5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="975b2b7c-3d7f-4677-8c2e-26d4c02d6039" CvElementArea="254, 500, 532, 46" CvType="InputBox" DesignTimeRectangle="254, 502, 503, 43" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Centro' aria-role='combobox' tag='INPUT' type='text' class='popup_lov apex-item-text apex-item-popup-lov' /&gt;" Guid="c074c237-5863-4c71-af03-f0266a823726" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="484c55fda45f6a18de651bc6f5802122.png" xmlns="">0b-8X3A8OeU-RpYuG_PLTXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

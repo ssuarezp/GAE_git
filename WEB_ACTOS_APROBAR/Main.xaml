@@ -116,7 +116,7 @@
       <AssemblyReference>fd01231291612.2BrlU3Bz8ZP1usCrl2ij9gb4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="724,9701" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="724,9989" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="vDtbDatos" />
     </Sequence.Variables>
@@ -125,7 +125,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="614,9678" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence sap:VirtualizedContainerService.HintSize="614,9966" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -179,25 +179,25 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ueab:ExcelProcessScopeX>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Actos académicos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580,8835" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Actos académicos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580,9123" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,8594" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,8882" sap2010:WorkflowViewState.IdRef="Sequence_9">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="452,8532" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="452,8820" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,8357" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,8645" sap2010:WorkflowViewState.IdRef="Sequence_10">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -276,6 +276,27 @@
                             </uix:TargetAnchorable.Anchors>
                           </uix:TargetAnchorable>
                         </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Fecha de solicitud'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_38" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Text="[CurrentRow(&quot;FECHA APROBACIÓN&quot;).ToString()]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="8e1be806-8a40-4763-aa8e-c6651664d471" ContentHash="_WYIqtPs40m0hLzrM8QUpQ" CvElementArea="980, 367, 152, 41" CvType="InputBox" DesignTimeRectangle="981, 368, 149, 39" DesignTimeScaleFactor="0.800000011920929" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_DATSOLICITUD' tag='INPUT' type='text' class='datepicker apex-item-text apex-item-datepicker hasDatepicker' aaname='Fecha de solicitud  ' /&gt;" Guid="0932d6f8-4568-4237-872f-189d3f7f4def" InformativeScreenshot="90a0c3a38ea8f4d9b4c65d91d7044267.png" Reference="E_WsyKu0Yke1l9rBDikF6w/7gwAaoS2mUCPSwe90exFQg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="8e1be806-8a40-4763-aa8e-c6651664d471" CvTextArea="986, 374, 83, 12" CvTextArgument="Fecha de solicitud" CvType="Text" DesignTimeRectangle="981, 368, 174, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha de solicitud  ' tag='LABEL' type='' class='t-Form-label' check:innerText='Fecha de solicitud' /&gt;" Guid="dccbbf0c-3d51-40ea-9a70-5954a7e43f3c" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
                       </uix:NTypeInto>
                       <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Fecha de aprobación'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_48" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac78aa18-bba3-466e-bac7-aa2980cd133d" Version="V4">
                         <uix:NClick.Target>
@@ -421,7 +442,7 @@
                           </uix:TargetAnchorable>
                         </uix:NTypeInto.Target>
                       </uix:NTypeInto>
-                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_11" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V4">
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_11" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V4">
                         <uix:NKeyboardShortcuts.VerifyOptions>
                           <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                             <uix:VerifyExecutionOptions.Retry>

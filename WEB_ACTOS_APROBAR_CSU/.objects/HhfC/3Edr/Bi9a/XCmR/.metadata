@@ -1,0 +1,14 @@
+﻿{
+  "Name": "text Código del fundame…(2)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "XCmRULAI20efF9iL0O8mHA",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/XCmRULAI20efF9iL0O8mHA",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/Bi9aA4vTh0aTQvXPlEI9IQ",
+  "Created": "2025-09-30T16:54:47.7832011Z",
+  "Updated": "2025-09-30T16:54:47.7832011Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

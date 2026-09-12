@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Subtipo de solicitud (V…(6)",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "ZwffOSSqKE6Oy_rHz2gitw",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/ZwffOSSqKE6Oy_rHz2gitw",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-21T17:04:22.4856289Z",
+  "Updated": "2025-10-21T17:04:22.4856289Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

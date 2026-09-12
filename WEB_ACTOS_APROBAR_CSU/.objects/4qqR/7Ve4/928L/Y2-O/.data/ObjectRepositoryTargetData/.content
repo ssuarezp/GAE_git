@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xwRyY1PWzkaKqCdBR1zEug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="d01b40c4-dad9-4629-9b31-c8e929dc9c7e" CvTextArea="843, 585, 153, 14" CvTextArgument="[3068 ] FACULTAD DE MINAS" CvType="Text" DesignTimeRectangle="844, 585, 152, 14" DesignTimeScaleFactor="1" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' tabindex='-1' tag='LI' type='' class='a-IconList-item' aaname=' [ 3068 ] FACULTAD DE MINAS' check:innerText='[ 3068 ] FACULTAD DE MINAS' /&gt;" Guid="80825411-fd37-43b3-bfa1-1f30536e32cf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d01b40c4-dad9-4629-9b31-c8e929dc9c7e" CvElementArea="1067, 440, 27, 26" CvTextArea="843, 446, 44, 13" CvTextArgument="Buscar" CvType="CloseButton" DesignTimeRectangle="844, 442, 248, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ui-id-2' tag='H1' type='' class='ui-dialog-title' aaname='Buscar' check:innerText='Buscar' /&gt;" Guid="6bb3db45-6f42-403c-b79f-e45fe421421a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fe417e8ddcda2dd8295c20ab92b7315b.png" xmlns="">0VvdSBE8FMES-DSghYhRzAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

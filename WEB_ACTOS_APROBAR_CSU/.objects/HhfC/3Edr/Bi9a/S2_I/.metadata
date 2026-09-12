@@ -1,0 +1,14 @@
+﻿{
+  "Name": "text Plan de Estudios R…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "S2_IkdnmO0G-vt0vJGfyFQ",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/S2_IkdnmO0G-vt0vJGfyFQ",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/Bi9aA4vTh0aTQvXPlEI9IQ",
+  "Created": "2025-03-05T18:53:39.8993262Z",
+  "Updated": "2025-03-05T18:53:39.8993262Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
