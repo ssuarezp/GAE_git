@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Subtipo de solicitud(2)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "z4uQPszjx0KDnYBP9GXOQA",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/z4uQPszjx0KDnYBP9GXOQA",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2026-04-29T15:23:34.4168471Z",
+  "Updated": "2026-04-29T15:23:34.4168471Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

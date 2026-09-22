@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Buscar(2)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "I7EAVRmnoUKCLvicO-XqyA",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/I7EAVRmnoUKCLvicO-XqyA",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2026-09-19T03:41:34.3556986Z",
+  "Updated": "2026-09-19T03:41:34.3556986Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KUVuOiVw3kGxVmsBvzdZ4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="cda1b143-dd80-414a-b6ac-1bf6cdaa6b89" CvTextArea="46, 244, 108, 13" CvTextArgument="Actos académicos" CvType="Text" DesignTimeRectangle="48, 231, 176, 39" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='t_TreeNav_1' tag='A' type='' class='a-TreeView-label is-current' aaname='Actos académicos' check:innerText='Actos académicos' /&gt;" Guid="2f447730-9408-4b8f-9570-668a086c6e30" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9456700e3fa3157d75f602d96fdd1bf4.png" xmlns="">0CIvjfsYw_kiMGlGMYT3M1A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

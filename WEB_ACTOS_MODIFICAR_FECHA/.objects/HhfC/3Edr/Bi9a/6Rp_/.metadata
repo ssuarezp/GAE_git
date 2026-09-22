@@ -1,0 +1,14 @@
+﻿{
+  "Name": "text DNI del solicitant…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "6Rp_IkMUuUKq-toD0H_5xg",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/6Rp_IkMUuUKq-toD0H_5xg",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/Bi9aA4vTh0aTQvXPlEI9IQ",
+  "Created": "2025-03-04T21:05:35.8613993Z",
+  "Updated": "2025-03-04T21:05:35.8613993Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

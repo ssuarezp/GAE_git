@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Fecha de solicitud",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "7gwAaoS2mUCPSwe90exFQg",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/7gwAaoS2mUCPSwe90exFQg",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2026-09-12T01:32:43.0950957Z",
+  "Updated": "2026-09-12T01:32:43.0950957Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

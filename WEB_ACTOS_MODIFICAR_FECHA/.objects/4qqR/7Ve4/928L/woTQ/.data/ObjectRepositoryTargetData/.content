@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="j7XRtg4yEkibfk5T9DYAzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="d7fb9220-a51e-4957-93b5-3a901e464c86" CvElementArea="993, 242, 305, 31" CvType="InputBox" DesignTimeRectangle="995, 243, 303, 29" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-label='Buscar' class='a-PopupLOV-search apex-item-text' tag='INPUT' type='text' aaname='' /&gt;" Guid="8451a0fd-5c4e-42d1-853b-fcb50fa25989" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d7fb9220-a51e-4957-93b5-3a901e464c86" CvTextArea="994, 320, 117, 13" CvTextArgument="Periodo Academico" CvType="Text" DesignTimeRectangle="995, 320, 114, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='a-GV-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='a-GV-headerLabel' aaname='Periodo Academico' check:innerText='Periodo Academico' /&gt;" Guid="b2e9af1c-09b9-49cf-9f5b-c1f7e470aa63" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="171f30e55e76918c3a5f146baf222fab.png" xmlns="">0n-UGlLr8JU-k5R1zDJknCg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

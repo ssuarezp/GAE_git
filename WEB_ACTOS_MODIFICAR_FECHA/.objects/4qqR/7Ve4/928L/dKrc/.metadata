@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Actos académicos(2)",
+  "Type": "Element",
+  "Id": "dKrcePt1RUO5foYNxJ141w",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/dKrcePt1RUO5foYNxJ141w",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-21T16:48:05.5981927Z",
+  "Updated": "2025-10-21T16:48:05.5981927Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

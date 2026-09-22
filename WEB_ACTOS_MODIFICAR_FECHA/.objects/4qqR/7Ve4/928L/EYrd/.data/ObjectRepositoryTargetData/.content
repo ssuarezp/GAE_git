@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ywgWN2-ZokK10Zv-GIBg5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="49140356-196b-4624-b340-3c50eb867561" CvElementArea="221, 397, 17, 17" CvType="Icon" DesignTimeRectangle="223, 401, 13, 13" DesignTimeScaleFactor="0.800000011920929" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='fa fa-edit' aaname='' /&gt;" Guid="89205495-614a-41c5-b6fe-fbd012ecbb59" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEuSURBVDhPY/hPBUCSIf/+/f9/5sGH/yfvvf//5y+QAwVEGwIyoHXLrf8h007/z1p86X/HtttQGTRDHr399t97wsn/ciW7wVi//sD/a88+gw1o2XzrP1/2tv8rTj79v+vqq//pCy9CdaEZUrjiyv9tl15CeRAAMyBp3oX/Lz7++O/Ufey/SsVesLdgAMUQkOkg/8IAsgE/f//9f/nJp/92HUdRDAABnIYQawAI4DRk0p57RBkAAlgN+fbzz//4Oef/3375BcMAUAw9//ADzIYBrIaANOvVHfhv2XoYTCO7oGz1tf9P3n2H8iAAqyGgqF507PH/Zx9QFYMAQUPSgIYcv/sOysMEIG8mzD2P35ATQANUK/fCExs6lineBXbJrz9/oTogAMUQcsGwMuT/fwB2CjHnflQ4VgAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Actos académicos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="49140356-196b-4624-b340-3c50eb867561" CvTextArea="254, 370, 48, 12" CvTextArgument="Solicitud" CvType="Text" DesignTimeRectangle="247, 362, 61, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='2305357480555801267' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='a-IRR-headerLink' aaname='Solicitud' check:innerText='Solicitud' /&gt;" Guid="c7f939b7-a75c-4c95-989c-943e3069172c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5ac34df28a6233217e878148e81897cb.png" xmlns="">0niYtKS4IxkuoOaYXrkj-eg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

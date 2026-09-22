@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IwPxfH-21UetAlJeTeWQqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="52cf5c03-71bc-4f4a-9604-9d94bbea86a0" CvElementArea="969, 393, 175, 41" CvType="InputBox" DesignTimeRectangle="971, 394, 146, 39" DesignTimeScaleFactor="0.800000011920929" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_DATSOLICITUD' tag='INPUT' type='text' class='datepicker apex-item-text apex-item-datepicker hasDatepicker' aaname='Fecha de solicitud  ' /&gt;" Guid="5642711a-caf9-460f-a091-9590ac99cd2e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="52cf5c03-71bc-4f4a-9604-9d94bbea86a0" CvTextArea="975, 400, 84, 12" CvTextArgument="Fecha de solicitud" CvType="Text" DesignTimeRectangle="971, 394, 171, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha de solicitud  ' tag='LABEL' type='' class='t-Form-label' check:innerText='Fecha de solicitud' /&gt;" Guid="2f126a17-fda3-499b-bf9b-4bfec6bfd464" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="94b178cd0572892a0e3dcee307e00f02.png" xmlns="">0t5GLfFbaoke0bsu1y7P7Dg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

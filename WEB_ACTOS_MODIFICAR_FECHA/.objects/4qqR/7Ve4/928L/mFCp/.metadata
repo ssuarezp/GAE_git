@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Tipo de contestación",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "mFCpRsje8Uar0g3N6WF40g",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/mFCpRsje8Uar0g3N6WF40g",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2026-04-29T14:37:51.9572462Z",
+  "Updated": "2026-04-29T14:37:51.9572462Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

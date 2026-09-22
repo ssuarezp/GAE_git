@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NFTeGlZezUuTmjNx-a_MgQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="242b8a42-2c56-4992-8b3f-42f6a392a5e0" CvTextArea="41, 238, 97, 13" CvTextArgument="Actos académicos" CvType="Text" DesignTimeRectangle="43, 236, 151, 19" DesignTimeScaleFactor="0.800000011920929" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='treeitem' parentid='t_TreeNav_1' tag='A' type='' class='a-TreeView-label is-current' aaname='Actos académicos' check:innerText='Actos académicos' /&gt;" Guid="89859251-8ad2-4ad6-8a99-c80b77c5a15f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Actos académicos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="242b8a42-2c56-4992-8b3f-42f6a392a5e0" CvElementArea="15, 235, 22, 22" CvType="Icon" DesignTimeRectangle="14, 236, 23, 19" FuzzySelectorArgument="&lt;webctrl parentid='t_TreeNav_1' tag='SPAN' type='' class='fa fa fa-book' aaname='' /&gt;" Guid="88cda129-b318-4e53-a675-fd0587b07e04" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAXCAYAAAD6FjQuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFoSURBVEhL7ZQ7qsJAGIXjLrSKG0iZkC6CriGguIEsIOkFC3dgZ2mljUIghTsQ0qSzikV8dlY+yLmcASXG8YoPLrew+GCY/zySgRklTVP8Fd+yj3C37HQ6YbVaIQxDTKdTbLdbqY5wRg216/VaeGU6adlut4PjOFAU5YpKpYLJZILj8Sjgmnt5Hb3MyOdKy/h11WoV5XIZvV4PQRCg0+lAVVUUCgV4ngfXdcWae5xRQy099DIjn/trWd60WCxQr9cvf9BoNLBcLh/6zjxVRubzOXRdh2EYYp2dfbzs1Rn5lr09I/+nTNM0jMdjzGYzHA6Hq1k2kBc4iiKMRiPheaks+yrwAtdqNXS7XZimKV4O3/dh2/aVjlC32WxucqVl+/0e/X4f7XYbw+FQhLZaLRSLxZvgUqkkZtRQS89gMLicRBZp2T2SJBGvxrmo2WyKPZlWxlNlJI5jWJYljjH/gjzi6bJ3+JZ9gBQ/0pSOsmBgKHAAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2d4c97cd6197e5ba77e673a0e83dd0ee.png" xmlns="">0mhkNamJdXUmW4NCkUPIHbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

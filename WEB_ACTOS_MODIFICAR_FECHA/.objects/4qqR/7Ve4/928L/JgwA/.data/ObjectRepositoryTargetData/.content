@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cKzCCFfQEUKoI3v21q1E-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="1515097b-c6bf-443a-b3de-d8739eca8b68" CvElementArea="426, 288, 53, 28" CvTextArea="435, 295, 35, 12" CvTextArgument="Buscar" CvType="Button" DesignTimeRectangle="437, 295, 32, 13" DesignTimeScaleFactor="0.800000011920929" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Buscar' type='' tag='SPAN' class='' check:innerText='Buscar' /&gt;" Guid="8f350012-e7bc-477f-8229-9956a2e40736" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Actos académicos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1515097b-c6bf-443a-b3de-d8739eca8b68" CvElementArea="426, 288, 53, 28" CvTextArea="435, 295, 35, 12" CvTextArgument="Buscar" CvType="Button" DesignTimeRectangle="427, 289, 51, 26" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Buscar' type='button' tag='BUTTON' class='a-Button a-IRR-button a-IRR-button--search' check:innerText='Buscar' /&gt;" Guid="81679c0f-d787-4952-a170-8854ddf110d3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5c554b0f4a744b816f9a81e28fb39b24.png" xmlns="">0yjS_f7LoA0ah4JGoFL3LwQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT R_1000_RESOLUCION…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "3bN2H-74fkeSYSzvJeAoGA",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/3bN2H-74fkeSYSzvJeAoGA",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2026-09-19T03:41:16.0593416Z",
+  "Updated": "2026-09-19T03:41:16.0593416Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

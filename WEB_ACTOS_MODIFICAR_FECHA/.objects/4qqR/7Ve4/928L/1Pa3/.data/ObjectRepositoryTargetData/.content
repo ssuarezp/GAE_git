@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dXNawBbV6EmuvghzQiijbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="617ac26d-255f-4d2a-b7a5-bf93e952af5d" CvElementArea="1631, 370, 265, 47" CvType="InputBox" DesignTimeRectangle="1632, 372, 239, 44" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='I_1001_SOLICITUD_DATAPROBACION' tag='INPUT' type='text' class='datepicker apex-item-text apex-item-datepicker hasDatepicker' aaname='Fecha de aprobación' /&gt;" Guid="23818190-a1a8-4b46-af0b-0340184fa2d1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="617ac26d-255f-4d2a-b7a5-bf93e952af5d" CvTextArea="1638, 387, 118, 16" CvTextArgument="Fecha de aprobación" CvType="Text" DesignTimeRectangle="1632, 372, 267, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha de aprobación' tag='LABEL' type='' class='t-Form-label' check:innerText='Fecha de aprobación' /&gt;" Guid="ece066cc-7480-4297-84d9-db3cd854d9d8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0bff8a253b7e9d4e6f1d0f709a526cef.png" xmlns="">03x83mEtOy0OdXcDLZAUrPQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

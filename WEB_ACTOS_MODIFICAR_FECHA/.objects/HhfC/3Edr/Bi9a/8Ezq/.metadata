@@ -1,0 +1,14 @@
+﻿{
+  "Name": "text Facultad",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "8EzqTpqZLkKquHDgQvkbPQ",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/8EzqTpqZLkKquHDgQvkbPQ",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/Bi9aA4vTh0aTQvXPlEI9IQ",
+  "Created": "2025-03-05T18:53:28.3615494Z",
+  "Updated": "2025-03-05T18:53:28.3615494Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Actos académicos(3)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "lG9ugW2kEUOL1H7Um9LWtw",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/lG9ugW2kEUOL1H7Um9LWtw",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2026-09-19T04:12:32.7684574Z",
+  "Updated": "2026-09-19T04:12:32.7684574Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

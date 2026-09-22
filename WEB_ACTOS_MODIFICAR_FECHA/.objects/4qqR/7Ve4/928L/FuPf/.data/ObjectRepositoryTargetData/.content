@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UOBxvpqLqUCj6AltVplZwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="362d88d2-01ee-44f0-a16a-2aa9675ca8a1" CvElementArea="1852, 214, 64, 38" CvTextArea="1867, 226, 34, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1853, 215, 61, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Crear' parentid='R1631097929644983322' tag='BUTTON' type='button' class='t-Button t-Button--hot t-Button--large t-Button--gapBottom' check:innerText='Crear' /&gt;" Guid="c0821420-b93b-4bc4-9dc2-885dd8dfc53f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="362d88d2-01ee-44f0-a16a-2aa9675ca8a1" CvElementArea="1852, 214, 64, 38" CvTextArea="1867, 226, 34, 13" CvTextArgument="Crear" CvType="Button" DesignTimeRectangle="1868, 224, 31, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Crear' class='t-Button-label' tag='SPAN' type='' check:innerText='Crear' /&gt;" Guid="3611e597-6ca8-40dc-951c-c9c886bb3e40" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="961ade26da11a9d7ea74e78f34bcdf3a.png" xmlns="">0aQkJaE3CP0-bIjmsaMKnLQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

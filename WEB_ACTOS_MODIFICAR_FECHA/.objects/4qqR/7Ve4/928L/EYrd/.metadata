@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Solicitud",
+  "Type": "Element",
+  "Id": "EYrd9NpZQ0uMgzUH-MPzqA",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/EYrd9NpZQ0uMgzUH-MPzqA",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2026-09-19T03:46:49.1264859Z",
+  "Updated": "2026-09-19T03:46:49.1264859Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

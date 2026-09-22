@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Documento (Valor Necesa…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "NfLqt1djlUaHKkMtZJ8wmA",
+  "Reference": "E_WsyKu0Yke1l9rBDikF6w/NfLqt1djlUaHKkMtZJ8wmA",
+  "ParentRef": "E_WsyKu0Yke1l9rBDikF6w/928LPgSAZE2UCKhgWeKnCg",
+  "Created": "2025-10-21T16:54:35.5959033Z",
+  "Updated": "2025-10-21T16:54:35.5959033Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

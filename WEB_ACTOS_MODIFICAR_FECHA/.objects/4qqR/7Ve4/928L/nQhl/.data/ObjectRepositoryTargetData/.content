@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tk2l5x4VIEe4dG6DRvVf8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sia.unal.edu.co/ac_app/f" CVScreenId="13515a7d-fb65-408c-87dc-0c65fc35aa42" CvElementArea="253, 348, 1076, 103" CvType="InputBox" DesignTimeRectangle="253, 350, 1077, 101" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='textarea apex-item-textarea' aaname='Justificación de cambio de estado' /&gt;" Guid="5b1e9d04-96fa-48b8-ab40-9cf198bcdc5e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Acto Académico' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="13515a7d-fb65-408c-87dc-0c65fc35aa42" CvElementArea="253, 348, 1076, 103" CvType="InputBox" DesignTimeRectangle="253, 350, 1077, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Justificación de cambio de estado' tag='LABEL' type='' class='t-Form-label' check:innerText='Justificación de cambio de estado' /&gt;" Guid="47871a9f-fa48-4d0e-bb31-b7d3218e52b6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e24116b7e05e614a090f241834458e23.png" xmlns="">0bAY_-Kkink-waMzxlX9BGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
